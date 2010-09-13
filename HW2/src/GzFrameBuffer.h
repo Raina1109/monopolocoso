@@ -4,7 +4,6 @@
 #include "GzCommon.h"
 #include "GzImage.h"
 #include <vector>
-#include <cmath>
 using namespace std;
 
 //Frame buffer with Z-buffer -------------------------------------------------
@@ -21,8 +20,33 @@ public:
 	void drawPoint(const GzVertex& v, const GzColor& c, GzFunctional status);
 
 private:
+	
+	GzColor bgColor, *Color_Buffer;
+	GzReal *Depth_Buffer, defDepth;
+	GzInt Width;
+	GzInt Height;
+
+	
 	//Put any variables and private functions for your implementation here
+
 };
 //----------------------------------------------------------------------------
+
+// convert 2D index to 1D index
+inline int idx2D_1D (int x, int y, int width)
+{
+	return x + y*width;
+}
+
+inline int round(GzReal a) {
+	if (a > 0)
+		return int(a + 0.5);
+	else 
+		return int(a - 0.5);
+}
+inline bool checkBound(int x,int y, int width, int height)
+{
+	return (x < width) && (y < height) && (x >= 0) && (y >= 0);
+}
 
 #endif

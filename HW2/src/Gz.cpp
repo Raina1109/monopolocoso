@@ -75,10 +75,18 @@ void Gz::end() {
 			//   - Pop 3 colors in the colorQueue
 			//   - Call the draw triangle function 
 			//     (you may put this function in GzFrameBuffer)
+			GzVertex vCoordiante[3];
+			GzColor vColor[3];
+			for (int i = 0; i < 3; i++)
+			{
+				vCoordiante[i] = vertexQueue.front(); vertexQueue.pop();
+				vColor[i] = colorQueue.front(); colorQueue.pop();
+			}
 
 		}
 	}
 }
+
 //============================================================================
 //End of Implementations in Assignment #2
 //============================================================================
