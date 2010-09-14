@@ -32,6 +32,30 @@ private:
 
 };
 //----------------------------------------------------------------------------
+struct Edge3D
+{
+    GzVertex start, end;
+    GzColor cstart, cend, slope_c;
+    double slope_x, slope_z;
+
+    Edge3D(const GzVertex& st,const GzVertex& ed,
+           const GzColor& cst,const GzColor& ced)
+    {
+        start = st;
+        end = ed;
+        cstart = cst; cend = ced;
+        slope_x = (end[X]-start[X])/(end[Y]-start[Y]);
+        slope_z = (end[Z]-start[Z])/(end[Y]-start[Y]);
+        slope_c = (cend - cstart);
+    }
+};
+
+struct Span
+{
+    double start[2], end[2], slope;
+
+};
+
 
 // Sorting vertices in triangle according to their Y value
 void YSort (GzVertex* vlist,GzColor* clist, int size)
