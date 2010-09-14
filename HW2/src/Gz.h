@@ -43,38 +43,4 @@ private:
 //============================================================================
 };
 
-// Decleration in Assignment #2
-
-// projection function place holder
-// We will not implement anything in this function for now
-inline GzVertex vProjection (const GzVertex& v)
-{
-  GzVertex vp;
-  vp = v;
-  return vp;
-}
-
-// Function to calculate normal of an 3D triangle
-typedef GzVertex vector3;
-inline vector3 normal (const GzVertex& a, const GzVertex& b, const GzVertex& c)
-{
-  vector3 v;
-  v[X] = a[Y]*b[Z]-a[Z]*b[Y];
-  v[Y] = a[Z]*b[X]-a[X]*b[Z];
-  v[Z] = a[X]*b[Y]-a[Y]*b[X];
-}
-// Function to calculate the distance from plan
-// contain vertices a, b with normal vector v to projection surface
-
-inline GzReal distance (const vector3& v, const GzVertex& a, const GzVertex& b)
-{
-  GzReal d = (b[X] - a[X])*v[X] + (b[Y]  - a[Y])*v[Y] + (b[Z] - a[Z])*v[Z];
-  return d;
-}
-
-inline bool signFunction (const GzVertex& x, const GzVertex& a,
-			  const GzVertex& b, const GzVertex& c)
-{
-  
-}
 #endif
