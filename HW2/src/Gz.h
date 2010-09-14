@@ -33,14 +33,15 @@ public:
 	void addColor(const GzColor& c);	//Specify a color
 
 private:
-	GzFrameBuffer frameBuffer;			//The frame buffer
+        GzFrameBuffer frameBuffer;		//The frame buffer
 	queue<GzVertex> vertexQueue;		//Store vertices in queue for rendering
-	queue<GzColor> colorQueue;			//Store colors in queue for rendering
+        queue<GzColor> colorQueue;		//Store colors in queue for rendering
 	GzPrimitiveType currentPrimitive;	//The current primitive, set by Gz::begin()
-	GzFunctional status;				//Current capabilities
+        GzFunctional status;			//Current capabilities
 //============================================================================
 //End of Declarations in Assignment #1
 //============================================================================
+
 };
 
 #endif

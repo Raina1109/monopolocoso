@@ -78,3 +78,9 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 		Color_Buffer[idx2D_1D(VXCoord,VYCoord,Width)] = c;
 	}
 }
+
+void GzFrameBuffer::drawTriangle(GzVertex *vlist, GzColor *clist, GzFunctional status)
+{
+    YSort(vlist,clist,3);
+
+}

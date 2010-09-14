@@ -17,6 +17,7 @@ public:
 	void setClearColor(const GzColor& color);
 	void setClearDepth(GzReal depth);
 
+        void drawTriangle(GzVertex* vlist, GzColor *clist, GzFunctional status);
 	void drawPoint(const GzVertex& v, const GzColor& c, GzFunctional status);
 
 private:
@@ -31,6 +32,31 @@ private:
 
 };
 //----------------------------------------------------------------------------
+
+// Sorting vertices in triangle according to their Y value
+void YSort (GzVertex* vlist,GzColor* clist, int size)
+{
+    bool swaped = true;
+    GzVertex vtemp;
+    GzColor ctemp;
+    while (swaped)
+    {
+        swaped = false;
+        for (int i = 0; i < size-1; i++)
+        {
+            if(vlist[i][Y] < vlist[i+1][Y])
+            {
+                swaped = true;
+                vtemp = vlist[i];
+                ctemp = clist[i];
+                vlist[i] = vlist[i+1];
+                clist[i] = clist[i+1];
+                vlist[i+1] = vtemp;
+                clist[i+1] = ctemp;
+            }
+        }
+    }
+}
 
 // convert 2D index to 1D index
 inline int idx2D_1D (int x, int y, int width)
