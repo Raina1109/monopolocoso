@@ -101,6 +101,9 @@ void Gz::begin(GzPrimitiveType p) {
 
 void Gz::addVertex(const GzVertex& v) {
 	vertexQueue.push(v);
+	cout << vertexQueue.front()[X] << " "
+		<< vertexQueue.front()[Y] << " "
+		<< vertexQueue.front()[Z] << " " << endl;
 }
 
 void Gz::addColor(const GzColor& c) {
@@ -127,46 +130,51 @@ void Gz::end() {
 				frameBuffer.drawPoint(v, c, status);
 			}
 		} break;
-		case GZ_TRIANGLES: {
+		case GZ_TRIANGLES:
+			{
 			//Put your triangle drawing implementation here:
 			//   - Pop 3 vertices in the vertexQueue
 			//   - Pop 3 colors in the colorQueue
 			//   - Call the draw triangle function 
 			//     (you may put this function in GzFrameBuffer)
-			GzVertex ve[3], vnow;
+			GzVertex ve[3], vnow,v1;
 			GzColor vColor[3], cnow;
 
 			vector3 n;
 			GzReal d;
-
-			for (int i = 0; i < 3; i++)
+			
+			cout << vertexQueue.size() << " " << colorQueue.size() << endl;
+			
+			while ( (vertexQueue.size()>=3) && (colorQueue.size()>=3) )
 			{
-			  ve[i] = vertexQueue.front();
-			  vertexQueue.pop();
-			  vColor[i] = colorQueue.front();
-			  colorQueue.pop();
-			}
-			n = normal(ve[1],ve[2],ve[3]);
-			d = distance(n,ve[1],ve[2]);
-
-			int minx = min(ve[1][X],ve[2][X],ve[3][X]);
-			int miny = min(ve[1][Y],ve[2][Y],ve[3][Y]);
-			int maxx = max(ve[1][X],ve[2][X],ve[3][X]);
-			int maxy = max(ve[1][Y],ve[2][Y],ve[3][Y]);
-
-			for(int x=minx; x<=maxx;x++)
-				for(int y=miny; y<=maxy;y++)
+				for (int i = 0; i < 3; i++)
 				{
-					if(signFunction(x,y,ve[1],ve[2],ve[3]))
-					{
-						vnow[X] = x;
-						vnow[Y] = y;
-						vnow[Z] = interpolate_z(x,y,n,d);
-						frameBuffer.drawPoint(vnow, vColor[1], status);
-					}
+				  ve[i] = vertexQueue.front();
+				  vertexQueue.pop();
+				  vColor[i] = colorQueue.front();
+				  colorQueue.pop();
 				}
+				n = normal(ve[1],ve[2],ve[3]);
+				d = distance(n,ve[1],ve[2]);
 
-		}
+				int minx = min(ve[1][X],ve[2][X],ve[3][X]);
+				int miny = min(ve[1][Y],ve[2][Y],ve[3][Y]);
+				int maxx = max(ve[1][X],ve[2][X],ve[3][X]);
+				int maxy = max(ve[1][Y],ve[2][Y],ve[3][Y]);
+
+				for(int x=minx; x<=maxx;x++)
+					for(int y=miny; y<=maxy;y++)
+					{
+						if(signFunction(x,y,ve[1],ve[2],ve[3]))
+						{
+							vnow[X] = x;
+							vnow[Y] = y;
+							vnow[Z] = interpolate_z(x,y,n,d);
+							frameBuffer.drawPoint(vnow, GzColor(0,0,0,1), status);
+						}
+					}
+			}
+			}break;
 	}
 }
 
