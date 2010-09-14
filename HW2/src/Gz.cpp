@@ -79,9 +79,12 @@ void Gz::end() {
 			GzColor vColor[3];
 			for (int i = 0; i < 3; i++)
 			{
-				vCoordiante[i] = vertexQueue.front(); vertexQueue.pop();
-				vColor[i] = colorQueue.front(); colorQueue.pop();
+			  vCoordiante[i] = vertexQueue.front();
+			  vertexQueue.pop();
+			  vColor[i] = colorQueue.front();
+			  colorQueue.pop();
 			}
+
 
 		}
 	}
