@@ -32,6 +32,17 @@ private:
 
 };
 //----------------------------------------------------------------------------
+GzColor colorInterpolater(const GzVertex& start,const GzVertex& end,
+                         const GzColor& startColor,const GzColor& endColor)
+{
+    GzColor result;
+    for(int i = 0; i < 4; i ++)
+    {
+        result[i] = (endColor[i]-startColor[i])/(end[Y]-start[Y]);
+    }
+    return result;
+}
+
 struct Edge3D
 {
     GzVertex start, end;
@@ -46,13 +57,22 @@ struct Edge3D
         cstart = cst; cend = ced;
         slope_x = (end[X]-start[X])/(end[Y]-start[Y]);
         slope_z = (end[Z]-start[Z])/(end[Y]-start[Y]);
-        slope_c = (cend - cstart);
+        slope_c = colorInterpolater(start,end,cstart,cend);
     }
 };
 
 struct Span
 {
-    double start[2], end[2], slope;
+    double start[2], end[2], slope_z;
+    GzColor slope_c;
+    Span(const GzVertex& st,const GzVertex& ed,
+         const GzColor& cst,const GzColor& ced)
+    {
+        start[X] = st[X]; start[X] = st[Y];
+        end[X] = ed[X]; end[Y] = st[Y];
+        slope_z = (ed[Z]-st[Z])/(ed[Y]-st[Y]);
+        slope_c = colorInterpolater(st,ed,cst,ced);
+    }
 
 };
 

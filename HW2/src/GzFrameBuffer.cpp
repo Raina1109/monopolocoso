@@ -82,5 +82,13 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 void GzFrameBuffer::drawTriangle(GzVertex *vlist, GzColor *clist, GzFunctional status)
 {
     YSort(vlist,clist,3);
+    Edge3D edge12(vlist[0],vlist[1],clist[0],clist[1]);
+    Edge3D edge23(vlist[1],vlist[2],clist[1],clist[2]);
+    Edge3D edge13(vlist[0],vlist[2],clist[0],clist[2]);
+
+    for (int i = vlist[2][Y]; i < vlist[0][X];i++)
+    {
+
+    }
 
 }
