@@ -59,7 +59,7 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 	//cout << VXCoord << endl;
 	int VYCoord = -round(v[Y])+Height-1;
 	//cout << VYCoord << endl;
-	int VZCoord = round(v[Z]);
+        int VZCoord = v[Z];
 	//cout << VZCoord << endl;
 
 	if(!checkBound(VXCoord,VYCoord,Width,Height))
@@ -86,9 +86,65 @@ void GzFrameBuffer::drawTriangle(GzVertex *vlist, GzColor *clist, GzFunctional s
     Edge3D edge23(vlist[1],vlist[2],clist[1],clist[2]);
     Edge3D edge13(vlist[0],vlist[2],clist[0],clist[2]);
 
-    for (int i = vlist[2][Y]; i < vlist[0][X];i++)
+    for (double i = vlist[2][Y]; i < vlist[0][Y];i++)
     {
+        GzVertex left;
+        GzColor leftColor;
+        GzVertex right;
+        GzColor rightColor;
+        double deltaY = i-vlist[2][Y];
 
+        if (i <= vlist[1][Y])
+        {
+            left = GzVertex(
+                    edge23.start[X] + edge23.slope_x * deltaY,
+                    i,
+                    edge23.start[X] + edge23.slope_z * deltaY
+                    );
+            leftColor = linColorInterpolator(edge23.start[X],edge23.end[X]
+                                        ,edge23.cstart,edge23.cend,i);
+
+        } else {
+            left = GzVertex(
+                    edge12.start[X] + edge12.slope_x * deltaY,
+                    i,
+                    edge12.start[X] + edge12.slope_z * deltaY
+                    );
+            leftColor = linColorInterpolator(edge12.start[X],edge12.end[X]
+                                        ,edge12.cstart,edge12.cend,i);
+        }
+
+        right = GzVertex(
+                edge13.start[X] + edge13.slope_x * deltaY,
+                i,
+                edge13.start[X] + edge13.slope_z * deltaY
+                );
+        rightColor = linColorInterpolator(edge13.start[X],edge13.end[X]
+                                     ,edge13.cstart,edge13.cend,i);
+
+        if(left[X] > right[X])
+        {
+            GzVertex v; GzColor c;
+            v = left;
+            left = right;
+            right = v;
+            c = leftColor;
+            leftColor = rightColor;
+            rightColor = c;
+        }
+
+        for(double currentX = left[X]; currentX < right[X]; currentX++)
+        {
+            GzVertex current;
+
+            current[X] = currentX;
+            current[Y] = i;
+            current[Z] = Interpolate(left[X],right[X],left[Z],right[Z],currentX);
+
+            GzColor currentColor = linColorInterpolator(left[X],right[X],leftColor,rightColor,currentX);
+
+            this->drawPoint(current,currentColor,status);
+        }
     }
 
 }

@@ -31,22 +31,25 @@ private:
 	//Put any variables and private functions for your implementation here
 
 };
+
+
 //----------------------------------------------------------------------------
-GzColor colorInterpolater(const GzVertex& start,const GzVertex& end,
-                         const GzColor& startColor,const GzColor& endColor)
-{
-    GzColor result;
-    for(int i = 0; i < 4; i ++)
-    {
-        result[i] = (endColor[i]-startColor[i])/(end[Y]-start[Y]);
-    }
-    return result;
-}
+//GzColor colorSlopeCal(const GzVertex& start,const GzVertex& end,
+//                         const GzColor& startColor,const GzColor& endColor)
+//{
+//    GzColor result;
+//    for(int i = 0; i < 4; i ++)
+//    {
+//        result[i] = (endColor[i]-startColor[i])/(end[Y]-start[Y]);
+//    }
+//    return result;
+//}
 
 struct Edge3D
 {
     GzVertex start, end;
-    GzColor cstart, cend, slope_c;
+    GzColor cstart, cend;
+//    GzColor slope_c;
     double slope_x, slope_z;
 
     Edge3D(const GzVertex& st,const GzVertex& ed,
@@ -57,27 +60,47 @@ struct Edge3D
         cstart = cst; cend = ced;
         slope_x = (end[X]-start[X])/(end[Y]-start[Y]);
         slope_z = (end[Z]-start[Z])/(end[Y]-start[Y]);
-        slope_c = colorInterpolater(start,end,cstart,cend);
+//        slope_c = colorSlopeCal(start,end,cstart,cend);
     }
 };
 
-struct Span
+//
+//struct Span
+//{
+//    double start[2], end[2], slope_z;
+//    GzColor slope_c;
+//    Span(const GzVertex& st,const GzVertex& ed,
+//         const GzColor& cst,const GzColor& ced)
+//    {
+//        start[X] = st[X]; start[X] = st[Y];
+//        end[X] = ed[X]; end[Y] = st[Y];
+//        slope_z = (ed[Z]-st[Z])/(ed[Y]-st[Y]);
+//        slope_c = colorSlopeCal(st,ed,cst,ced);
+//    }
+//
+//};
+
+// linear intepolator for z value
+double Interpolate (double x0, double x1, double y0, double y1, double x)
 {
-    double start[2], end[2], slope_z;
-    GzColor slope_c;
-    Span(const GzVertex& st,const GzVertex& ed,
-         const GzColor& cst,const GzColor& ced)
+    double deltaX = x1 - x0;
+    double deltaY = y1 - y0;
+    return y0 + (x - x0)*(deltaY/deltaX);
+}
+
+//linear color interpolator
+GzColor linColorInterpolator (double startX, double endX, GzColor start, GzColor end, double x)
+{
+    double deltaX = endX - startX;
+    GzColor result;
+    for (int i = 0; i < 4; i++)
     {
-        start[X] = st[X]; start[X] = st[Y];
-        end[X] = ed[X]; end[Y] = st[Y];
-        slope_z = (ed[Z]-st[Z])/(ed[Y]-st[Y]);
-        slope_c = colorInterpolater(st,ed,cst,ced);
+        result[i] = start[i] + (x-startX)*((end[i]-start[i])/deltaX);
     }
+    return result;
+}
 
-};
-
-
-// Sorting vertices in triangle according to their Y value
+// Sorting vertices in triangle according to their Y value Ascendingly
 void YSort (GzVertex* vlist,GzColor* clist, int size)
 {
     bool swaped = true;
@@ -88,7 +111,7 @@ void YSort (GzVertex* vlist,GzColor* clist, int size)
         swaped = false;
         for (int i = 0; i < size-1; i++)
         {
-            if(vlist[i][Y] < vlist[i+1][Y])
+            if(vlist[i][Y] > vlist[i+1][Y])
             {
                 swaped = true;
                 vtemp = vlist[i];
