@@ -41,9 +41,6 @@ void Gz::begin(GzPrimitiveType p) {
 
 void Gz::addVertex(const GzVertex& v) {
 	vertexQueue.push(v);
-	cout << vertexQueue.front()[X] << " "
-		<< vertexQueue.front()[Y] << " "
-		<< vertexQueue.front()[Z] << " " << endl;
 }
 
 void Gz::addColor(const GzColor& c) {

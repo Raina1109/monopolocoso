@@ -12,7 +12,7 @@ int main() {
 	gz.enable(GZ_DEPTH_TEST);			//Use depth test
 	gz.clearDepth(-100);				//Default depth: -100
 
-	ifstream fi("Tris(1).txt");
+	ifstream fi("Tris.txt");
 	int nTri;
 	fi>>nTri;	//Number of triangles
 

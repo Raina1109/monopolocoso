@@ -59,17 +59,15 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 	//cout << VXCoord << endl;
 	int VYCoord = -round(v[Y])+Height-1;
 	//cout << VYCoord << endl;
-        int VZCoord = v[Z];
-	//cout << VZCoord << endl;
 
 	if(!checkBound(VXCoord,VYCoord,Width,Height))
 		return;
 
 	if (status & GZ_DEPTH_TEST)
 	{
-		if(VZCoord > Depth_Buffer[idx2D_1D(VXCoord,VYCoord,Width)])
+		if(v[Z] > Depth_Buffer[idx2D_1D(VXCoord,VYCoord,Width)])
 		{
-			Depth_Buffer[idx2D_1D(VXCoord,VYCoord,Width)] = VZCoord;
+			Depth_Buffer[idx2D_1D(VXCoord,VYCoord,Width)] = v[Z];
 			Color_Buffer[idx2D_1D(VXCoord,VYCoord,Width)] = c;
 		}
 	}
@@ -81,12 +79,12 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 
 void GzFrameBuffer::drawTriangle(GzVertex *vlist, GzColor *clist, GzFunctional status)
 {
-    YSort(vlist,clist,3);
+    SortingY (vlist,clist,3);
     Edge3D edge12(vlist[0],vlist[1],clist[0],clist[1]);
     Edge3D edge23(vlist[1],vlist[2],clist[1],clist[2]);
     Edge3D edge13(vlist[0],vlist[2],clist[0],clist[2]);
 
-    for (double i = vlist[2][Y]; i < vlist[0][Y];i++)
+    for (double i = vlist[0][Y]; i < vlist[2][Y];i++)
     {
         GzVertex left;
         GzColor leftColor;

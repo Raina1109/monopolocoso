@@ -81,7 +81,7 @@ struct Edge3D
 //};
 
 // linear intepolator for z value
-double Interpolate (double x0, double x1, double y0, double y1, double x)
+inline double Interpolate (double x0, double x1, double y0, double y1, double x)
 {
     double deltaX = x1 - x0;
     double deltaY = y1 - y0;
@@ -89,7 +89,7 @@ double Interpolate (double x0, double x1, double y0, double y1, double x)
 }
 
 //linear color interpolator
-GzColor linColorInterpolator (double startX, double endX, GzColor start, GzColor end, double x)
+inline GzColor linColorInterpolator (double startX, double endX, GzColor start, GzColor end, double x)
 {
     double deltaX = endX - startX;
     GzColor result;
@@ -101,7 +101,7 @@ GzColor linColorInterpolator (double startX, double endX, GzColor start, GzColor
 }
 
 // Sorting vertices in triangle according to their Y value Ascendingly
-void YSort (GzVertex* vlist,GzColor* clist, int size)
+inline void SortingY (GzVertex* vlist,GzColor* clist, int size)
 {
     bool swaped = true;
     GzVertex vtemp;
@@ -111,7 +111,7 @@ void YSort (GzVertex* vlist,GzColor* clist, int size)
         swaped = false;
         for (int i = 0; i < size-1; i++)
         {
-            if(vlist[i][Y] > vlist[i+1][Y])
+            if(vlist[i][Y] < vlist[i+1][Y])
             {
                 swaped = true;
                 vtemp = vlist[i];
