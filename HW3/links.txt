@@ -1,0 +1,14 @@
+http://en.wikipedia.org/wiki/Transformation_matrix
+http://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics
+http://en.wikipedia.org/wiki/3D_projection
+http://en.wikipedia.org/wiki/Translation_(geometry)
+http://en.wikipedia.org/wiki/Rotation_(geometry)
+http://en.wikipedia.org/wiki/Scaling_(geometry)
+
+
+http://www.opengl.org/sdk/docs/man/xhtml/glViewport.xml
+http://www.opengl.org/sdk/docs/man/xhtml/gluLookAt.xml
+http://www.opengl.org/sdk/docs/man/xhtml/glTranslate.xml
+http://www.opengl.org/sdk/docs/man/xhtml/glRotate.xml
+http://www.opengl.org/sdk/docs/man/xhtml/gluPerspective.xml
+http://www.opengl.org/sdk/docs/man/xhtml/glOrtho.xml
