@@ -77,7 +77,7 @@ void Gz::end() {
                             GzVertex vlist[3];
                             GzColor clist[3];
 
-                            while (vertexQueue.size() >= 3 && vertexQueue.size() >= 3)
+                            while (vertexQueue.size() >= 3 && colorQueue.size() >= 3)
                             {
                                 for (int i = 0; i < 3; i++)
                                 {
@@ -89,9 +89,10 @@ void Gz::end() {
                                 frameBuffer.drawTriangle(vlist,clist,status);
                             }
 
-                    }
+            }break;
 	}
 }
+
 
 //============================================================================
 //End of Implementations in Assignment #2

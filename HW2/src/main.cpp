@@ -33,7 +33,7 @@ int main() {
 
 	fi.close();
 
-	gz.toImage().save("TeaPot.bmp");
+	gz.toImage().save("myTeaPot.bmp");
 
 	return 0;
 }
