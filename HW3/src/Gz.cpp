@@ -123,7 +123,7 @@ void Gz::scale(GzReal x, GzReal y, GzReal z) {
 
 void Gz::multMatrix(GzMatrix mat) {
 	//Multiply transMatrix by the matrix mat
-	transMatrix=mat*transMatrix;
+	transMatrix=transMatrix*mat;
 }
 //End of Transformations------------------------------------------------------
 
