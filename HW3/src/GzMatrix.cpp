@@ -16,6 +16,11 @@ GzVertex GzMatrix::toVertex() {
 	//See http://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics
 	//    http://en.wikipedia.org/wiki/Transformation_matrix
 	//Or google: "homogeneous coordinates"
+        GzVertex v;
+        for (int i = 0; i < 3; i++)
+        {
+            v[i] = this[i][0]/this[3][0];
+        }
 }
 
 void GzMatrix::fromVertex(const GzVertex& v) {
@@ -25,6 +30,11 @@ void GzMatrix::fromVertex(const GzVertex& v) {
 	//See http://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics
 	//    http://en.wikipedia.org/wiki/Transformation_matrix
 	//Or google: "homogeneous coordinates"
+    for(int i = 0; i < 3; i++)
+    {
+        this[i][0] = v[i];
+    }
+    this[3][0] = 1;
 }
 
 void GzMatrix::resize(GzInt _nRow, GzInt _nCol) {

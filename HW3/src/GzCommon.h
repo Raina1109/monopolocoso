@@ -4,7 +4,8 @@
 #include <vector>
 using namespace std;
 
-
+//Self decleration
+const double PI = 3.141592;
 
 //============================================================================
 //Declarations in Assignment #1

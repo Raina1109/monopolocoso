@@ -5,6 +5,7 @@
 #include "GzImage.h"
 #include "GzFrameBuffer.h"		//For assignment #1, #2
 #include "GzMatrix.h"			//For assignment #3
+#include "math.h"
 #include <queue>
 using namespace std;
 
@@ -67,6 +68,10 @@ public:
 	void orthographic(GzReal left, GzReal right, GzReal bottom, GzReal top, 
 						GzReal nearVal, GzReal farVal);		//Set up a orthographic projection matrix
 	//End of Projections------------------------------------------------------
+
+        //Self define function
+        GzReal eucledianNorm(double x, double y, double z);
+        //End of self Define------------------------------------------------------
 	
 private:
 	GzMatrix transMatrix;					//The transformation matrix
