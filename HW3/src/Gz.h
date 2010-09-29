@@ -70,7 +70,10 @@ public:
 	//End of Projections------------------------------------------------------
 
         //Self define function
-        GzReal eucledianNorm(double x, double y, double z);
+        void eucledianNorm(double v[]);
+        void CrossProduct(double result[], double v1[], double v2[]);
+        void copyArrayToMatrix(double a[], GzMatrix m, int nRow, int nCol);
+        double cotan(double i) { return(1 / tan(i)); }
         //End of self Define------------------------------------------------------
 	
 private:

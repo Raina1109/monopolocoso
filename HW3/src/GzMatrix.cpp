@@ -19,7 +19,7 @@ GzVertex GzMatrix::toVertex() {
         GzVertex v;
         for (int i = 0; i < 3; i++)
         {
-            v[i] = this[i][0]/this[3][0];
+            v[i] = at(i)[0]/at(3)[0];
         }
 }
 
@@ -32,9 +32,9 @@ void GzMatrix::fromVertex(const GzVertex& v) {
 	//Or google: "homogeneous coordinates"
     for(int i = 0; i < 3; i++)
     {
-        this[i][0] = v[i];
+        at(i)[0] = v[i];
     }
-    this[3][0] = 1;
+    at(3)[0] = 1;
 }
 
 void GzMatrix::resize(GzInt _nRow, GzInt _nCol) {
