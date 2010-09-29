@@ -42,30 +42,31 @@ int main() {
 	gz.enable(GZ_DEPTH_TEST);			//Use depth test
 	gz.clearDepth(-100);				//Default depth: -100
 
-	gz.lookAt(	0, 0, 10,	//Eye position 
-				0, 0, 0,	//Look at
-				0, 1, 0);	//Up vector
+        gz.lookAt(0, 0, 10,	//Eye position
+                  0, 0, 0,	//Look at
+                  0, 1, 0);	//Up vector
 	gz.orthographic(-8, 8,	//Left and Right
-					-6, 6,	//Bottom and Top
-					1, 10);	//zNear and zFar
+                        -6, 6,	//Bottom and Top
+                         1, 10);	//zNear and zFar
 	draw("TeaPot1.bmp");
 
-	gz.lookAt(	0, 10, 0,	//Eye position 
-				0, 0, 0,	//Look at
-				1, 0, 2);	//Up vector
+        gz.lookAt(0, 10, 0,	//Eye position
+                  0, 0, 0,	//Look at
+                  1, 0, 2);	//Up vector
 	gz.orthographic(-4, 4,	//Left and Right
-					-3, 3,	//Bottom and Top
-					1, 10);	//zNear and zFar
+                        -3, 3,	//Bottom and Top
+                        1, 10);	//zNear and zFar
 	draw("TeaPot2.bmp");
 
-	gz.lookAt(	10, 10, 10,	//Eye position 
-				0, 0, 0,	//Look at
-				0, 1, 0);	//Up vector
+        gz.lookAt(10, 10, 10,	//Eye position
+                  0, 0, 0,	//Look at
+                  0, 1, 0);	//Up vector
 	gz.orthographic(-4, 4,	//Left and Right
-					-3, 3,	//Bottom and Top
-					1, 10);	//zNear and zFar
+                        -3, 3,	//Bottom and Top
+                        1, 10);	//zNear and zFar
 	gz.translate(0, -1, 0);
-	draw("TeaPot3.bmp");
+
+        draw("TeaPot3.bmp");
 
 
 

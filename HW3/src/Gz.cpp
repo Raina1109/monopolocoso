@@ -244,7 +244,11 @@ void Gz::copyArrayToMatrix(double a[], GzMatrix m, int nRow, int nCol)
 {
     m.resize(nRow,nCol);
     for (int i = 0; i < nRow*nCol; i++)
+    {
+//        printf("%f \n",a[i]);
         m[i/nRow][i%nRow] = a[i];
+    }
+//    printf("----------------\n");
 }
 
 //============================================================================

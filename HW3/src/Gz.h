@@ -7,6 +7,7 @@
 #include "GzMatrix.h"			//For assignment #3
 #include "math.h"
 #include <queue>
+#include "stdio.h"
 using namespace std;
 
 class Gz {
