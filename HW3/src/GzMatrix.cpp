@@ -16,12 +16,10 @@ GzVertex GzMatrix::toVertex() {
 	//See http://en.wikipedia.org/wiki/Homogeneous_coordinates#Use_in_computer_graphics
 	//    http://en.wikipedia.org/wiki/Transformation_matrix
 	//Or google: "homogeneous coordinates"
-        GzVertex v;
-        for (int i = 0; i < 3; i++)
-        {
-            v[i] = at(i)[0]/at(3)[0];
-        }
-        return v;
+        GzReal x = at(0)[0]/at(3)[0];
+        GzReal y = at(1)[0]/at(3)[0];
+        GzReal z = at(2)[0]/at(3)[0];
+        return GzVertex(x,y,z);
 }
 
 void GzMatrix::fromVertex(const GzVertex& v) {

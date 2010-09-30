@@ -3,6 +3,7 @@
 
 #include "GzCommon.h"
 #include <cassert>
+#include "stdio.h"
 using namespace std;
 
 //============================================================================
@@ -17,12 +18,12 @@ public:
 	//      operator = are not required to define. However, you should define
 	//      them in general case.
 	void resize(GzInt _nRow, GzInt _nCol);		//Resize to _nRow by _nCol
-	GzInt nRow() const;							//Return the number of rows
-	GzInt nCol() const;							//Return the number of columns
+        GzInt nRow() const;                             //Return the number of rows
+        GzInt nCol() const;				//Return the number of columns
         //Converter between GzVertex and GzMatrix with homogeneous coordinate
 	//GzMatrix is a 4 by 1 vector: [0][0]=X, [1][0]=Y, [2][0]=Z, [3][0]=W
-	GzVertex toVertex();						//Convert to vertex
-	void fromVertex(const GzVertex& v);			//Convert from vertex
+        GzVertex toVertex();                            //Convert to vertex
+        void fromVertex(const GzVertex& v);		//Convert from vertex
 };
 //----------------------------------------------------------------------------
 
