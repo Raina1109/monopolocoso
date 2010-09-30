@@ -78,8 +78,8 @@ public:
         //End of self Define------------------------------------------------------
 	
 private:
-	GzMatrix transMatrix;					//The transformation matrix
-	GzMatrix prjMatrix;						//The projection matrix
+        GzMatrix transMatrix;				//The transformation matrix
+        GzMatrix prjMatrix;				//The projection matrix
 	GzReal xViewport, yViewport;			//The center of the viewport
 	GzReal wViewport, hViewport;			//Size of the viewport
 //============================================================================

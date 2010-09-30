@@ -60,7 +60,10 @@ void Gz::initFrameSize(GzInt width, GzInt height) {
 	wViewport=(GzReal)width;
 	hViewport=(GzReal)height;
 	frameBuffer.initFrameSize(width, height);
+
 	viewport(0, 0);			//Default center of the viewport 
+        transMatrix = Identity(4);
+        prjMatrix = Identity(4);
 }
 
 void Gz::end() {
@@ -80,6 +83,29 @@ void Gz::end() {
 			//   - Extract 3 colors in the colorQueue
 			//   - Call the draw triangle function 
 			//     (you may put this function in GzFrameBuffer)
+                        vector<GzColor> clist;
+                        GzMatrix primativeM;
+                        vector<GzVertex> vlist;
+
+
+                        while (vertexQueue.size() >= 3 && colorQueue.size() >= 3)
+                        {
+                            for (int i = 0; i < 3; i++)
+                            {
+
+                              primativeM.fromVertex(vertexQueue.front());
+                              printf("transMatrix: %d %d\n",transMatrix.nRow(),transMatrix.nCol());
+                              printf("prjMatrix: %d %d\n",prjMatrix.nRow(),prjMatrix.nCol());
+                              printf("primativeM: %d %d\n",primativeM.nRow(),primativeM.nCol());
+                              primativeM = transMatrix*prjMatrix*primativeM;
+                              vlist[i] = primativeM.toVertex();
+                              vertexQueue.pop();
+                              clist[i] = colorQueue.front();
+                              colorQueue.pop();
+                            }
+                            frameBuffer.drawTriangle(vlist,clist,status);
+                        }
+
 		}
 	}
 }
