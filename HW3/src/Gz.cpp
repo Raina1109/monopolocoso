@@ -73,45 +73,49 @@ void Gz::end() {
 	//Depends on selected primitive, different number of vetices, colors, ect.
 	//are pop out of the queue.
 	switch (currentPrimitive) {
-		case GZ_POINTS: {
-                        GzMatrix primativeM;
-                        GzVertex v;
-                        GzColor c;
-			while ( (vertexQueue.size()>=1) && (colorQueue.size()>=1) ) {
-                            primativeM.fromVertex(vertexQueue.front());
-                            primativeM = prjMatrix*transMatrix*primativeM;
-                            v = primativeM.toVertex();
-                            affineTransform(v);
-                            vertexQueue.pop();
-                            c = colorQueue.front();
-                            colorQueue.pop();
+		case GZ_POINTS:
+			{
+				GzMatrix primativeM;
+				GzVertex v;
+				GzColor c;
+				while ( (vertexQueue.size()>=1) && (colorQueue.size()>=1) )
+				{
+					primativeM.fromVertex(vertexQueue.front());
+					primativeM = prjMatrix*transMatrix*primativeM;
+					v = primativeM.toVertex();
+					affineTransform(v);
+					vertexQueue.pop();
 
-                            frameBuffer.drawPoint(v,c,status);
-			}
-		} break;
+					c = colorQueue.front();
+					colorQueue.pop();
+                            
+					frameBuffer.drawPoint(v,c,status);
+				}
+			} break;
 		case GZ_TRIANGLES: {
 			//Put your triangle drawing implementation here:
 			//   - Extract 3 vertices in the vertexQueue
 			//   - Extract 3 colors in the colorQueue
 			//   - Call the draw triangle function 
 			//     (you may put this function in GzFrameBuffer)
-                        vector<GzColor> clist(3, GzColor());
-                        GzMatrix primativeM = Identity(4);
-                        vector<GzVertex> vlist(3, GzVertex());
+                       
 
 
                         while (vertexQueue.size() >= 1 && colorQueue.size() >= 1)
                         {
+					     	vector<GzColor> clist;
+							GzMatrix primativeM;
+							vector<GzVertex> vlist;
                             for (int i = 0; i < 3; i++)
                             {
 
                               primativeM.fromVertex(vertexQueue.front());
                               primativeM = prjMatrix*transMatrix*primativeM;
-                              vlist[i] = primativeM.toVertex();
+							  vlist.push_back(primativeM.toVertex());
                               affineTransform(vlist[i]);
                               vertexQueue.pop();
 
-                              clist[i] = colorQueue.front();
+							  clist.push_back(colorQueue.front());
                               colorQueue.pop();
 
                             }
@@ -146,12 +150,13 @@ void Gz::viewport(GzInt x, GzInt y) {
 
     GzReal f[] = {centerX - eyeX, centerY - eyeY, centerZ - eyeZ};
     eucledianNorm(f);
-    GzReal u[] = {upX, upY, upZ};
-    eucledianNorm(u);
+    GzReal up[] = {upX, upY, upZ};
+    eucledianNorm(up);
     GzReal s[3];
+	GzReal u[3];
     //--------------
     //side = forward x up
-    CrossProduct(s,f,u);
+    CrossProduct(s,f,up);
     //eucledianNorm(side);
     //--------------
     //recompute up vector as: up = side x forward
@@ -229,12 +234,13 @@ void Gz::multMatrix(GzMatrix mat) {
 	//Multiply transMatrix by the matrix mat
 //        printf("transMatrix: %d %d\n",transMatrix.nRow(),transMatrix.nCol());
 //        printf("mat: %d %d\n",mat.nRow(),mat.nCol());
-        transMatrix=transMatrix*mat;
+        transMatrix = transMatrix*mat;
 }
 //End of Transformations------------------------------------------------------
 
 //Projections-----------------------------------------------------------------
-void Gz::perspective(GzReal fovy, GzReal aspect, GzReal zNear, GzReal zFar) {
+void Gz::perspective(GzReal fovy, GzReal aspect, GzReal zNear, GzReal zFar)
+{
 	//Set up a perspective projection matrix
 	//See http://www.opengl.org/sdk/docs/man/xhtml/gluPerspective.xml
 	//Or google: gluPerspective
@@ -242,14 +248,14 @@ void Gz::perspective(GzReal fovy, GzReal aspect, GzReal zNear, GzReal zFar) {
     GzReal f = cotan(fovy/2);
     GzReal arrayM[] = {f/aspect, 0, 0, 0,
                        0, f, 0, 0,
-                       0, 0, (zFar+zNear)/(zNear - zFar), 2*(zFar*zNear)/(zNear-zFar),
+                       0, 0, -(zFar+zNear)/(zNear - zFar), -2*(zFar*zNear)/(zNear-zFar),
                        0, 0, -1, 0};
 
     GzMatrix M;
     copyArrayToMatrix(arrayM,M,4,4);
 
 //    multMatrix(M);
-    prjMatrix = prjMatrix*M;
+    prjMatrix = M;
 }
 
 void Gz::orthographic(GzReal left, GzReal right, GzReal bottom, GzReal top, GzReal nearVal, GzReal farVal) {
@@ -259,18 +265,18 @@ void Gz::orthographic(GzReal left, GzReal right, GzReal bottom, GzReal top, GzRe
 
     GzReal tx = -(right + left)/(right - left);
     GzReal ty = -(top + bottom)/(top - bottom);
-    GzReal tz = -(farVal + nearVal)/(farVal - nearVal);
+    GzReal tz = (farVal + nearVal)/(farVal - nearVal);
 
     GzReal arrayM[] =  {2/(right - left), 0, 0, tx,
                         0, 2/(top - bottom), 0, ty,
-                        0, 0, -2/(farVal-nearVal), tz,
+                        0, 0, 2/(farVal-nearVal), tz,
                         0, 0, 0, 1};
 
     GzMatrix M;
     copyArrayToMatrix(arrayM,M,4,4);
 
 //    multMatrix(M);
-    prjMatrix = prjMatrix*M;
+    prjMatrix = M;
 }
 //End of Projections----------------------------------------------------------
 
@@ -288,9 +294,9 @@ void Gz::eucledianNorm(GzReal v[])
 }
 void Gz::CrossProduct(GzReal result[], GzReal v1[], GzReal v2[])
 {
-    result[0]= v1[1]*v2[2] - v1[2]*v2[1];
-    result[1]= -(v1[0]*v2[2] - v1[2]*v2[0]);
-    result[2]= v1[0]*v2[1] - v1[2]*v2[0];
+    result[0] = v1[1]*v2[2] - v1[2]*v2[1];
+    result[1] = -(v1[0]*v2[2] - v1[2]*v2[0]);
+    result[2] = v1[0]*v2[1] - v1[1]*v2[0];
 }
 void Gz::copyArrayToMatrix(GzReal a[], GzMatrix& m, int nRow, int nCol)
 {

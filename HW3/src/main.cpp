@@ -47,10 +47,10 @@ int main() {
         gz.lookAt(0, 0, 10,	//Eye position
                   0, 0, 0,	//Look at
                   0, 1, 0);	//Up vector
-	gz.orthographic(-8, 8,	//Left and Right
+		gz.orthographic(-8, 8,	//Left and Right
                         -6, 6,	//Bottom and Top
                          1, 10);	//zNear and zFar
-	draw("TeaPot1.bmp");
+		draw("TeaPot1.bmp");
 
         gz.lookAt(0, 10, 0,	//Eye position
                   0, 0, 0,	//Look at
