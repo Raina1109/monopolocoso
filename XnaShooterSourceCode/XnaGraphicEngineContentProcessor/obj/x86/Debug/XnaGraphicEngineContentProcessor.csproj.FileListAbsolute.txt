@@ -1,0 +1,5 @@
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\bin\x86\Debug\XnaGraphicEngineContentProcessor.dll
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\bin\x86\Debug\XnaGraphicEngineContentProcessor.pdb
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\obj\x86\Debug\XnaGraphicEngineContentProcessor.dll
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\obj\x86\Debug\XnaGraphicEngineContentProcessor.pdb

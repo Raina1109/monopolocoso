@@ -1,0 +1,2099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Asteroid.X</Source>
+      <Name>Asteroid</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Asteroid.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Asteroid_0.xml</Key>
+        <Value>2010-10-06T16:21:27.228641-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>BackgroundGround.X</Source>
+      <Name>BackgroundGround</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundGround.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\BackgroundGround_0.xml</Key>
+        <Value>2010-10-06T16:21:28.1036911-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Building.X</Source>
+      <Name>Building</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Building_0.xml</Key>
+        <Value>2010-10-06T16:21:29.5307727-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Building2.X</Source>
+      <Name>Building2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building2.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Building2_0.xml</Key>
+        <Value>2010-10-06T16:21:31.0728609-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Building3.X</Source>
+      <Name>Building3</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building3.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Building3_0.xml</Key>
+        <Value>2010-10-06T16:21:31.5358874-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Building4.X</Source>
+      <Name>Building4</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building4.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Building4_0.xml</Key>
+        <Value>2010-10-06T16:21:31.8529055-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Building5.X</Source>
+      <Name>Building5</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building5.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Building5_0.xml</Key>
+        <Value>2010-10-06T16:21:32.4269383-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Corvette.X</Source>
+      <Name>Corvette</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Corvette.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Corvette_0.xml</Key>
+        <Value>2010-10-06T16:21:32.8019598-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Firebird.X</Source>
+      <Name>Firebird</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Firebird.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Firebird_0.xml</Key>
+        <Value>2010-10-06T16:21:33.2029827-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemEmp.X</Source>
+      <Name>ItemEmp</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemEmp.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemEmp_0.xml</Key>
+        <Value>2010-10-06T16:21:33.6560086-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemGattling.X</Source>
+      <Name>ItemGattling</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemGattling.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemGattling_0.xml</Key>
+        <Value>2010-10-06T16:21:33.8210181-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemHealth.X</Source>
+      <Name>ItemHealth</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemHealth.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemHealth_0.xml</Key>
+        <Value>2010-10-06T16:21:33.8530199-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemMg.X</Source>
+      <Name>ItemMg</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemMg.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemMg_0.xml</Key>
+        <Value>2010-10-06T16:21:33.9980282-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemPlasma.X</Source>
+      <Name>ItemPlasma</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemPlasma.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemPlasma_0.xml</Key>
+        <Value>2010-10-06T16:21:34.0520313-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ItemRockets.X</Source>
+      <Name>ItemRockets</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemRockets.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ItemRockets_0.xml</Key>
+        <Value>2010-10-06T16:21:34.1070344-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Kaktus.X</Source>
+      <Name>Kaktus</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Kaktus_0.xml</Key>
+        <Value>2010-10-06T16:21:34.1560372-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Kaktus2.X</Source>
+      <Name>Kaktus2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus2.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Kaktus2_0.xml</Key>
+        <Value>2010-10-06T16:21:34.5610604-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>KaktusBenny.X</Source>
+      <Name>KaktusBenny</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\KaktusBenny_0.xml</Key>
+        <Value>2010-10-06T16:21:34.5940623-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>KaktusSeg.X</Source>
+      <Name>KaktusSeg</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\KaktusSeg_0.xml</Key>
+        <Value>2010-10-06T16:21:34.9530828-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>OwnShip.X</Source>
+      <Name>OwnShip</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\OwnShip.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\OwnShip_0.xml</Key>
+        <Value>2010-10-06T16:21:35.4361105-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Rocket.X</Source>
+      <Name>Rocket</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Rocket.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Rocket_0.xml</Key>
+        <Value>2010-10-06T16:21:35.7861305-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>RocketFrigate.X</Source>
+      <Name>RocketFrigate</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\RocketFrigate.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\RocketFrigate_0.xml</Key>
+        <Value>2010-10-06T16:21:35.8951367-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>SmallTransporter.X</Source>
+      <Name>SmallTransporter</Name>
+      <Importer>XImporter</Importer>
+      <Processor>XnaGraphicEngineModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SmallTransporter.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\SmallTransporter_0.xml</Key>
+        <Value>2010-10-06T16:21:36.320161-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+    </Item>
+    <Item>
+      <Source>BigExplosion0001.dds</Source>
+      <Name>BigExplosion0001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0001.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0002.dds</Source>
+      <Name>BigExplosion0002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0002.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0003.dds</Source>
+      <Name>BigExplosion0003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0003.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0004.dds</Source>
+      <Name>BigExplosion0004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0004.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0005.dds</Source>
+      <Name>BigExplosion0005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0005.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0006.dds</Source>
+      <Name>BigExplosion0006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0006.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0007.dds</Source>
+      <Name>BigExplosion0007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0007.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0008.dds</Source>
+      <Name>BigExplosion0008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0008.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0009.dds</Source>
+      <Name>BigExplosion0009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0009.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0010.dds</Source>
+      <Name>BigExplosion0010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0010.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0011.dds</Source>
+      <Name>BigExplosion0011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0011.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0012.dds</Source>
+      <Name>BigExplosion0012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0012.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0013.dds</Source>
+      <Name>BigExplosion0013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0013.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0014.dds</Source>
+      <Name>BigExplosion0014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0014.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0015.dds</Source>
+      <Name>BigExplosion0015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0015.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0016.dds</Source>
+      <Name>BigExplosion0016</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0016.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0017.dds</Source>
+      <Name>BigExplosion0017</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0017.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0018.dds</Source>
+      <Name>BigExplosion0018</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0018.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0019.dds</Source>
+      <Name>BigExplosion0019</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0019.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0020.dds</Source>
+      <Name>BigExplosion0020</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0020.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0021.dds</Source>
+      <Name>BigExplosion0021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0021.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0022.dds</Source>
+      <Name>BigExplosion0022</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0022.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0023.dds</Source>
+      <Name>BigExplosion0023</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0023.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0024.dds</Source>
+      <Name>BigExplosion0024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0024.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0025.dds</Source>
+      <Name>BigExplosion0025</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0025.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0026.dds</Source>
+      <Name>BigExplosion0026</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0026.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BigExplosion0027.dds</Source>
+      <Name>BigExplosion0027</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0027.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Clouds.dds</Source>
+      <Name>Clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Clouds.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0000.dds</Source>
+      <Name>destroy0000</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0000.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0001.dds</Source>
+      <Name>destroy0001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0001.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0002.dds</Source>
+      <Name>destroy0002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0002.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0003.dds</Source>
+      <Name>destroy0003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0003.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0004.dds</Source>
+      <Name>destroy0004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0004.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0005.dds</Source>
+      <Name>destroy0005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0005.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0006.dds</Source>
+      <Name>destroy0006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0006.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0007.dds</Source>
+      <Name>destroy0007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0007.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0008.dds</Source>
+      <Name>destroy0008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0008.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0009.dds</Source>
+      <Name>destroy0009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0009.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0010.dds</Source>
+      <Name>destroy0010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0010.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0011.dds</Source>
+      <Name>destroy0011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0011.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0012.dds</Source>
+      <Name>destroy0012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0012.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0013.dds</Source>
+      <Name>destroy0013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0013.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0014.dds</Source>
+      <Name>destroy0014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0014.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0015.dds</Source>
+      <Name>destroy0015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0015.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0016.dds</Source>
+      <Name>destroy0016</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0016.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0017.dds</Source>
+      <Name>destroy0017</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0017.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0018.dds</Source>
+      <Name>destroy0018</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0018.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0019.dds</Source>
+      <Name>destroy0019</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0019.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0020.dds</Source>
+      <Name>destroy0020</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0020.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0021.dds</Source>
+      <Name>destroy0021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0021.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0022.dds</Source>
+      <Name>destroy0022</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0022.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0023.dds</Source>
+      <Name>destroy0023</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0023.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0024.dds</Source>
+      <Name>destroy0024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0024.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0025.dds</Source>
+      <Name>destroy0025</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0025.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0026.dds</Source>
+      <Name>destroy0026</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0026.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0027.dds</Source>
+      <Name>destroy0027</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0027.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>destroy0028.dds</Source>
+      <Name>destroy0028</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0028.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ExplosionRing.dds</Source>
+      <Name>ExplosionRing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ExplosionRing.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>FireBall.dds</Source>
+      <Name>FireBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireBall.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>FireStar.dds</Source>
+      <Name>FireStar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireStar.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LightEffect.dds</Source>
+      <Name>LightEffect</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LightEffect.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MgHit.dds</Source>
+      <Name>MgHit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MgHit.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MouseCursor.dds</Source>
+      <Name>MouseCursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MouseCursor.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Noise128x128.dds</Source>
+      <Name>Noise128x128</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Noise128x128.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NormalizeCubeMap.dds</Source>
+      <Name>NormalizeCubeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Plasma.dds</Source>
+      <Name>Plasma</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Plasma.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ShadowDistanceFadeoutMap.dds</Source>
+      <Name>ShadowDistanceFadeoutMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowDistanceFadeoutMap.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SimpleFlare.dds</Source>
+      <Name>SimpleFlare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SimpleFlare.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyCubeMap.dds</Source>
+      <Name>SkyCubeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Smoke.dds</Source>
+      <Name>Smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="TextureFormat">NoChange</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Smoke.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>GameFont.png</Source>
+      <Name>GameFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\GameFont.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>HudBottom.png</Source>
+      <Name>HudBottom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudBottom.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>HudTop.png</Source>
+      <Name>HudTop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudTop.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu.png</Source>
+      <Name>MainMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MainMenu.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NumbersFont.png</Source>
+      <Name>NumbersFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NumbersFont.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectShader.fx</Source>
+      <Name>EffectShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\EffectShader.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LineRendering.fx</Source>
+      <Name>LineRendering</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LineRendering.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NormalMapping.fx</Source>
+      <Name>NormalMapping</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>PostScreenMenu.fx</Source>
+      <Name>PostScreenMenu</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenMenu.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>PostScreenShadowBlur.fx</Source>
+      <Name>PostScreenShadowBlur</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenShadowBlur.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ShadowMap.fx</Source>
+      <Name>ShadowMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowMap.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Asteroid_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>asteroid4.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>asteroid4Normal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundGround.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\BackgroundGround_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundRock.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundRockNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Building_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>buildingNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SkyCubeMap.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NormalizeCubeMap.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building2.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Building2_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building2.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building2Normal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building3.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Building3_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building3.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building3Normal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building4.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Building4_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building4.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building4Normal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Building5.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Building5_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building5.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>building5Normal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Corvette.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Corvette_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Hunter.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>HunterNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Firebird.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Firebird_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>lizard.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>lizardNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemEmp.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemEmp_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Items.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemsNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemGattling.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemGattling_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemHealth.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemHealth_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>health.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>healthNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemMg.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemMg_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemPlasma.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemPlasma_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemRockets.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ItemRockets_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Kaktus.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Kaktus_0.xml</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Kaktus.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Kaktus2.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Kaktus2_0.xml</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusBenny.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\KaktusBenny_0.xml</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusBenny.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusBennyNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusSeg.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\KaktusSeg_0.xml</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusSeg.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>KaktusSegNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>OwnShip.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\OwnShip_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>raptor.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>raptorNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Rocket.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Rocket_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>lizardrocket.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>lizardrocketNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RocketFrigate.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\RocketFrigate_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>bomber.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>bomberNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SmallTransporter.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\SmallTransporter_0.xml</Output>
+      <Time>2008-02-02T12:35:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>kamikaze.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>kamikazeNormal.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Output>
+      <Time>2008-02-02T12:35:16-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\bin\x86\Debug\XnaGraphicEngineContentProcessor.dll</Key>
+        <Value>2010-07-02T02:42:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-14T11:13:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-14T11:13:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-14T11:13:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-14T11:13:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-14T11:13:52-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-08T15:21:48.1012037-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

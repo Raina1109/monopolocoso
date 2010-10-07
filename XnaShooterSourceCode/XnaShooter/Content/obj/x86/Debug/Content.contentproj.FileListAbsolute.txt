@@ -1,0 +1,6 @@
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jose\Documents\XNA3.1\XNA Game Programming_AllDownloadCode_New\Chapter11\Chapter11\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\Sounds\XnaShooter.xml
+C:\Users\Jose\Documents\XNA3.1\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jose\Documents\XNA3.1\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\Sounds\XnaShooter.xml
+C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\Sounds\XnaShooter.xml
