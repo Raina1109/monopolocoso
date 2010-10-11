@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>KaktusSeg</Name>
     <Identity>
-      <SourceFilename>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\KaktusSeg.X</SourceFilename>
+      <SourceFilename>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\KaktusSeg.X</SourceFilename>
       <SourceTool>XImporter</SourceTool>
     </Identity>
     <Transform>-0.110987455 1.67586389E-08 0 0 -1.67586389E-08 -0.110987455 0 0 0 0 0.110987455 0 -0.534090936 0.7025018 3.07073371E-08 1</Transform>
@@ -31,7 +31,7 @@
   <Resources>
     <Resource ID="#Resource1" Type="Graphics:EffectMaterialContent">
       <Identity>
-        <SourceFilename>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\KaktusSeg.X</SourceFilename>
+        <SourceFilename>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\KaktusSeg.X</SourceFilename>
         <SourceTool>XImporter</SourceTool>
       </Identity>
       <OpaqueData>

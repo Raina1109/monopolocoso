@@ -294,8 +294,14 @@ void Gz::end() {
 GzVector Gz::transNorm ( const GzVector& normal )
 {
 	GzVector normalEyeSpace;
-	GzMatrix ModelViewMatrix  = transMatrix.inverse3x3().transpose();
-	
+	GzMatrix ModelToEyesTransformMatrix  = transMatrix.inverse3x3().transpose();
+	GzMatrix N;
+	N.fromVertex(GzVertex(normal[X],normal[Y],normal[Z]));
+	N = ModelToEyesTransformMatrix*N;
+	GzVertex normalEndPoint = N.toVertex();
+	normalEyeSpace = GzVector(normalEndPoint[X],normalEndPoint[Y],normalEndPoint[Z]);
+
+	return normalEyeSpace;
 }
 //============================================================================
 //End of Implementations in Assignment #4

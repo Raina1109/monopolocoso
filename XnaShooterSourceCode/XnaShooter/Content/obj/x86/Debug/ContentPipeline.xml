@@ -7,15 +7,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Asteroid.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Asteroid.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Asteroid_0.xml</Key>
-        <Value>2010-10-06T16:21:27.228641-05:00</Value>
+        <Value>2010-10-06T23:04:37.9952623-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>BackgroundGround.X</Source>
@@ -23,15 +23,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundGround.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundGround.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\BackgroundGround_0.xml</Key>
-        <Value>2010-10-06T16:21:28.1036911-05:00</Value>
+        <Value>2010-10-06T23:04:39.1753298-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Building.X</Source>
@@ -39,17 +39,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Building_0.xml</Key>
-        <Value>2010-10-06T16:21:29.5307727-05:00</Value>
+        <Value>2010-10-06T23:04:41.0064346-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Building2.X</Source>
@@ -57,15 +57,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building2.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building2.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Building2_0.xml</Key>
-        <Value>2010-10-06T16:21:31.0728609-05:00</Value>
+        <Value>2010-10-06T23:04:43.0295503-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Building3.X</Source>
@@ -73,17 +73,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building3.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building3.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Building3_0.xml</Key>
-        <Value>2010-10-06T16:21:31.5358874-05:00</Value>
+        <Value>2010-10-06T23:04:43.6665867-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Building4.X</Source>
@@ -91,17 +91,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building4.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building4.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Building4_0.xml</Key>
-        <Value>2010-10-06T16:21:31.8529055-05:00</Value>
+        <Value>2010-10-06T23:04:44.1356135-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Building5.X</Source>
@@ -109,17 +109,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building5.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building5.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Building5_0.xml</Key>
-        <Value>2010-10-06T16:21:32.4269383-05:00</Value>
+        <Value>2010-10-06T23:04:44.7186469-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Corvette.X</Source>
@@ -127,15 +127,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Corvette.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Corvette.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Corvette_0.xml</Key>
-        <Value>2010-10-06T16:21:32.8019598-05:00</Value>
+        <Value>2010-10-06T23:04:45.1196698-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Firebird.X</Source>
@@ -143,15 +143,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Firebird.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Firebird.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Firebird_0.xml</Key>
-        <Value>2010-10-06T16:21:33.2029827-05:00</Value>
+        <Value>2010-10-06T23:04:45.6406996-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemEmp.X</Source>
@@ -159,15 +159,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemEmp.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemEmp.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemEmp_0.xml</Key>
-        <Value>2010-10-06T16:21:33.6560086-05:00</Value>
+        <Value>2010-10-06T23:04:46.0707242-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemGattling.X</Source>
@@ -175,15 +175,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemGattling.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemGattling.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemGattling_0.xml</Key>
-        <Value>2010-10-06T16:21:33.8210181-05:00</Value>
+        <Value>2010-10-06T23:04:46.363741-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemHealth.X</Source>
@@ -191,15 +191,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemHealth.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemHealth.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemHealth_0.xml</Key>
-        <Value>2010-10-06T16:21:33.8530199-05:00</Value>
+        <Value>2010-10-06T23:04:46.4127438-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemMg.X</Source>
@@ -207,15 +207,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemMg.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemMg.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemMg_0.xml</Key>
-        <Value>2010-10-06T16:21:33.9980282-05:00</Value>
+        <Value>2010-10-06T23:04:46.6757588-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemPlasma.X</Source>
@@ -223,15 +223,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemPlasma.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemPlasma.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemPlasma_0.xml</Key>
-        <Value>2010-10-06T16:21:34.0520313-05:00</Value>
+        <Value>2010-10-06T23:04:46.7527632-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>ItemRockets.X</Source>
@@ -239,15 +239,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemRockets.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemRockets.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\ItemRockets_0.xml</Key>
-        <Value>2010-10-06T16:21:34.1070344-05:00</Value>
+        <Value>2010-10-06T23:04:46.836768-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Kaktus.X</Source>
@@ -255,17 +255,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Kaktus_0.xml</Key>
-        <Value>2010-10-06T16:21:34.1560372-05:00</Value>
+        <Value>2010-10-06T23:04:46.888771-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Kaktus2.X</Source>
@@ -273,17 +273,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus2.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus2.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Kaktus2_0.xml</Key>
-        <Value>2010-10-06T16:21:34.5610604-05:00</Value>
+        <Value>2010-10-06T23:04:47.3277961-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>KaktusBenny.X</Source>
@@ -291,17 +291,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\KaktusBenny_0.xml</Key>
-        <Value>2010-10-06T16:21:34.5940623-05:00</Value>
+        <Value>2010-10-06T23:04:47.377799-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>KaktusSeg.X</Source>
@@ -309,17 +309,17 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\KaktusSeg_0.xml</Key>
-        <Value>2010-10-06T16:21:34.9530828-05:00</Value>
+        <Value>2010-10-06T23:04:47.7868224-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>OwnShip.X</Source>
@@ -327,15 +327,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\OwnShip.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\OwnShip.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\OwnShip_0.xml</Key>
-        <Value>2010-10-06T16:21:35.4361105-05:00</Value>
+        <Value>2010-10-06T23:04:48.2988517-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>Rocket.X</Source>
@@ -343,15 +343,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Rocket.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Rocket.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Rocket_0.xml</Key>
-        <Value>2010-10-06T16:21:35.7861305-05:00</Value>
+        <Value>2010-10-06T23:04:48.8768847-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>RocketFrigate.X</Source>
@@ -359,15 +359,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\RocketFrigate.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\RocketFrigate.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\RocketFrigate_0.xml</Key>
-        <Value>2010-10-06T16:21:35.8951367-05:00</Value>
+        <Value>2010-10-06T23:04:49.1429-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>SmallTransporter.X</Source>
@@ -375,15 +375,15 @@
       <Importer>XImporter</Importer>
       <Processor>XnaGraphicEngineModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SmallTransporter.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SmallTransporter.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\SmallTransporter_0.xml</Key>
-        <Value>2010-10-06T16:21:36.320161-05:00</Value>
+        <Value>2010-10-06T23:04:49.7509347-05:00</Value>
       </Dependency>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Request>
-      <Request>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Request>
+      <Request>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Request>
     </Item>
     <Item>
       <Source>BigExplosion0001.dds</Source>
@@ -394,7 +394,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0001.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0001.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -406,7 +406,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0002.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0002.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -418,7 +418,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0003.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0003.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -430,7 +430,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0004.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0004.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -442,7 +442,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0005.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0005.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -454,7 +454,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0006.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0006.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -466,7 +466,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0007.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0007.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -478,7 +478,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0008.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0008.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -490,7 +490,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0009.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0009.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -502,7 +502,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0010.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0010.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -514,7 +514,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0011.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0011.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -526,7 +526,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0012.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0012.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -538,7 +538,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0013.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0013.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -550,7 +550,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0014.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0014.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -562,7 +562,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0015.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0015.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -574,7 +574,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0016.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0016.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -586,7 +586,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0017.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0017.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -598,7 +598,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0018.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0018.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -610,7 +610,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0019.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0019.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -622,7 +622,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0020.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0020.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -634,7 +634,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0021.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0021.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -646,7 +646,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0022.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0022.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -658,7 +658,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0023.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0023.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -670,7 +670,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0024.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0024.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -682,7 +682,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0025.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0025.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -694,7 +694,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0026.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0026.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -706,7 +706,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0027.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BigExplosion0027.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -718,7 +718,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Clouds.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Clouds.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -730,7 +730,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0000.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0000.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -742,7 +742,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0001.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0001.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -754,7 +754,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0002.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0002.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -766,7 +766,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0003.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0003.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -778,7 +778,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0004.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0004.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -790,7 +790,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0005.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0005.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -802,7 +802,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0006.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0006.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -814,7 +814,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0007.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0007.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -826,7 +826,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0008.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0008.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -838,7 +838,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0009.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0009.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -850,7 +850,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0010.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0010.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -862,7 +862,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0011.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0011.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -874,7 +874,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0012.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0012.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -886,7 +886,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0013.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0013.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -898,7 +898,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0014.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0014.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -910,7 +910,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0015.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0015.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -922,7 +922,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0016.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0016.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -934,7 +934,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0017.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0017.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -946,7 +946,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0018.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0018.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -958,7 +958,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0019.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0019.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -970,7 +970,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0020.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0020.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -982,7 +982,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0021.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0021.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -994,7 +994,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0022.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0022.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1006,7 +1006,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0023.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0023.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1018,7 +1018,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0024.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0024.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1030,7 +1030,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0025.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0025.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1042,7 +1042,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0026.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0026.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1054,7 +1054,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0027.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0027.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1066,7 +1066,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0028.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\destroy0028.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1078,7 +1078,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ExplosionRing.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ExplosionRing.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1090,7 +1090,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireBall.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireBall.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1102,7 +1102,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireStar.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\FireStar.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1114,7 +1114,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LightEffect.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LightEffect.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1126,7 +1126,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MgHit.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MgHit.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1138,7 +1138,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MouseCursor.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MouseCursor.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1150,7 +1150,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Noise128x128.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Noise128x128.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1162,7 +1162,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1174,7 +1174,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Plasma.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Plasma.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1186,7 +1186,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowDistanceFadeoutMap.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowDistanceFadeoutMap.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1198,7 +1198,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SimpleFlare.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SimpleFlare.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1210,7 +1210,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1222,7 +1222,7 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Smoke.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Smoke.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1231,7 +1231,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\GameFont.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\GameFont.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1240,7 +1240,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudBottom.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudBottom.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1249,7 +1249,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudTop.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HudTop.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1258,7 +1258,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MainMenu.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\MainMenu.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1267,7 +1267,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NumbersFont.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NumbersFont.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1276,7 +1276,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\EffectShader.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\EffectShader.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1285,7 +1285,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LineRendering.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\LineRendering.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1294,7 +1294,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalMapping.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1303,7 +1303,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenMenu.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenMenu.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1312,7 +1312,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenShadowBlur.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\PostScreenShadowBlur.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1321,7 +1321,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowMap.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ShadowMap.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1343,7 +1343,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1358,7 +1358,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\asteroid4Normal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1380,7 +1380,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRock_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1395,7 +1395,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\BackgroundRockNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1417,7 +1417,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Building_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1432,7 +1432,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\buildingNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1447,7 +1447,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\SkyCubeMap_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1462,7 +1462,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\NormalizeCubeMap_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1484,7 +1484,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1499,7 +1499,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building2Normal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1521,7 +1521,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1536,7 +1536,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building3Normal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1558,7 +1558,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1573,7 +1573,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building4Normal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1595,7 +1595,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1610,7 +1610,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\building5Normal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1632,7 +1632,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Hunter_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1647,7 +1647,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\HunterNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1669,7 +1669,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizard_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1684,7 +1684,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1706,7 +1706,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Items_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1721,7 +1721,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\ItemsNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1750,7 +1750,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\health_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1765,7 +1765,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\healthNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1808,7 +1808,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\Kaktus_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1823,7 +1823,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1852,7 +1852,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBenny_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1867,7 +1867,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusBennyNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1889,7 +1889,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSeg_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1904,7 +1904,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\KaktusSegNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1926,7 +1926,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptor_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1941,7 +1941,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\raptorNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -1963,7 +1963,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocket_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -1978,7 +1978,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\lizardrocketNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -2000,7 +2000,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomber_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -2015,7 +2015,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\bomberNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:14-06:00</Time>
     </Item>
     <Item>
@@ -2037,7 +2037,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikaze_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <Item>
@@ -2052,7 +2052,7 @@
         <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Output>
+      <Output>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\kamikazeNormal_0.xnb</Output>
       <Time>2008-02-02T12:35:16-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -2060,14 +2060,14 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\bin\x86\Debug\XnaGraphicEngineContentProcessor.dll</Key>
+        <Key>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaGraphicEngineContentProcessor\bin\x86\Debug\XnaGraphicEngineContentProcessor.dll</Key>
         <Value>2010-07-02T02:42:52-05:00</Value>
       </Assembly>
       <Assembly>
@@ -2092,7 +2092,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-09-08T15:21:48.1012037-05:00</Value>
+        <Value>2010-08-15T01:56:51.0852187-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

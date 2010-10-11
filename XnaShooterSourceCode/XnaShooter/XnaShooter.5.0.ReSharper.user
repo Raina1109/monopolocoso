@@ -10,12 +10,17 @@
     <RecentFiles>
       <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:Highscores.cs" caret="785" fromTop="10" />
       <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:MainMenu.cs" caret="0" fromTop="0" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:Mission.cs" caret="975" fromTop="14" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:Credits.cs" caret="778" fromTop="14" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:IGameScreen.cs" caret="686" fromTop="13" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/f:Program.cs" caret="0" fromTop="0" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/f:XnaShooterGame.cs" caret="1008" fromTop="2" />
-      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Game/f:BaseGame.cs" caret="1023" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Helpers/f:ColorHelper.cs" caret="748" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Game/f:Unit.cs" caret="0" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:Credits.cs" caret="0" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Helpers/f:WindowsHelper.cs" caret="0" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Helpers/f:Vector3Helper.cs" caret="0" fromTop="0" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:IGameScreen.cs" caret="472" fromTop="9" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:GameScreens/f:Mission.cs" caret="7382" fromTop="6" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Game/f:Projectile.cs" caret="963" fromTop="20" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/f:Program.cs" caret="554" fromTop="13" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/f:XnaShooterGame.cs" caret="1005" fromTop="14" />
+      <File id="84078C5F-140A-4806-90B6-F6A84B86D779/d:Game/f:BaseGame.cs" caret="2283" fromTop="11" />
     </RecentFiles>
     <RecentEdits />
   </RecentFiles>

@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>Box10</Name>
     <Identity>
-      <SourceFilename>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\Building4.X</SourceFilename>
+      <SourceFilename>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\Building4.X</SourceFilename>
       <SourceTool>XImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -31,7 +31,7 @@
   <Resources>
     <Resource ID="#Resource1" Type="Graphics:EffectMaterialContent">
       <Identity>
-        <SourceFilename>C:\Users\Tri Chu\Documents\XnaShooterSourceCode\XnaShooter\Content\Building4.X</SourceFilename>
+        <SourceFilename>C:\Users\Tri Chu\Documents\svn\monopolocoso\XnaShooterSourceCode\XnaShooter\Content\Building4.X</SourceFilename>
         <SourceTool>XImporter</SourceTool>
       </Identity>
       <OpaqueData>
