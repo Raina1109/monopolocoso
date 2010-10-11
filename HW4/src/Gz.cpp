@@ -229,15 +229,43 @@ void Gz::end() {
 	//Again this function need to be updated if the GZ_LIGHTING is turned on.
 	//Remember to pop normal vectors from normalQueue.
 	//Note that if GZ_LIGHTING is turned off, we just need to use the old drawing functions from HW3.
-	if (get(GZ_LIGHTING)) {
+	if (get(GZ_LIGHTING))
+	{
 		frameBuffer.loadLightTrans(transMatrix);
-		switch (currentPrimitive) {
-			case GZ_POINTS: {
+		switch (currentPrimitive) 
+		{
+			case GZ_POINTS:
 			//Put your points shading code here. You might copy and modify the source in assignment 2.
-			} break;
-			case GZ_TRIANGLES: {
-			//Put your triangles shading code here. You might copy and modify the source in assignment 2.
-			} break;
+				while ( (vertexQueue.size()>=1) && (colorQueue.size()>=1) &&	(normalQueue.size() >= 1 )
+			{
+
+				GzVertex v = transAll(vertexQueue.front());
+				GzVector N = transNorm(normalQueue.front());
+				normalQueue.pop();
+				vertexQueue.pop();
+				GzColor c=colorQueue.front(); 
+				colorQueue.pop();
+				frameBuffer.drawPoint(v, c, status);
+			}
+			break;
+
+			case GZ_TRIANGLES:
+				//Put your triangles shading code here. You might copy and modify the source in assignment 2.
+				while ( (vertexQueue.size()>=3) && (colorQueue.size()>=3) )
+				{
+					vector<GzVertex> v(3);
+					vector<GzColor> c(3);
+					for (int i=0; i<3; i++)
+					{
+						v[i]=transAll(vertexQueue.front()); 
+						vertexQueue.pop();
+						c[i]=colorQueue.front(); 
+						colorQueue.pop();
+					}
+					frameBuffer.drawTriangle(v, c, status);
+				}
+			
+			break;
 		}
 	} else {
 		switch (currentPrimitive) {
@@ -263,6 +291,12 @@ void Gz::end() {
 	}
 }
 
+GzVector Gz::transNorm ( const GzVector& normal )
+{
+	GzVector normalEyeSpace;
+	GzMatrix ModelViewMatrix  = transMatrix.inverse3x3().transpose();
+	
+}
 //============================================================================
 //End of Implementations in Assignment #4
 //============================================================================

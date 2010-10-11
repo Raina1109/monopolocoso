@@ -48,13 +48,21 @@ private:
 //Declarations in Assignment #4
 //============================================================================
 public:
-	void shadeModel(const GzInt model);						//Set the current shade model (curShadeModel)
-	void addLight(const GzVector& v, const GzColor& c);		//Add a light source at position p with color c
-	void material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s);		//Specify the meterial of the object, includes:
-																			//	_kA: The ambient coefficients
-																			//	_kD: The diffuse coefficients
-																			//	_kS: The specular coefficients
-																			//	_s: The spec power
+	//Set the current shade model (curShadeModel)
+	void shadeModel(const GzInt model);	
+	
+	//Add a light source at position p with color c
+	void addLight(const GzVector& v, const GzColor& c);	
+	
+	//Specify the meterial of the object, includes:
+	//	_kA: The ambient coefficients
+	//	_kD: The diffuse coefficients
+	//	_kS: The specular coefficients
+	//	_s: The spec power
+	void material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s);		
+	
+	//Load the transformation matrix into framebuffer
+	void loadLightTrans(GzMatrix transMatrix);
 
 private:
 	GzInt curShadeModel;

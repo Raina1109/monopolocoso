@@ -144,3 +144,8 @@ void GzFrameBuffer::material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s) {
 
 void GzFrameBuffer::addLight(const GzVector& v, const GzColor& c) {
 }
+
+void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
+{
+
+}
