@@ -222,7 +222,15 @@ void Gz::material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s) {
 }
 	
 void Gz::addLight(const GzVector& v, const GzColor& c) {
-	frameBuffer.addLight(v, c);
+
+    GzMatrix M;
+    M.fromVertex(GzVertex(v[X],v[Y],v[Z]));
+    M = transMatrix*M;
+    GzVertex Vd = M.toVertex();
+
+    GzVector vLightDirectionEyeSpace = GzVector(Vd[X],Vd[Y],Vd[Z]);
+
+    frameBuffer.addLight(vLightDirectionEyeSpace, c);
 }
 
 void Gz::end() {

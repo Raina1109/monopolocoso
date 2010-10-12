@@ -162,3 +162,30 @@ void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
         LighSource[i].Direction = GzVector(resv[X],resv[Y],resv[Z]);
     }
 }
+GzColor GzFrameBuffer::shaderFunction(GzVertex v, GzVector N)
+{
+    GzColor finalColor = GzColor(0.0, 0.0, 0.0, 0.0);
+
+    for(int i = 0; i < LightSource.size(); i++)
+    {
+        GzVector L = LightSource[i].Direction;
+        GzVector E = GzVector(-v[X],-v[Y],-v[Z]);
+        GzVector H = (L + E)/2;
+        GzColor C = LightSource[i].Color;
+
+        for (int j = 0; j < 4; j++)
+        {
+            //Ambient
+            GzReal Iamb = kA*C[j];
+
+            //Diffuse
+            GzReal Idiff = C[j]*(kD*dotProduct(L,N));
+            Idiff = clamp(Idiff, 0.0, 1.0);
+            //Specular
+            GzReal Ispec = kS*pow(max(dotProduct(N,H),0.0),0.3*s);
+            Ispec = clamp(Ispec, 0.0, 1.0);
+
+            finalColor[j] += Iamb + Idiff + Ispec;
+        }
+    }
+}

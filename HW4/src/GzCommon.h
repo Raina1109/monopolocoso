@@ -96,6 +96,7 @@ struct GzLightSource
 {
     GzVector Direction;
     GzColor Color;
+
     GzLightSource (GzVector direction_, GzColor color_)
     {
         Direction = direction_;

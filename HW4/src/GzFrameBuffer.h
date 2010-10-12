@@ -87,6 +87,8 @@ private:
         void vectorInterpolate(GzReal key1, GzVector& val1,
                               GzReal key2, GzVector& val2,
                               GzReal key, GzVector& val);
+
+        GzColor shaderFunction(GzVertex v, GzVector N);
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================
