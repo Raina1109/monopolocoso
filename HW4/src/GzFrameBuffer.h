@@ -67,6 +67,26 @@ public:
 private:
 	GzInt curShadeModel;
 	GzReal kA, kD, kS, s;
+        Vector <GzLightSource> LightSource;
+
+        void drawPoint(const GzVertex& v,
+                       const GzColor& c,
+                       const GzVector& n ,
+                       GzFunctional status);
+
+        void drawTriangle(vector<GzVertex>& v,
+                          vector<GzColor>& c,
+                          vector<GzVector>& n,
+                          GzFunctional status);
+
+        void drawRasLine(GzInt y,
+                         GzReal xMin, GzReal zMin, GzColor& cMin, GzVector& nMin,
+                         GzReal xMax, GzReal zMax, GzColor& cMax, GzVector& nMax,
+                         GzFunctional status);
+
+        void vectorInterpolate(GzReal key1, GzVector& val1,
+                              GzReal key2, GzVector& val2,
+                              GzReal key, GzVector& val);
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================

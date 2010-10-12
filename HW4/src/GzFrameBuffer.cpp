@@ -143,9 +143,22 @@ void GzFrameBuffer::material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s) {
 }
 
 void GzFrameBuffer::addLight(const GzVector& v, const GzColor& c) {
+    LightSource.add(GzLightSource(v,c));
 }
 
 void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
 {
+    for(int i = 0; i < LightSource.size(); i++)
+    {
+        GzVertex resv (LighSource[i].Direction[X],
+                    LighSource[i].Direction[Y],
+                    LighSource[i].Direction[Z]);
 
+        GzMatrix res;
+        res.fromVertex(v);
+        res = transMatrix*res;
+        resv = res.toVertex();
+
+        LighSource[i].Direction = GzVector(resv[X],resv[Y],resv[Z]);
+    }
 }

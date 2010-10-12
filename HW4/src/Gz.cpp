@@ -235,19 +235,19 @@ void Gz::end() {
 		switch (currentPrimitive) 
 		{
 			case GZ_POINTS:
-			//Put your points shading code here. You might copy and modify the source in assignment 2.
-				while ( (vertexQueue.size()>=1) && (colorQueue.size()>=1) &&	(normalQueue.size() >= 1 )
-			{
+                            //Put your points shading code here. You might copy and modify the source in assignment 2.
+                            while ( (vertexQueue.size()>=1) && (colorQueue.size()>=1) && (normalQueue.size() >= 1 ))
+                            {
 
-				GzVertex v = transAll(vertexQueue.front());
-				GzVector N = transNorm(normalQueue.front());
-				normalQueue.pop();
-				vertexQueue.pop();
-				GzColor c=colorQueue.front(); 
-				colorQueue.pop();
-				frameBuffer.drawPoint(v, c, status);
-			}
-			break;
+                                    GzVertex v = transAll(vertexQueue.front());
+                                    GzVector n = transNorm(normalQueue.front());
+                                    normalQueue.pop();
+                                    vertexQueue.pop();
+                                    GzColor c=colorQueue.front();
+                                    colorQueue.pop();
+                                    frameBuffer.drawPoint(v, c, n, status);
+                            }
+                            break;
 
 			case GZ_TRIANGLES:
 				//Put your triangles shading code here. You might copy and modify the source in assignment 2.
@@ -255,14 +255,18 @@ void Gz::end() {
 				{
 					vector<GzVertex> v(3);
 					vector<GzColor> c(3);
+                                        vector<GzVector> n(3);
+
 					for (int i=0; i<3; i++)
 					{
 						v[i]=transAll(vertexQueue.front()); 
 						vertexQueue.pop();
 						c[i]=colorQueue.front(); 
 						colorQueue.pop();
+                                                n[i]= transNorm(normalQueue.front());
+                                                normalQueue.pop();
 					}
-					frameBuffer.drawTriangle(v, c, status);
+                                        frameBuffer.drawTriangle(v, c, n, status);
 				}
 			
 			break;
