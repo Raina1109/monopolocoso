@@ -9,6 +9,17 @@
 #include <cmath>
 using namespace std;
 
+struct GzLightSource
+{
+    GzVector Direction;
+    GzColor Color;
+
+    GzLightSource (GzVector direction_, GzColor color_)
+    {
+        Direction = direction_;
+        Color = color_;
+    }
+};
 //Frame buffer with Z-buffer -------------------------------------------------
 class GzFrameBuffer {
 public:
@@ -64,11 +75,6 @@ public:
 	//Load the transformation matrix into framebuffer
 	void loadLightTrans(GzMatrix transMatrix);
 
-private:
-	GzInt curShadeModel;
-	GzReal kA, kD, kS, s;
-        Vector <GzLightSource> LightSource;
-
         void drawPoint(const GzVertex& v,
                        const GzColor& c,
                        const GzVector& n ,
@@ -84,18 +90,35 @@ private:
                          GzReal xMax, GzReal zMax, GzColor& cMax, GzVector& nMax,
                          GzFunctional status);
 
+
+private:
+	GzInt curShadeModel;
+	GzReal kA, kD, kS, s;
+        vector <GzLightSource> LightSource;
+
+
         void vectorInterpolate(GzReal key1, GzVector& val1,
                               GzReal key2, GzVector& val2,
                               GzReal key, GzVector& val);
 
-        GzColor shaderFunction(GzVertex v, GzVector N, GzColor C);
+        GzColor shaderFunction(GzVector N, GzColor C);
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================
 
 
+        GzReal clamp (GzReal x, GzReal min, GzReal max)
+        {
+            if(x > max)
+                x = max;
+            else if ( x < min)
+                x = min;
+
+            return x;
+        }
 
 };
 //----------------------------------------------------------------------------
+
 
 #endif

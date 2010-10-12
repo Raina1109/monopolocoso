@@ -1,16 +1,20 @@
 #ifndef __GZ_VECTOR_H_
 #define __GZ_VECTOR_H_
 
-#include "GzCommon.h"
-#include <cmath>
-using namespace std;
 
+#include <cmath>
+#include <vector>
+#include "GzCommon.h"
+
+
+using namespace std;
 //============================================================================
 //Declarations in Assignment #4
 //============================================================================
 
 //3D vector data type---------------------------------------------------------
-struct GzVector:public vector<GzReal> {
+struct GzVector:public vector<GzReal>
+{
 	GzVector();
 	GzVector(GzReal x, GzReal y, GzReal z);
 	GzReal length();

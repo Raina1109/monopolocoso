@@ -2,6 +2,7 @@
 #define __GZ_COMMON_H_
 
 #include <vector>
+
 using namespace std;
 
 
@@ -92,30 +93,8 @@ struct GzColor:public vector<GzReal> {
 #define GZ_PHONG 2
 //----------------------------------------------------------------------------
 
-struct GzLightSource
-{
-    GzVector Direction;
-    GzColor Color;
-
-    GzLightSource (GzVector direction_, GzColor color_)
-    {
-        Direction = direction_;
-        Color = color_;
-    }
-};
-
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================
-
-GzReal clamp (GzReal x, GzReal min, GzReal max)
-{
-    if(x > max)
-        x = max;
-    else if ( x < min)
-        x = min;
-
-    return x;
-}
 
 #endif

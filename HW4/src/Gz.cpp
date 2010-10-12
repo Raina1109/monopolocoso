@@ -226,16 +226,8 @@ void Gz::addLight(const GzVector& v, const GzColor& c) {
     // first calculate tranpose of identity of transMatrix
     // take the upper left 3x3 matrix of new transMatrix and multiply it to direction of the light.
     // pass it to the addLight for frameBuffer.
-    GzMatrix mat;
-    mat.resize(4,4);
-    mat = transMatrix.inverse3x3().transpose();
 
-    GzVector Ve;
-    Ve[0] = mat[0][0]*v[0] + mat[0][1]*v[0] + mat[0][2]*v[0];
-    Ve[1] = mat[1][0]*v[1] + mat[1][1]*v[1] + mat[1][2]*v[1];
-    Ve[2] = mat[2][0]*v[2] + mat[2][1]*v[2] + mat[2][2]*v[2];
-
-    frameBuffer.addLight(Ve, c);
+    frameBuffer.addLight(v, c);
 }
 
 void Gz::end() {
@@ -311,14 +303,21 @@ void Gz::end() {
 GzVector Gz::transNorm ( const GzVector& normal )
 {
 	GzVector normalEyeSpace;
-	GzMatrix ModelToEyesTransformMatrix  = transMatrix.inverse3x3().transpose();
-	GzMatrix N;
-	N.fromVertex(GzVertex(normal[X],normal[Y],normal[Z]));
-	N = ModelToEyesTransformMatrix*N;
-	GzVertex normalEndPoint = N.toVertex();
-	normalEyeSpace = GzVector(normalEndPoint[X],normalEndPoint[Y],normalEndPoint[Z]);
+        GzMatrix mat;
+        mat.resize(3,3);
 
-	return normalEyeSpace;
+        for(int i = 0;i < 3; i++)
+            for(int j = 0; j < 3; j++ )
+                mat[i][j] = transMatrix[i][j];
+
+        mat = mat.inverse3x3().transpose();
+
+        GzVector Ve;
+        Ve[0] = (mat[0][0]*normal[0] + mat[0][1]*normal[1] + mat[0][2]*normal[2]);
+        Ve[1] = (mat[1][0]*normal[0] + mat[1][1]*normal[1] + mat[1][2]*normal[2]);
+        Ve[2] = (mat[2][0]*normal[0] + mat[2][1]*normal[1] + mat[2][2]*normal[2]);
+
+        return Ve;
 }
 //============================================================================
 //End of Implementations in Assignment #4
