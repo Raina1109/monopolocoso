@@ -162,24 +162,24 @@ void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
         LighSource[i].Direction = GzVector(resv[X],resv[Y],resv[Z]);
     }
 }
-GzColor GzFrameBuffer::shaderFunction(GzVertex v, GzVector N)
+GzColor GzFrameBuffer::shaderFunction(GzVertex v, GzVector N, GzColor C)
 {
-    GzColor finalColor = GzColor(0.0, 0.0, 0.0, 0.0);
+    GzColor finalColor = C;
 
     for(int i = 0; i < LightSource.size(); i++)
     {
         GzVector L = LightSource[i].Direction;
         GzVector E = GzVector(-v[X],-v[Y],-v[Z]);
         GzVector H = (L + E)/2;
-        GzColor C = LightSource[i].Color;
+        GzColor Ci = LightSource[i].Color;
 
         for (int j = 0; j < 4; j++)
         {
             //Ambient
-            GzReal Iamb = kA*C[j];
+            GzReal Iamb = kA*Ci[j];
 
             //Diffuse
-            GzReal Idiff = C[j]*(kD*dotProduct(L,N));
+            GzReal Idiff = Ci[j]*(kD*dotProduct(L,N));
             Idiff = clamp(Idiff, 0.0, 1.0);
             //Specular
             GzReal Ispec = kS*pow(max(dotProduct(N,H),0.0),0.3*s);
@@ -187,5 +187,128 @@ GzColor GzFrameBuffer::shaderFunction(GzVertex v, GzVector N)
 
             finalColor[j] += Iamb + Idiff + Ispec;
         }
+    }
+}
+
+void GzFrameBuffer::drawPoint(const GzVertex &v, const GzColor &c, const GzVector &n, GzFunctional status)
+{
+
+    GzInt x=(GzInt)v[X];
+    GzInt y=image.sizeH()-(GzInt)v[Y]-1;
+    if ((x<0)||(y<0)||(x>=image.sizeW())||(y>=image.sizeH())) return;
+
+    GzColor color = shaderFunction(v,n,c);
+    if (status&GZ_DEPTH_TEST) {
+            if (v[Z]>=depthBuffer[x][y]) {
+                    image.set(x, y, color);
+                    depthBuffer[x][y]=v[Z];
+            }
+    } else {
+            image.set(x, y, color);
+            depthBuffer[x][y]=v[Z];
+    }
+}
+
+void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzColor> &c, vector<GzVector> &n, GzFunctional status)
+{
+
+    if(curShadeModel == GZ_GOURAUD)
+    {
+        //do shading for 3 vertex, do the normal triangle with the new color
+        vector<GzColor> Cs(3);
+        for (int i = 0; i < v.size(); i++)
+        {
+            Cs[i] = shaderFunction(v[i],n[i],c[i]);
+        }
+        drawTriangle(v,Cs,status);
+    }
+    else if (curShadeModel == GZ_PHONG)
+    {
+        //interpolate normal for each point and redo the shading function.
+        GzInt yMin, yMax;
+        GzReal xMin, xMax, zMin, zMax;
+        GzColor cMin, cMax;
+        GzVector nMin, nMax;
+
+        v.push_back(v[0]);
+        c.push_back(c[0]);
+
+        yMin=INT_MAX;
+        yMax=-INT_MAX;
+
+        for (GzInt i=0; i<3; i++) {
+                yMin=min((GzInt)floor(v[i][Y]), yMin);
+                yMax=max((GzInt)floor(v[i][Y]-1e-3), yMax);
+        }
+
+        for (GzInt y=yMin; y<=yMax; y++) {
+                xMin=INT_MAX;
+                xMax=-INT_MAX;
+                for (GzInt i=0; i<3; i++) {
+                        if ((GzInt)floor(v[i][Y])==y) {
+                                if (v[i][X]<xMin) {
+                                        xMin=v[i][X];
+                                        zMin=v[i][Z];
+                                        cMin=c[i];
+                                }
+                                if (v[i][X]>xMax) {
+                                        xMax=v[i][X];
+                                        zMax=v[i][Z];
+                                        cMax=c[i];
+                                }
+                        }
+                        if ((y-v[i][Y])*(y-v[i+1][Y])<0) {
+                                GzReal x;
+                                realInterpolate(v[i][Y], v[i][X], v[i+1][Y], v[i+1][X], y, x);
+                                if (x<xMin) {
+                                        xMin=x;
+                                        realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMin);
+                                        colorInterpolate(v[i][Y], c[i], v[i+1][Y], c[i+1], y, cMin);
+                                        vectorInterpolate(v[i][Y],n[i],v[i+1][Y],n[i+1],y,nMin);
+                                }
+                                if (x>xMax) {
+                                        xMax=x;
+                                        realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMax);
+                                        colorInterpolate(v[i][Y], c[i], v[i+1][Y], c[i+1], y, cMax);
+                                        vectorInterpolate(v[i][Y],n[i],v[i+1][Y],n[i+1],y,nMax);
+                                }
+                        }
+                }
+                drawRasLine(y,
+                            xMin, zMin, cMin, nMin,
+                            xMax-1e-3, zMax, cMax, nMax,
+                            status);
+        }
+    }
+}
+
+void GzFrameBuffer::drawRasLine(GzInt y, GzReal xMin, GzReal zMin, GzColor &cMin, GzVector &nMin, GzReal xMax, GzReal zMax, GzColor &cMax, GzVector &nMax, GzFunctional status)
+{
+    if ((y<0)||(y>=image.sizeH())) return;
+    if ((GzInt)floor(xMin)==(GzInt)floor(xMax)) {
+            if (zMin>zMax) drawPoint(GzVertex(floor(xMin), y, zMin), cMin, status);
+                    else drawPoint(GzVertex(floor(xMin), y, zMax), cMax, status);
+    } else {
+            GzReal z;
+            GzColor c;
+            y=image.sizeH()-y-1;
+            int w=image.sizeW();
+            if (status&GZ_DEPTH_TEST) {
+                    for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
+                            realInterpolate(xMin, zMin, xMax, zMax, x, z);
+                            if (z>=depthBuffer[x][y]) {
+                                    colorInterpolate(xMin, cMin, xMax, cMax, x, c);
+                                    image.set(x, y, c);
+                                    depthBuffer[x][y]=z;
+                            }
+                    }
+            } else {
+                    for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
+                            realInterpolate(xMin, zMin, xMax, zMax, x, z);
+                            colorInterpolate(xMin, cMin, xMax, cMax, x, c);
+                            image.set(x, y, c);
+                            depthBuffer[x][y]=z;
+                    }
+            }
     }
 }

@@ -88,7 +88,7 @@ private:
                               GzReal key2, GzVector& val2,
                               GzReal key, GzVector& val);
 
-        GzColor shaderFunction(GzVertex v, GzVector N);
+        GzColor shaderFunction(GzVertex v, GzVector N, GzColor C);
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================

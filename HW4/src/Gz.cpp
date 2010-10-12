@@ -222,15 +222,20 @@ void Gz::material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s) {
 }
 	
 void Gz::addLight(const GzVector& v, const GzColor& c) {
+    // transform the light direction from model coordinate to eyes coordinate
+    // first calculate tranpose of identity of transMatrix
+    // take the upper left 3x3 matrix of new transMatrix and multiply it to direction of the light.
+    // pass it to the addLight for frameBuffer.
+    GzMatrix mat;
+    mat.resize(4,4);
+    mat = transMatrix.inverse3x3().transpose();
 
-    GzMatrix M;
-    M.fromVertex(GzVertex(v[X],v[Y],v[Z]));
-    M = transMatrix*M;
-    GzVertex Vd = M.toVertex();
+    GzVector Ve;
+    Ve[0] = mat[0][0]*v[0] + mat[0][1]*v[0] + mat[0][2]*v[0];
+    Ve[1] = mat[1][0]*v[1] + mat[1][1]*v[1] + mat[1][2]*v[1];
+    Ve[2] = mat[2][0]*v[2] + mat[2][1]*v[2] + mat[2][2]*v[2];
 
-    GzVector vLightDirectionEyeSpace = GzVector(Vd[X],Vd[Y],Vd[Z]);
-
-    frameBuffer.addLight(vLightDirectionEyeSpace, c);
+    frameBuffer.addLight(Ve, c);
 }
 
 void Gz::end() {
