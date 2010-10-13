@@ -134,7 +134,9 @@ void GzFrameBuffer::colorInterpolate(GzReal key1, GzColor& val1, GzReal key2, Gz
 
 void GzFrameBuffer::vectorInterpolate(GzReal key1, GzVector &val1, GzReal key2, GzVector &val2, GzReal key, GzVector &val) {
     GzReal k = (key -key1)/(key2-key1);
-    for (GzInt i = 0; i < 3; i++) val[i] = val1[i] + (val2[i] - val1[i])*k;
+    for (GzInt i = 0; i < 3; i++)
+        val[i] = val1[i] + (val2[i] - val1[i])*k;
+    val.normalize();
 }
 
 void GzFrameBuffer::shadeModel(const GzInt model) {
@@ -150,6 +152,7 @@ void GzFrameBuffer::material(GzReal _kA, GzReal _kD, GzReal _kS, GzReal _s) {
 
 void GzFrameBuffer::addLight(const GzVector& v, const GzColor& c) {
     LightSource.push_back(GzLightSource(v,c));
+    transLightSource.push_back(GzLightSource(v,c));
 }
 
 void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
@@ -167,14 +170,15 @@ void GzFrameBuffer::loadLightTrans(GzMatrix transMatrix)
 
         GzVector Ve;
         GzVector v = LightSource[k].Direction;
-        Ve[0] = -(mat[0][0]*v[0] + mat[0][1]*v[1] + mat[0][2]*v[2]);
-        Ve[1] = -(mat[1][0]*v[0] + mat[1][1]*v[1] + mat[1][2]*v[2]);
-        Ve[2] = -(mat[2][0]*v[0] + mat[2][1]*v[1] + mat[2][2]*v[2]);
+        Ve[0] = mat[0][0]*v[0] + mat[0][1]*v[1] + mat[0][2]*v[2];
+        Ve[1] = mat[1][0]*v[0] + mat[1][1]*v[1] + mat[1][2]*v[2];
+        Ve[2] = mat[2][0]*v[0] + mat[2][1]*v[1] + mat[2][2]*v[2];
 
-        LightSource[k].Direction = Ve;
+        transLightSource[k].Direction = Ve;
     }
 }
-GzColor GzFrameBuffer::shaderFunction(GzVector N, GzColor C)
+
+GzColor GzFrameBuffer::shaderFunction(const GzVector& N,const GzColor& C)
 {
     //ambiant
     GzColor finalColor;
@@ -182,20 +186,23 @@ GzColor GzFrameBuffer::shaderFunction(GzVector N, GzColor C)
     for(int k = 0; k < 4; k++)
             finalColor[k]= C[k]*kA;
 
-    for(int i = 0; i < LightSource.size(); i++)
+    for(int i = 0; i < transLightSource.size(); i++)
     {
-        GzVector L = LightSource[i].Direction;
+        GzVector L = GzVector()-transLightSource[i].Direction;
+        L.normalize();
         GzVector E = GzVector(0,0,1);
-        GzVector H = (L + E)/2;
-        GzColor Ci = LightSource[i].Color;
+        E.normalize();
+        GzVector H = (L + E);
+        H.normalize();
+        GzColor Ci = transLightSource[i].Color;
 
         for (int j = 0; j < 4; j++)
         {
             //Diffuse
-            GzReal Idiff = Ci[j]*(kD*dotProduct(L,N));
+            GzReal Idiff = Ci[j]*kD*dotProduct(N,L);
             Idiff = clamp(Idiff, 0.0, 1.0);
             //Specular
-            GzReal Ispec = kS*pow(dotProduct(N,H),s);
+            GzReal Ispec = Ci[j]*kS*pow(max(dotProduct(N,H),0.0),s);
             Ispec = clamp(Ispec, 0.0, 1.0);
 
             finalColor[j] += Idiff + Ispec;
@@ -265,11 +272,13 @@ void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzColor> &c, vector
                                         xMin=v[i][X];
                                         zMin=v[i][Z];
                                         cMin=c[i];
+                                        nMin=n[i];
                                 }
                                 if (v[i][X]>xMax) {
                                         xMax=v[i][X];
                                         zMax=v[i][Z];
                                         cMax=c[i];
+                                        nMax=n[i];
                                 }
                         }
                         if ((y-v[i][Y])*(y-v[i+1][Y])<0) {
@@ -279,7 +288,7 @@ void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzColor> &c, vector
                                         xMin=x;
                                         realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMin);
                                         colorInterpolate(v[i][Y], c[i], v[i+1][Y], c[i+1], y, cMin);
-                                        vectorInterpolate(v[i][Y],n[i],v[i+1][Y], n[i+1],y,nMin);
+                                        vectorInterpolate(v[i][Y],n[i],v[i+1][Y], n[i+1],y, nMin);
                                 }
                                 if (x>xMax) {
                                         xMax=x;

@@ -95,13 +95,14 @@ private:
 	GzInt curShadeModel;
 	GzReal kA, kD, kS, s;
         vector <GzLightSource> LightSource;
+        vector <GzLightSource> transLightSource;
 
 
         void vectorInterpolate(GzReal key1, GzVector& val1,
                               GzReal key2, GzVector& val2,
                               GzReal key, GzVector& val);
 
-        GzColor shaderFunction(GzVector N, GzColor C);
+        GzColor shaderFunction(const GzVector& N,const GzColor& C);
 //============================================================================
 //End of Declarations in Assignment #4
 //============================================================================
