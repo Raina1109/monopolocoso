@@ -108,7 +108,7 @@ private:
 //Declarations in Assignment #5
 //============================================================================
 public:
-	void texture(const GzImage& t);				//Specify the texture
+        void texture(const GzImage& t);			//Specify the texture
 	void addTexCoord(const GzTexCoord& tc);		//Specify the texture coordinate
 private:
 	queue<GzTexCoord> texCoordQueue;	//Store texture coordinates in queue for rendering

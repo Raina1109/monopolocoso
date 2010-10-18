@@ -19,9 +19,11 @@ public:
 	GzBool resize(GzInt width, GzInt height);
 	
 	GzColor get(GzInt x, GzInt y);
+        GzColor get(GzTexCoord t);
 	GzBool set(GzInt x, GzInt y, const GzColor& c);
 
 	void clear(const GzColor& c);
+
 
 private:
 	vector<vector<GzColor> > pixel;

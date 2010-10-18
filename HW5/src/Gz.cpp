@@ -249,10 +249,21 @@ void Gz::end() {
 	//Also we only need to implement the triangle rasterization.
 	
 	if (get(GZ_TEXTURE)) {
-		assert(!get(GZ_LIGHTING));					//Assert GZ_LIGHTING is off
-		assert(currentPrimitive==GZ_TRIANGLES);		//Assert the triangle rasterization
+                assert(!get(GZ_LIGHTING));		//Assert GZ_LIGHTING is off
+                assert(currentPrimitive==GZ_TRIANGLES);	//Assert the triangle rasterization
 		//Put your triangle resterization with texture here
 
+                while ( (vertexQueue.size()>=3) && (texCoordQueue.size()>=3) ) {
+                        vector<GzVertex> v(3);
+                        vector<GzTexCoord> tx(3);
+                        for (int i=0; i<3; i++)
+                        {
+
+                                v[i]=transAll(vertexQueue.front()); vertexQueue.pop();
+                                tx[i]=texCoordQueue.front(); texCoordQueue.pop();
+                        }
+                        frameBuffer.drawTriangle(v, tx, status);
+                }
 		return;
 	}
 

@@ -44,7 +44,7 @@ void GzFrameBuffer::drawPoint(const GzVertex& v, const GzColor& c, GzFunctional 
 void GzFrameBuffer::drawTriangle(vector<GzVertex>& v, vector<GzColor>& c, GzFunctional status) {
 	GzInt yMin, yMax;
 	GzReal xMin, xMax, zMin, zMax;
-	GzColor cMin, cMax;
+        GzColor cMin, cMax;
 
 	v.push_back(v[0]);
 	c.push_back(c[0]);
@@ -305,4 +305,108 @@ GzColor GzFrameBuffer::colorWLight(GzColor c, GzVector n) {
 
 void GzFrameBuffer::texture(const GzImage& t) {
 	tex=t;
+}
+
+void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzTexCoord> t, GzFunctional status)
+{
+    GzInt yMin, yMax;
+    GzReal xMin, xMax, zMin, zMax;
+    GzTexCoord tMin, tMax;
+
+    v.push_back(v[0]);
+    t.push_back(t[0]);
+
+    yMin=INT_MAX;
+    yMax=-INT_MAX;
+
+    for (GzInt i=0; i<3; i++) {
+            yMin=min((GzInt)floor(v[i][Y]), yMin);
+            yMax=max((GzInt)floor(v[i][Y]-1e-3), yMax);
+    }
+
+    for (GzInt y=yMin; y<=yMax; y++) {
+            xMin=INT_MAX;
+            xMax=-INT_MAX;
+
+
+            for (GzInt i=0; i<3; i++) {
+                    if ((GzInt)floor(v[i][Y])==y) {
+                            if (v[i][X]<xMin) {
+                                    xMin=v[i][X];
+                                    zMin=v[i][Z];
+                                    tMin=t[i];
+                            }
+                            if (v[i][X]>xMax) {
+                                    xMax=v[i][X];
+                                    zMax=v[i][Z];
+                                    tMax=t[i];
+                            }
+                    }
+                    if ((y-v[i][Y])*(y-v[i+1][Y])<0) {
+                            GzReal x;
+                            realInterpolate(v[i][Y], v[i][X], v[i+1][Y], v[i+1][X], y, x);
+                            if (x<xMin) {
+                                    xMin=x;
+                                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMin);
+                                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMin);
+                            }
+                            if (x>xMax) {
+                                    xMax=x;
+                                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMax);
+                                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMax);
+                            }
+                    }
+            }
+            drawRasLine(y, xMin, zMin, tMin, xMax-1e-3, zMax, tMax, status);
+    }
+}
+void GzFrameBuffer::textureInterpolate(GzReal key1, GzTexCoord &val1, GzReal key2, GzTexCoord &val2, GzReal key, GzTexCoord &val)
+{
+    GzReal k=(key-key1)/(key2-key1);
+    for (GzInt i=0; i<2; i++) val[i]=val1[i]+(val2[i]-val1[i])*k;
+}
+void GzFrameBuffer::drawRasLine(GzInt y, GzReal xMin, GzReal zMin, GzTexCoord &tMin, GzReal xMax, GzReal zMax, GzTexCoord &tMax, GzFunctional status)
+{
+    if ((y<0)||(y>=image.sizeH())) return;
+    if ((GzInt)floor(xMin)==(GzInt)floor(xMax)) {
+        if (zMin>zMax)
+        {
+            drawPoint(GzVertex(floor(xMin), y, zMin), tex.get(tMin), status);
+        }
+        else
+        {
+            drawPoint(GzVertex(floor(xMin), y, zMax), tex.get(tMax), status);
+        }
+    } else {
+        GzReal z;
+        GzTexCoord t;
+
+        y=image.sizeH()-y-1;
+        int w=image.sizeW();
+        if (status&GZ_DEPTH_TEST) {
+            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
+                realInterpolate(xMin, zMin, xMax, zMax, x, z);
+                if (z>=depthBuffer[x][y]) {
+                    textureInterpolate(xMin, tMin, xMax, tMax, x, t);
+                    image.set(x, y, tex.get(t));
+                    depthBuffer[x][y]=z;
+                }
+            }
+        } else {
+            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
+                realInterpolate(xMin, zMin, xMax, zMax, x, z);
+                textureInterpolate(xMin, tMin, xMax, tMax, x, t);
+                image.set(x, y, tex.get(t));
+                depthBuffer[x][y]=z;
+            }
+        }
+    }
+}
+
+GzTexCoord operator / (const GzTexCoord& tex,const GzReal& c)
+{
+    GzTexCoord resT;
+    for(int i = 0; i < 2; i++)
+        resT[i] = tex[i]/c;
+    return resT;
 }
