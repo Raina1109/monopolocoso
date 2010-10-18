@@ -44,7 +44,7 @@ int main() {
 	gz.texture(texture);				//Use the texture
 
 	
-        gz.lookAt(10, 10, -10,	//Eye position
+	gz.lookAt(	10, 10, -10,	//Eye position 
 				0, 0, 0,	//Look at
 				0, 1, 0);	//Up vector
 	gz.orthographic(-8, 8,	//Left and Right

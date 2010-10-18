@@ -41,7 +41,7 @@ public:
 	void texture(const GzImage& t);
 
         //draw triangle with vertex
-        void drawTriangle(vector<GzVertex>& v, vector<GzTexCoord> &t, GzFunctional status);
+        void drawTriangle(vector<GzVertex>& v, vector<GzTexCoord> t, GzFunctional status);
 
 private:
 	//Shading 
@@ -61,16 +61,9 @@ private:
 	void normalInterpolate(GzReal key1, GzVector& val1, GzReal key2, GzVector& val2, GzReal key, GzVector& val);
         void textureInterpolate(GzReal key1, GzTexCoord& val1, GzReal key2, GzTexCoord& val2, GzReal key, GzTexCoord& val);
 	void drawRasLine(GzInt y, GzReal xMin, GzReal zMin, GzColor& cMin, GzReal xMax, GzReal zMax, GzColor& cMax, GzFunctional status);
+        void drawRasLine(GzInt y, GzReal xMin, GzReal zMin, GzTexCoord& tMin, GzReal xMax, GzReal zMax, GzTexCoord& tMax, GzFunctional status);
 
-        void drawRasLine(GzInt y,
-                         GzReal xMin, GzReal zMin, GzReal szMin, GzTexCoord& tMin,
-                         GzReal xMax, GzReal zMax, GzReal szMax, GzTexCoord& tMax,
-                         GzFunctional status);
-
-        void drawRasLineWLight(GzInt y,
-                               GzReal xMin, GzReal zMin, GzColor& cMin, GzVector& nMin,
-                               GzReal xMax, GzReal zMax, GzColor& cMax, GzVector& nMax,
-                               GzFunctional status);
+	void drawRasLineWLight(GzInt y, GzReal xMin, GzReal zMin, GzColor& cMin, GzVector& nMin, GzReal xMax, GzReal zMax, GzColor& cMax, GzVector& nMax, GzFunctional status);
 	GzColor colorWLight(GzColor c, GzVector n);
 
 	//Assigment 5

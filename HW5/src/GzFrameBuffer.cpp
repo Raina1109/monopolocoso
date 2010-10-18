@@ -272,8 +272,7 @@ void GzFrameBuffer::drawRasLineWLight(GzInt y, GzReal xMin, GzReal zMin, GzColor
 
 void GzFrameBuffer::normalInterpolate(GzReal key1, GzVector& val1, GzReal key2, GzVector& val2, GzReal key, GzVector& val) {
 	GzReal k=(key-key1)/(key2-key1);
-        for (GzInt i=0; i<3; i++)
-            val[i]=val1[i]+(val2[i]-val1[i])*k;
+	for (GzInt i=0; i<3; i++) val[i]=val1[i]+(val2[i]-val1[i])*k;
 }
 
 GzColor GzFrameBuffer::colorWLight(GzColor c, GzVector n) {
@@ -308,127 +307,114 @@ void GzFrameBuffer::texture(const GzImage& t) {
 	tex=t;
 }
 
-void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzTexCoord> &t, GzFunctional status)
+void GzFrameBuffer::drawTriangle(vector<GzVertex> &v, vector<GzTexCoord> t, GzFunctional status)
 {
     GzInt yMin, yMax;
     GzReal xMin, xMax, zMin, zMax;
-    GzReal szMin, szMax;
     GzTexCoord tMin, tMax;
+    vector<GzReal> vsz(3);
 
-    v.push_back(v[0]);
-    t.push_back(t[0]);
 
     yMin=INT_MAX;
     yMax=-INT_MAX;
 
+    v.push_back(v[0]);
+    t.push_back(t[0]);
+
     for (GzInt i=0; i<3; i++) {
-            yMin=min((GzInt)floor(v[i][Y]), yMin);
-            yMax=max((GzInt)floor(v[i][Y]-1e-3), yMax);
+        yMin=min((GzInt)floor(v[i][Y]), yMin);
+        yMax=max((GzInt)floor(v[i][Y]-1e-3), yMax);
+        vsz[i] = 1/v[i][Z];
     }
+
+
+    vsz.push_back(vsz[0]);
 
     for (GzInt y=yMin; y<=yMax; y++) {
-            xMin=INT_MAX;
-            xMax=-INT_MAX;
+        xMin=INT_MAX;
+        xMax=-INT_MAX;
 
 
-            for (GzInt i=0; i<3; i++) {
-                    if ((GzInt)floor(v[i][Y])==y) {
-                            if (v[i][X]<xMin) {
-                                    xMin=v[i][X];
-                                    zMin=v[i][Z];
-                                    szMin = 1/zMin;
-                                    tMin=t[i];
-                            }
-                            if (v[i][X]>xMax) {
-                                    xMax=v[i][X];
-                                    zMax=v[i][Z];
-                                    szMax = 1/zMax;
-                                    tMax=t[i];
-                            }
-                    }
-                    if ((y-v[i][Y])*(y-v[i+1][Y])<0) {
-                            GzReal x;
-                            realInterpolate(v[i][Y], v[i][X], v[i+1][Y], v[i+1][X], y, x);
-                            if (x<xMin) {
-                                    xMin=x;
-                                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMin);
-                                    realInterpolate(v[i][Y], 1/v[i][Z], v[i+1][Y], 1/v[i+1][Z], y, szMin);
-                                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMin);
-//                                    tMin = tMin/szMin;
-                            }
-                            if (x>xMax) {
-                                    xMax=x;
-                                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMax);
-                                    realInterpolate(v[i][Y], 1/v[i][Z], v[i+1][Y], 1/v[i+1][Z], y, szMax);
-                                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMax);
-//                                    tMax = tMax/szMax;
-                            }
-                    }
+        for (GzInt i=0; i<3; i++) {
+
+            if ((GzInt)floor(v[i][Y])==y) {
+                if (v[i][X]<xMin) {
+                    xMin=v[i][X];
+                    zMin=v[i][Z];
+                    szMin = vsz[i];
+                    tMin=t[i];
+                }
+                if (v[i][X]>xMax) {
+                    xMax=v[i][X];
+                    zMax=v[i][Z];
+                    szMax = vsz[i];
+                    tMax=t[i];
+                }
             }
-            drawRasLine(y,
-                        xMin, zMin, szMin, tMin,
-                        xMax-1e-3, zMax, szMax, tMax,
-                        status);
+            if ((y-v[i][Y])*(y-v[i+1][Y])<0) {
+                GzReal x;
+                realInterpolate(v[i][Y], v[i][X], v[i+1][Y], v[i+1][X], y, x);
+                if (x<xMin) {
+                    xMin=x;
+                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMin);
+                    realInterpolate(v[i][Y], vsz[i], v[i+1][Y], vsz[i+1], y, szMin);
+                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMin);
+                }
+                if (x>xMax) {
+                    xMax=x;
+                    realInterpolate(v[i][Y], v[i][Z], v[i+1][Y], v[i+1][Z], y, zMax);
+                    realInterpolate(v[i][Y], vsz[i], v[i+1][Y], vsz[i+1], y, szMax);
+                    textureInterpolate(v[i][Y], t[i], v[i+1][Y], t[i+1], y, tMax);
+                }
+            }
+        }
+        drawRasLine(y,
+                    xMin, zMin, szMin, tMin,
+                    xMax-1e-3, zMax, szMax, tMax,
+                    status);
     }
 }
-
-
-void GzFrameBuffer::textureInterpolate(GzReal key1, GzTexCoord &val1,
-                                       GzReal key2, GzTexCoord &val2,
-                                       GzReal key, GzTexCoord &val)
+void GzFrameBuffer::textureInterpolate(GzReal key1, GzTexCoord &val1, GzReal key2, GzTexCoord &val2, GzReal key, GzTexCoord &val)
 {
     GzReal k=(key-key1)/(key2-key1);
-    for (GzInt i=0; i<2; i++)
-        val[i]=val1[i]+(val2[i]-val1[i])*k;
+    for (GzInt i=0; i<2; i++) val[i]=val1[i]+(val2[i]-val1[i])*k;
 }
-
-
-void GzFrameBuffer::drawRasLine(GzInt y,
-                                GzReal xMin, GzReal zMin, GzReal szMin, GzTexCoord &tMin,
-                                GzReal xMax, GzReal zMax, GzReal szMax, GzTexCoord &tMax,
-                                GzFunctional status)
+void GzFrameBuffer::drawRasLine(GzInt y, GzReal xMin, GzReal zMin, GzTexCoord &tMin, GzReal xMax, GzReal zMax, GzTexCoord &tMax, GzFunctional status)
 {
     if ((y<0)||(y>=image.sizeH())) return;
     if ((GzInt)floor(xMin)==(GzInt)floor(xMax)) {
         if (zMin>zMax)
         {
-            tMin = tMin/szMin;
             drawPoint(GzVertex(floor(xMin), y, zMin), tex.get(tMin), status);
         }
         else
         {
-            tMax = tMax/szMax;
             drawPoint(GzVertex(floor(xMin), y, zMax), tex.get(tMax), status);
         }
     } else {
         GzReal z;
-        GzReal sz;
         GzTexCoord t;
 
         y=image.sizeH()-y-1;
-
         int w=image.sizeW();
-
         if (status&GZ_DEPTH_TEST) {
-            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
+            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++)
+            {
                 realInterpolate(xMin, zMin, xMax, zMax, x, z);
-                realInterpolate(xMin, szMin, xMax, szMax, x, sz);
-                if (z>=depthBuffer[x][y]) {
-//                    t = t/z;
+                if (z>=depthBuffer[x][y])
+                {
+                    realInterpolate(xMin, szMin, xMax, szMax, x, sz);
                     textureInterpolate(xMin, tMin, xMax, tMax, x, t);
-                    t = t/(sz);
                     image.set(x, y, tex.get(t));
                     depthBuffer[x][y]=z;
                 }
             }
         } else {
-            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++) {
-
+            for (int x=max(0, (GzInt)floor(xMin)); x<=min(w-1, (GzInt)floor(xMax)); x++)
+            {
                 realInterpolate(xMin, zMin, xMax, zMax, x, z);
                 realInterpolate(xMin, szMin, xMax, szMax, x, sz);
-//                t = t/z;
                 textureInterpolate(xMin, tMin, xMax, tMax, x, t);
-                t = t/(sz);
                 image.set(x, y, tex.get(t));
                 depthBuffer[x][y]=z;
             }
@@ -438,8 +424,8 @@ void GzFrameBuffer::drawRasLine(GzInt y,
 
 GzTexCoord operator / (const GzTexCoord& tex,const GzReal& c)
 {
-    GzTexCoord resT;
+    GzTexCoord res;
     for(int i = 0; i < 2; i++)
-        resT[i] = tex[i]/c;
-    return resT;
+        res[i] = tex[i]/c;
+    return res;
 }

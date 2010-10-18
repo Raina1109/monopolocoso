@@ -77,7 +77,10 @@ GzColor GzImage::get(GzInt x, GzInt y) {
 GzColor GzImage::get(GzTexCoord t)
 {
     if((t[U]<0)||(t[V]<0)||(t[U]>1)||(t[V]>1)) return GzColor();
-    return pixel[t[U]*(this->sizeW()-1)][t[V]*(this->sizeH()-1)];
+
+    int x = (int)(t[U]*(this->sizeW()-1));
+    int y = (int)(t[V]*(this->sizeH()-1));
+    return pixel[x][y];
 }
 
 GzBool GzImage::set(GzInt x, GzInt y, const GzColor& c) {

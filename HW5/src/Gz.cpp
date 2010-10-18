@@ -260,7 +260,7 @@ void Gz::end() {
                         {
 
                                 v[i]=transAll(vertexQueue.front()); vertexQueue.pop();
-                                tx[i]=texCoordQueue.front()/v[i][Z]; texCoordQueue.pop();
+                                tx[i]=texCoordQueue.front(); texCoordQueue.pop();
                         }
                         frameBuffer.drawTriangle(v, tx, status);
                 }
