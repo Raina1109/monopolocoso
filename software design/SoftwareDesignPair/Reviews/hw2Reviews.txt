@@ -1,0 +1,9 @@
+04/02/10 10:03 PM MT
+
+(a) Remove packages from the diagram. Show classes and their
+dependencies. Draw a line to delineate the package boundary.
+Show that there are several components by using the ellipsis ...
+
+(b) Revisit the calculations.
+
+-----------------------------------------------------------------------

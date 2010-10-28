@@ -1,0 +1,28 @@
+1. Test Canary - done
+2. Test Create TemperatureFinder - done
+3. Test Get Temperature - done
+4. Create Provider Interface - done
+5. Create ProviderMock - done
+6. Refactor Get Temperature method using Provider Mock - done
+7. Add provider to TemperatureFinder - done
+8. Create Provider List - done
+9. Test Create Provide List - done
+10. Refactor Temperature to use ProviderList - done
+11. Test Add provider to provider list - done
+12. Refactor Provider Interface to include Reliability property - done
+13. Create Reliability enum -  done
+14. Refactor to use Reliability enum - done
+15. Test add multiple providers to provider list - done
+16. Test add multiple providers and remove a provider - done
+17. Test Try to remove all providers -  done
+18. Test add same provider twice - done
+19. Test add multiple providers and remove a provider, verify the identity of the provider that remained - done
+20. Test Remove from empty provider list - done
+21. Refactor Provider list to not let the same provider be added twice - done
+22. Refactor provider interface to include Name property - done
+23. Remove all providers from provider list - done
+24. Refactor GetTemperature method - done
+25. Sort provider list by reliability - done
+26. Implement Provider 1 using ICityTemperatureProvider - done 
+27. Implement Provider 2 using ICityTemperatureProvider - done
+28. Implement Provider 3 using ICityTemperatureProvider - done

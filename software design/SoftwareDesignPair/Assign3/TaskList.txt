@@ -1,0 +1,62 @@
+1. CanaryTest - done
+2. Create StringWriter Test - done
+3. Create IWriter Interface - done
+4. Test StringerWriter write to string - done
+5. Test Create FileWriter - done
+6. Test FileWriter write to file - done
+7. Test create operation
+ - done
+8. Test chain operations  - done
+9. create operation
+ - done
+10. Create UpperCaseOperator - done
+11. Test UpperCaseOperator with all upper case string - done
+12. Create RemoveStupidOperator - done
+13. Test RemoveStupidOperator with string that has stupid - done
+14. Create DuplicateOperator - done
+15. Test DuplicateOperator with string with duplicates - done
+16. Test StringWriter with LowerCaseOperator - done
+17. Test StringWriter with UpperCaseOperator - done
+18. Test StringWriter with StupidRemoverOperator - done
+19. Test StringWriter with DupicateRemoverOperator - done
+20. Test StringWriter with LowerCaseOperator after UpperCaseOperator - done
+21. Test StringWriter with LowerCaseOperator after StupidRemoverOperator - done
+22. Test StringWriter with LowerCaseOperator after DupicateRemoverOperator
+23. Test StringWriter with LowerCaseOperator after LowerCaseOperator - done
+24. Test StringWriter with UpperCaseOperator after LowerCaseOperator - done
+25. Test StringWriter with UpperCaseOperator after StupidRemoverOperator - done
+26. Test StringWriter with UpperCaseOperator after DupicateRemoverOperator - done
+27. Test StringWriter with UpperCaseOperator after UpperCaseOperator - done
+28. Test StringWriter with StupidRemoverOperator after LowerCaseOperator  - done
+29. Test StringWriter with StupidRemoverOperator after UpperCaseOperator - done
+30. Test StringWriter with StupidRemoverOperator after StupidRemoverOperator - done
+31. Test StringWriter with StupidRemoverOperator after DupicateRemoverOperator - done
+32. Test StringWriter with DupicateRemoverOperator after LowerCaseOperator - done
+33. Test StringWriter with DupicateRemoverOperator after UpperCaseOperator - done
+34. Test StringWriter with DupicateRemoverOperator after StupidRemoverOperator - done
+35. Test StringWriter with DupicateRemoverOperator after DupicateRemoverOperator - done
+36. Test FileWriter with LowerCaseOperator - done
+37. Test FileWriter with UpperCaseOperator - done
+38. Test FileWriter with StupidRemoverOperator - done
+39. Test FileWriter with DupicateRemoverOperator - done
+40. Test FileWriter with LowerCaseOperator after UpperCaseOperator - done
+41. Test FileWriter with LowerCaseOperator after StupidRemoverOperator  - done
+42. Test FileWriter with LowerCaseOperator after DupicateRemoverOperator - done
+43. Test FileWriter with LowerCaseOperator after LowerCaseOperator - done
+44. Test FileWriter with UpperCaseOperator after LowerCaseOperator  - done
+45. Test FileWriter with UpperCaseOperator after StupidRemoverOperator - done
+46. Test FileWriter with UpperCaseOperator after DupicateRemoverOperator - done
+47. Test FileWriter with UpperCaseOperator after UpperCaseOperator - done
+48. Test FileWriter with StupidRemoverOperator after LowerCaseOperator - done
+49. Test FileWriter with StupidRemoverOperator after UpperCaseOperator - done
+50. Test FileWriter with StupidRemoverOperator after StupidRemoverOperator - done
+51. Test FileWriter with StupidRemoverOperator after DupicateRemoverOperator - done
+52. Test FileWriter with DupicateRemoverOperator after LowerCaseOperator - done
+53. Test FileWriter with DupicateRemoverOperator after UpperCaseOperator - done
+54. Test FileWriter with DupicateRemoverOperator after StupidRemoverOperator - done
+55. Test FileWriter with DupicateRemoverOperator after DupicateRemoverOperator - done
+56. Impelemeted Close Method - done
+57. Test StringWriter Close method - done
+58. Test StringWriter write after close method - done
+59. Test FileWriter Close method - done
+60. Test FileWriter write after close method - done

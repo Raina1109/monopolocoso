@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9c1ac793-d8b8-4fc0-9155-1b61564d4e8e" name="Tri Chu@ALPHA 2010-02-22 21:13:13" runUser="Alpha\Tri Chu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a7937c34-f49a-407e-ad60-d6fd90812913">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\TestResults\Tri Chu_ALPHA 2010-02-22 21_13_13">
+      <DeploymentItem filename="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\Core\bin\Debug\Wade_Assignment1.Core.dll" />
+      <DeploymentItem filename="Lib\" />
+    </Deployment>
+    <NamingScheme appendTimeStamp="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="28" executed="28" passed="25" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-02-22T21:13:13.4633689-06:00" queuing="2010-02-22T21:13:15.3504768-06:00" start="2010-02-22T21:13:15.6684950-06:00" finish="2010-02-22T21:13:16.2415278-06:00" />
+  <TestDefinitions>
+    <UnitTest name="TestAddToFullCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="76fd494f-abb2-6bd3-7b64-67182011ffad">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="588bd071-ecbb-4e08-8617-d4a40a9a7080" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestAddToFullCart" />
+    </UnitTest>
+    <UnitTest name="TestAddTwoLetters" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="17a7a05c-135d-be73-507b-b1700bb1adfa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="55fd6b2b-972c-4095-aa79-dac099f5adb5" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestAddTwoLetters" />
+    </UnitTest>
+    <UnitTest name="TestAddPointsToScoreTheSubtractPoints" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="1acdb0b3-569c-d768-8726-fb337853b9ac">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5091ed35-fe14-47b2-a169-07a578353542" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestAddPointsToScoreTheSubtractPoints" />
+    </UnitTest>
+    <UnitTest name="TestCollectCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="01c4f23c-eb03-1fba-4f94-a73735edbc9e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7efa025-ef21-446e-94bb-6e2c6e6dcf64" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestCollectCart" />
+    </UnitTest>
+    <UnitTest name="TestAddPointsToScore" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="c7b9f958-ec7a-d527-d879-5fcb206667ba">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5876430a-f067-4eff-96a5-f2401e359ad4" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestAddPointsToScore" />
+    </UnitTest>
+    <UnitTest name="TestAddLetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="9791b6a7-6e91-7071-8506-bb553e691c30">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9b808902-117d-4b3f-b739-d2478cc6c6e9" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestAddLetter" />
+    </UnitTest>
+    <UnitTest name="TestAddNegativePointsToScore" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="2e6780fa-a1fb-eb4d-e484-781b1eee7bbf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="674a7e56-9925-43dd-a1d4-37145e382100" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestAddNegativePointsToScore" />
+    </UnitTest>
+    <UnitTest name="TestSubtractNegativePointsScore" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="4a2c46c9-0411-3d1b-4ba9-470a47f7606d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="41a285d7-f5ab-4a1e-8b97-18380c0a8621" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestSubtractNegativePointsScore" />
+    </UnitTest>
+    <UnitTest name="TestDiscardCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="71fd168f-fdde-189b-c619-e9faa84144a5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="963fe518-70af-4636-9497-6eb26596f998" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestDiscardCart" />
+    </UnitTest>
+    <UnitTest name="TestCanary" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="7e8e6025-65c3-a54d-1a18-f3660fefe13a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ab306379-83e2-43d7-87eb-6420feafe99b" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestCanary" />
+    </UnitTest>
+    <UnitTest name="TestSubtractPointsFromAZeroScore" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="d6dda293-191b-8c91-4da0-ca0e77dc2492">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="22e0ae45-cdf9-4126-814c-5588266d99c0" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestSubtractPointsFromAZeroScore" />
+    </UnitTest>
+    <UnitTest name="TestCreateCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="801b1050-b67e-d88c-98c0-bfe6ada94fb4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ed469ede-ed1e-401f-800d-844827423e28" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestCreateCart" />
+    </UnitTest>
+    <UnitTest name="TestSpellingOfCorrectlySpelledWord" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="02fbceea-62d7-5adb-e7bc-b3469ecce502">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d226e3d2-db68-4632-8d4e-90376e4e64d1" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestSpellingOfCorrectlySpelledWord" />
+    </UnitTest>
+    <UnitTest name="TestCollectCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="91bb29bd-0ad6-9b42-a405-9d67cf7e4a9f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e267105d-47e7-4c53-bdff-4fddd5687a34" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestCollectCart" />
+    </UnitTest>
+    <UnitTest name="TestValueForInvalidLetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="a8dfc6a1-75bf-4b0f-bc9f-db90d116ae17">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="61c9454c-678b-4ad7-8822-cc213e59e1e0" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestValueForInvalidLetter" />
+    </UnitTest>
+    <UnitTest name="TestDiscardEmptyCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="347ec06a-1dba-d27d-5eac-6e6607891007">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="282c2d62-06ad-4919-93d5-972292102c36" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestDiscardEmptyCart" />
+    </UnitTest>
+    <UnitTest name="TestSpellingOfIncorrectlySpelledWord" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="e82bbdb2-5434-6123-a03d-b9925db721f0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="39ece236-ef3f-4317-b06e-d7ef75a86d98" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestSpellingOfIncorrectlySpelledWord" />
+    </UnitTest>
+    <UnitTest name="TestDiscardCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="a80afcd5-2b36-bc32-34ac-b6e9d2e06085">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0027fb20-5283-4efe-ad77-2ec8c512fbaa" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestDiscardCart" />
+    </UnitTest>
+    <UnitTest name="TestCheckCartForPalindrome" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="d7a98d90-8842-40fe-ba3d-6a7f9676e055">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="78b9b6d6-87d1-4e11-8d83-705a484b4a74" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestCheckCartForPalindrome" />
+    </UnitTest>
+    <UnitTest name="TestCanary" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="139cd5fa-6c12-d001-a023-848aa7a50205">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cd9392b5-ca2b-4ba1-855e-45f42724dd6f" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestCanary" />
+    </UnitTest>
+    <UnitTest name="TestCreateScoreKeeper" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="a7fd0cc6-58ac-0ca5-850e-f9f275dad8e9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="80229ae6-d6b8-411f-aeb4-a59a817ab404" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ScoreKeeperTest, Wade_Assignment1Test" name="TestCreateScoreKeeper" />
+    </UnitTest>
+    <UnitTest name="TestCheckCartForPalindromeForANonPalidrome" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="584525e8-4ae2-0f25-250a-249df1fa6a59">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="69df4cab-3c6c-45e1-89b4-9697beae2dc3" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestCheckCartForPalindromeForANonPalidrome" />
+    </UnitTest>
+    <UnitTest name="TestValueForALetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="fd61d4d4-be3f-ccc8-7dda-0a4b51759a38">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="987ac908-3b4a-414b-b06f-7a8bbbfcd045" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestValueForALetter" />
+    </UnitTest>
+    <UnitTest name="TestCreateGameController" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="16de5ea8-3d8c-a9f1-d04a-61f0dbbe6961">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="689cf8d1-ef29-4a69-beca-00202e94a50c" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.GameControllerTest, Wade_Assignment1Test" name="TestCreateGameController" />
+    </UnitTest>
+    <UnitTest name="TestCanary" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="8249f976-fa8a-62b8-e9a2-4a0f8a996099">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c95d243f-4023-457d-a13e-c018cf1ea77e" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ShelfTest, Wade_Assignment1Test" name="TestCanary" />
+    </UnitTest>
+    <UnitTest name="TestSelectLetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="7d32fbdd-abef-41ee-5a53-eeba05221dba">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2cc1b9b4-f57f-47e8-a1f9-65120d60dadd" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ShelfTest, Wade_Assignment1Test" name="TestSelectLetter" />
+    </UnitTest>
+    <UnitTest name="TestCreateShelf" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="77672e8a-4faa-14e6-44d2-7d137bb25773">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4eb9d9bf-3def-4ef8-aadd-da72fbf36597" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.ShelfTest, Wade_Assignment1Test" name="TestCreateShelf" />
+    </UnitTest>
+    <UnitTest name="TestAddToDiscardedCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring2010\design\softwaredesignpair\assign1\wade_assignment1\test\wade_assignment1test\bin\debug\wade_assignment1test.dll" id="217e7575-6389-c59c-c189-bc47937d9098">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f5aae2bd-0dc0-40d2-9e77-70d980f6abad" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\bin\Debug\Wade_Assignment1Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Wade_Assignment1Test.CartTest, Wade_Assignment1Test" name="TestAddToDiscardedCart" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="01c4f23c-eb03-1fba-4f94-a73735edbc9e" executionId="d7efa025-ef21-446e-94bb-6e2c6e6dcf64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02fbceea-62d7-5adb-e7bc-b3469ecce502" executionId="d226e3d2-db68-4632-8d4e-90376e4e64d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="139cd5fa-6c12-d001-a023-848aa7a50205" executionId="cd9392b5-ca2b-4ba1-855e-45f42724dd6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16de5ea8-3d8c-a9f1-d04a-61f0dbbe6961" executionId="689cf8d1-ef29-4a69-beca-00202e94a50c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a7a05c-135d-be73-507b-b1700bb1adfa" executionId="55fd6b2b-972c-4095-aa79-dac099f5adb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1acdb0b3-569c-d768-8726-fb337853b9ac" executionId="5091ed35-fe14-47b2-a169-07a578353542" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="217e7575-6389-c59c-c189-bc47937d9098" executionId="f5aae2bd-0dc0-40d2-9e77-70d980f6abad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e6780fa-a1fb-eb4d-e484-781b1eee7bbf" executionId="674a7e56-9925-43dd-a1d4-37145e382100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="347ec06a-1dba-d27d-5eac-6e6607891007" executionId="282c2d62-06ad-4919-93d5-972292102c36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a2c46c9-0411-3d1b-4ba9-470a47f7606d" executionId="41a285d7-f5ab-4a1e-8b97-18380c0a8621" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="584525e8-4ae2-0f25-250a-249df1fa6a59" executionId="69df4cab-3c6c-45e1-89b4-9697beae2dc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71fd168f-fdde-189b-c619-e9faa84144a5" executionId="963fe518-70af-4636-9497-6eb26596f998" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76fd494f-abb2-6bd3-7b64-67182011ffad" executionId="588bd071-ecbb-4e08-8617-d4a40a9a7080" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77672e8a-4faa-14e6-44d2-7d137bb25773" executionId="4eb9d9bf-3def-4ef8-aadd-da72fbf36597" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d32fbdd-abef-41ee-5a53-eeba05221dba" executionId="2cc1b9b4-f57f-47e8-a1f9-65120d60dadd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8e6025-65c3-a54d-1a18-f3660fefe13a" executionId="ab306379-83e2-43d7-87eb-6420feafe99b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="801b1050-b67e-d88c-98c0-bfe6ada94fb4" executionId="ed469ede-ed1e-401f-800d-844827423e28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8249f976-fa8a-62b8-e9a2-4a0f8a996099" executionId="c95d243f-4023-457d-a13e-c018cf1ea77e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91bb29bd-0ad6-9b42-a405-9d67cf7e4a9f" executionId="e267105d-47e7-4c53-bdff-4fddd5687a34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9791b6a7-6e91-7071-8506-bb553e691c30" executionId="9b808902-117d-4b3f-b739-d2478cc6c6e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7fd0cc6-58ac-0ca5-850e-f9f275dad8e9" executionId="80229ae6-d6b8-411f-aeb4-a59a817ab404" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a80afcd5-2b36-bc32-34ac-b6e9d2e06085" executionId="0027fb20-5283-4efe-ad77-2ec8c512fbaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8dfc6a1-75bf-4b0f-bc9f-db90d116ae17" executionId="61c9454c-678b-4ad7-8822-cc213e59e1e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7b9f958-ec7a-d527-d879-5fcb206667ba" executionId="5876430a-f067-4eff-96a5-f2401e359ad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6dda293-191b-8c91-4da0-ca0e77dc2492" executionId="22e0ae45-cdf9-4126-814c-5588266d99c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7a98d90-8842-40fe-ba3d-6a7f9676e055" executionId="78b9b6d6-87d1-4e11-8d83-705a484b4a74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e82bbdb2-5434-6123-a03d-b9925db721f0" executionId="39ece236-ef3f-4317-b06e-d7ef75a86d98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd61d4d4-be3f-ccc8-7dda-0a4b51759a38" executionId="987ac908-3b4a-414b-b06f-7a8bbbfcd045" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d7efa025-ef21-446e-94bb-6e2c6e6dcf64" testId="01c4f23c-eb03-1fba-4f94-a73735edbc9e" testName="TestCollectCart" computerName="ALPHA" duration="00:00:00.0380446" startTime="2010-02-22T21:13:15.7164978-06:00" endTime="2010-02-22T21:13:15.9175093-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d226e3d2-db68-4632-8d4e-90376e4e64d1" testId="02fbceea-62d7-5adb-e7bc-b3469ecce502" testName="TestSpellingOfCorrectlySpelledWord" computerName="ALPHA" duration="00:00:00.1220607" startTime="2010-02-22T21:13:15.9195094-06:00" endTime="2010-02-22T21:13:16.0445165-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Wade_Assignment1Test.GameControllerTest.TestSpellingOfCorrectlySpelledWord threw exception:  System.DllNotFoundException: Hunspell Intel 32Bit DLL not found: C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\Hunspellx86.dll.</Message>
+          <StackTrace>    at NHunspell.MarshalHunspellDll.LoadNativeHunspellDll()
+   at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Utilities.StringUtility.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\StringUtility.cs:line 17
+   at Wade_Assignment1.Core.GameController.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\Core\GameController.cs:line 38
+   at Wade_Assignment1Test.GameControllerTest.TestSpellingOfCorrectlySpelledWord() in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\GameControllerTest.cs:line 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd9392b5-ca2b-4ba1-855e-45f42724dd6f" testId="139cd5fa-6c12-d001-a023-848aa7a50205" testName="TestCanary" computerName="ALPHA" duration="00:00:00.0003014" startTime="2010-02-22T21:13:16.0495168-06:00" endTime="2010-02-22T21:13:16.0545171-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="689cf8d1-ef29-4a69-beca-00202e94a50c" testId="16de5ea8-3d8c-a9f1-d04a-61f0dbbe6961" testName="TestCreateGameController" computerName="ALPHA" duration="00:00:00.0003621" startTime="2010-02-22T21:13:16.0545171-06:00" endTime="2010-02-22T21:13:16.0575173-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55fd6b2b-972c-4095-aa79-dac099f5adb5" testId="17a7a05c-135d-be73-507b-b1700bb1adfa" testName="TestAddTwoLetters" computerName="ALPHA" duration="00:00:00.0006312" startTime="2010-02-22T21:13:16.0585173-06:00" endTime="2010-02-22T21:13:16.0635176-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5091ed35-fe14-47b2-a169-07a578353542" testId="1acdb0b3-569c-d768-8726-fb337853b9ac" testName="TestAddPointsToScoreTheSubtractPoints" computerName="ALPHA" duration="00:00:00.0012783" startTime="2010-02-22T21:13:16.0645177-06:00" endTime="2010-02-22T21:13:16.0695180-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5aae2bd-0dc0-40d2-9e77-70d980f6abad" testId="217e7575-6389-c59c-c189-bc47937d9098" testName="TestAddToDiscardedCart" computerName="ALPHA" duration="00:00:00.0002757" startTime="2010-02-22T21:13:16.0765184-06:00" endTime="2010-02-22T21:13:16.0785185-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="674a7e56-9925-43dd-a1d4-37145e382100" testId="2e6780fa-a1fb-eb4d-e484-781b1eee7bbf" testName="TestAddNegativePointsToScore" computerName="ALPHA" duration="00:00:00.0002254" startTime="2010-02-22T21:13:16.0815187-06:00" endTime="2010-02-22T21:13:16.0845188-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="282c2d62-06ad-4919-93d5-972292102c36" testId="347ec06a-1dba-d27d-5eac-6e6607891007" testName="TestDiscardEmptyCart" computerName="ALPHA" duration="00:00:00.0003179" startTime="2010-02-22T21:13:16.0865189-06:00" endTime="2010-02-22T21:13:16.0895191-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="41a285d7-f5ab-4a1e-8b97-18380c0a8621" testId="4a2c46c9-0411-3d1b-4ba9-470a47f7606d" testName="TestSubtractNegativePointsScore" computerName="ALPHA" duration="00:00:00.0001966" startTime="2010-02-22T21:13:16.0905192-06:00" endTime="2010-02-22T21:13:16.0925193-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="69df4cab-3c6c-45e1-89b4-9697beae2dc3" testId="584525e8-4ae2-0f25-250a-249df1fa6a59" testName="TestCheckCartForPalindromeForANonPalidrome" computerName="ALPHA" duration="00:00:00.0008014" startTime="2010-02-22T21:13:16.0945194-06:00" endTime="2010-02-22T21:13:16.0975196-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="963fe518-70af-4636-9497-6eb26596f998" testId="71fd168f-fdde-189b-c619-e9faa84144a5" testName="TestDiscardCart" computerName="ALPHA" duration="00:00:00.0002645" startTime="2010-02-22T21:13:16.0995197-06:00" endTime="2010-02-22T21:13:16.1025199-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="588bd071-ecbb-4e08-8617-d4a40a9a7080" testId="76fd494f-abb2-6bd3-7b64-67182011ffad" testName="TestAddToFullCart" computerName="ALPHA" duration="00:00:00.0005084" startTime="2010-02-22T21:13:16.1035199-06:00" endTime="2010-02-22T21:13:16.1075201-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4eb9d9bf-3def-4ef8-aadd-da72fbf36597" testId="77672e8a-4faa-14e6-44d2-7d137bb25773" testName="TestCreateShelf" computerName="ALPHA" duration="00:00:00.0004366" startTime="2010-02-22T21:13:16.1085202-06:00" endTime="2010-02-22T21:13:16.1115204-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2cc1b9b4-f57f-47e8-a1f9-65120d60dadd" testId="7d32fbdd-abef-41ee-5a53-eeba05221dba" testName="TestSelectLetter" computerName="ALPHA" duration="00:00:00.0027018" startTime="2010-02-22T21:13:16.1125204-06:00" endTime="2010-02-22T21:13:16.1175207-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab306379-83e2-43d7-87eb-6420feafe99b" testId="7e8e6025-65c3-a54d-1a18-f3660fefe13a" testName="TestCanary" computerName="ALPHA" duration="00:00:00.0002188" startTime="2010-02-22T21:13:16.1205209-06:00" endTime="2010-02-22T21:13:16.1235211-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed469ede-ed1e-401f-800d-844827423e28" testId="801b1050-b67e-d88c-98c0-bfe6ada94fb4" testName="TestCreateCart" computerName="ALPHA" duration="00:00:00.0001873" startTime="2010-02-22T21:13:16.1255212-06:00" endTime="2010-02-22T21:13:16.1275213-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c95d243f-4023-457d-a13e-c018cf1ea77e" testId="8249f976-fa8a-62b8-e9a2-4a0f8a996099" testName="TestCanary" computerName="ALPHA" duration="00:00:00.0001704" startTime="2010-02-22T21:13:16.1285213-06:00" endTime="2010-02-22T21:13:16.1315215-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e267105d-47e7-4c53-bdff-4fddd5687a34" testId="91bb29bd-0ad6-9b42-a405-9d67cf7e4a9f" testName="TestCollectCart" computerName="ALPHA" duration="00:00:00.0021599" startTime="2010-02-22T21:13:16.1315215-06:00" endTime="2010-02-22T21:13:16.1375219-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Wade_Assignment1Test.GameControllerTest.TestCollectCart threw exception:  System.DllNotFoundException: Hunspell Intel 32Bit DLL not found: C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\Hunspellx86.dll.</Message>
+          <StackTrace>    at NHunspell.MarshalHunspellDll.LoadNativeHunspellDll()
+   at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Utilities.StringUtility.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\StringUtility.cs:line 17
+   at Wade_Assignment1.Core.GameController.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\Core\GameController.cs:line 38
+   at Wade_Assignment1.Core.GameController.IsSpelledCorrect() in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\Core\GameController.cs:line 64
+   at Wade_Assignment1Test.GameControllerTest.TestCollectCart() in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\GameControllerTest.cs:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b808902-117d-4b3f-b739-d2478cc6c6e9" testId="9791b6a7-6e91-7071-8506-bb553e691c30" testName="TestAddLetter" computerName="ALPHA" duration="00:00:00.0002031" startTime="2010-02-22T21:13:16.1385219-06:00" endTime="2010-02-22T21:13:16.1405220-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80229ae6-d6b8-411f-aeb4-a59a817ab404" testId="a7fd0cc6-58ac-0ca5-850e-f9f275dad8e9" testName="TestCreateScoreKeeper" computerName="ALPHA" duration="00:00:00.0002315" startTime="2010-02-22T21:13:16.1425221-06:00" endTime="2010-02-22T21:13:16.1475224-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0027fb20-5283-4efe-ad77-2ec8c512fbaa" testId="a80afcd5-2b36-bc32-34ac-b6e9d2e06085" testName="TestDiscardCart" computerName="ALPHA" duration="00:00:00.0028988" startTime="2010-02-22T21:13:16.1485225-06:00" endTime="2010-02-22T21:13:16.1535228-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="61c9454c-678b-4ad7-8822-cc213e59e1e0" testId="a8dfc6a1-75bf-4b0f-bc9f-db90d116ae17" testName="TestValueForInvalidLetter" computerName="ALPHA" duration="00:00:00.0004611" startTime="2010-02-22T21:13:16.1565229-06:00" endTime="2010-02-22T21:13:16.1595231-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5876430a-f067-4eff-96a5-f2401e359ad4" testId="c7b9f958-ec7a-d527-d879-5fcb206667ba" testName="TestAddPointsToScore" computerName="ALPHA" duration="00:00:00.0001873" startTime="2010-02-22T21:13:16.1615232-06:00" endTime="2010-02-22T21:13:16.1635233-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22e0ae45-cdf9-4126-814c-5588266d99c0" testId="d6dda293-191b-8c91-4da0-ca0e77dc2492" testName="TestSubtractPointsFromAZeroScore" computerName="ALPHA" duration="00:00:00.0002895" startTime="2010-02-22T21:13:16.1645234-06:00" endTime="2010-02-22T21:13:16.1675236-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="78b9b6d6-87d1-4e11-8d83-705a484b4a74" testId="d7a98d90-8842-40fe-ba3d-6a7f9676e055" testName="TestCheckCartForPalindrome" computerName="ALPHA" duration="00:00:00.0001893" startTime="2010-02-22T21:13:16.1685236-06:00" endTime="2010-02-22T21:13:16.1735239-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39ece236-ef3f-4317-b06e-d7ef75a86d98" testId="e82bbdb2-5434-6123-a03d-b9925db721f0" testName="TestSpellingOfIncorrectlySpelledWord" computerName="ALPHA" duration="00:00:00.0014876" startTime="2010-02-22T21:13:16.1745240-06:00" endTime="2010-02-22T21:13:16.1785242-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Wade_Assignment1Test.GameControllerTest.TestSpellingOfIncorrectlySpelledWord threw exception:  System.DllNotFoundException: Hunspell Intel 32Bit DLL not found: C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\Hunspellx86.dll.</Message>
+          <StackTrace>    at NHunspell.MarshalHunspellDll.LoadNativeHunspellDll()
+   at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Utilities.StringUtility.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\StringUtility.cs:line 17
+   at Wade_Assignment1.Core.GameController.IsSpelledCorrect(String word) in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\Core\GameController.cs:line 38
+   at Wade_Assignment1Test.GameControllerTest.TestSpellingOfIncorrectlySpelledWord() in C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\Test\Wade_Assignment1Test\GameControllerTest.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="987ac908-3b4a-414b-b06f-7a8bbbfcd045" testId="fd61d4d4-be3f-ccc8-7dda-0a4b51759a38" testName="TestValueForALetter" computerName="ALPHA" duration="00:00:00.0002572" startTime="2010-02-22T21:13:16.1795243-06:00" endTime="2010-02-22T21:13:16.1835245-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

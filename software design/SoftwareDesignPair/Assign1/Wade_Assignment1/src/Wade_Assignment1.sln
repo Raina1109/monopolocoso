@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{834A7EB8-D42A-4F48-B059-9661D7F96E84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{478BA9BF-2553-4577-AA1D-7D2050BBDE55}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Wade_Assignment1.vsmdi = Wade_Assignment1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wade_Assignment1Test", "..\Test\Wade_Assignment1Test\Wade_Assignment1Test.csproj", "{A4BD40B4-715B-4BF5-8B2A-6BC4CE166CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringUtility", "StringUtility\StringUtility.csproj", "{0E61A3CC-92F0-4151-A747-D4636EF3E1F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{6F30C5A8-6D5B-4E20-848D-047E12989889}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\en_US.aff = Lib\en_US.aff
+		Lib\en_US.dic = Lib\en_US.dic
+		Lib\Hunspellx64.dll = Lib\Hunspellx64.dll
+		Lib\Hunspellx86.dll = Lib\Hunspellx86.dll
+		Lib\NHunspell.dll = Lib\NHunspell.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{3DDC9025-1C10-474D-BC5D-58A908D20063}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Wade_Assignment1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834A7EB8-D42A-4F48-B059-9661D7F96E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834A7EB8-D42A-4F48-B059-9661D7F96E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834A7EB8-D42A-4F48-B059-9661D7F96E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834A7EB8-D42A-4F48-B059-9661D7F96E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BD40B4-715B-4BF5-8B2A-6BC4CE166CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BD40B4-715B-4BF5-8B2A-6BC4CE166CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BD40B4-715B-4BF5-8B2A-6BC4CE166CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BD40B4-715B-4BF5-8B2A-6BC4CE166CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E61A3CC-92F0-4151-A747-D4636EF3E1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E61A3CC-92F0-4151-A747-D4636EF3E1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E61A3CC-92F0-4151-A747-D4636EF3E1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E61A3CC-92F0-4151-A747-D4636EF3E1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDC9025-1C10-474D-BC5D-58A908D20063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDC9025-1C10-474D-BC5D-58A908D20063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDC9025-1C10-474D-BC5D-58A908D20063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDC9025-1C10-474D-BC5D-58A908D20063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F30C5A8-6D5B-4E20-848D-047E12989889} = {478BA9BF-2553-4577-AA1D-7D2050BBDE55}
+	EndGlobalSection
+EndGlobal

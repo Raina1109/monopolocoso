@@ -1,0 +1,44 @@
+04/21/10 01:26 PM IST
+
+TestPalindromeDetector:
+
+Change
+string palindromeWord = "rotor";
+
+Assert.IsTrue(palindromeDetector.IsSpecial(palindromeWord));
+
+to
+
+Assert.IsTrue(palindromeDetector.IsSpecial("rotor"));
+
+PalindromeDetector:
+Too complicated. You don't need a loop at all for this.
+
+TestAlphabetDetector:
+Good
+
+AlphabetDetector:
+Remove constructor
+No need for loop.
+
+TestSpecialWordDetector:
+Make the first test to check for a special word to be assert false
+with no detector logic in place.
+
+specialWordDetector.AddDetector(new PalindromeDetector());
+Remove this method. The SpecialWordDetector should no have this
+responsibility.
+
+-----------------------------------------------------------------------
+
+04/21/10 04:44 AM IST
+
+Remove all the code you have written so far (too complicated).
+
+Start by writing a TestPalindromDetector and PalindromeDetector.
+Then proceed with TestAlphabeticOrderDetector and the class for it.
+
+Then get to TestSpecialWordDetector and write the five tests I have
+discussed on the mailing list.
+
+-----------------------------------------------------------------------

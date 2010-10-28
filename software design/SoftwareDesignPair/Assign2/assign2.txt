@@ -1,0 +1,75 @@
+Assignment 2: Due 11:59PM Friday March 26th
+
+I've provided sample code for Java, C#, and C++ (along with the necessary jar, dll, and lib, respectively. If you will use a language other than these, let me know and I will provide the code in that language.
+
+If you plan to use some other language on the JVM (like Groovy/Scala) or some other language on the .NET platform (like VB.NET, IronRuby, etc.) then the given binary files (jar or dll) are usable with those as well).
+
+You have been provided a piece of code that determines the current  temperature of a given city (cities are identified using a unique id). The code uses third party classes to actually determine the temperature. There are three such third party services (and so three classes). Each one has a distinctive characteristic:
+
+Service Provider 1 - this provider of service is free, that is, there is no cost to accessing this service. However, this service is quite  unreliable. It fails about 50% of the time. 
+
+Service Provider 2 - this provider of service charges fee. The reliability/availability is about 80% of the time.
+
+Service Provider 3 - this provider is expensive, but has very high  availability. The code that's provided to you uses these three services in such a way as to minimize the cost of getting the temperature. It first tries to get the temperature from provider 1, if that fails, tries provider 2, and if that also fails, tries provider 3. We just learned that there  may be other providers that we could use with variable availability  and cost. The code given could be modified to accommodate for that extension or we could make it better. 
+
+Todo:
+
+1. Answer the following questions first:
+
+(a). What are the design and code smells in the given code?
+
+The repeating of code. The same logic is repeated 3 times to deal which each provider. Code is rigid and not extensible because to add additional providers will require code changes for the code is written for only the three providers given. The TemperatureFinder class is highly coupled with the three providers in that if any one of the providers changes, that change may affect the TemperatureFinder class.
+
+(b). What design principles are being violated in the given code?
+
+DRY - The same logic is repeated 3 times  to deal which each provider violating the principle.
+OCP - It is not extensible to add additional providers which makes it closed to extensibility.
+DIP - TemperatureFinder class is highly coupled with the three providers making change very expensive.
+TDA - The com Providers.dll has Providers that have methods that ask for the temperature instead of telling it.
+
+(c). What is the value of A, I, and D' for the given code? (show calculation, not just final numbers) 
+
+TemperatureFinder depends on provider classes 1 , 2 and 3, thus, Ce = 3 and has 0 classes that depend on it so Ca = 0,
+thus I = Ce/(Ca+Ce) = 3/0+3 = 1
+There are not abstract classes in the dll so A = 0
+D' = |(0 + 1 -1)| = 0
+
+Provider.dll does not depend on any class so Ce = 0, and has one class depends on it so Ca = 1, thus I = 0/1+0 = 0
+Provider.dll has 0 abstract classes so A = 0
+D' = | 0 + 0 - 1| = 1
+
+
+D' for the whole system is 1/2 = 0.5
+
+2.  Now, ignore the code given (just leave it alone) and start with a TDD approach to create a piece of code that uses the three classes to provide the capability of the code you discarded. Remember, you are still required to use the three classes (that are in the jar/dll/lib).
+
+3. After you finish your new code with hopefully a better design, answer the following questions:
+
+(d) Explain how your new design is better than the one given to you?
+The provider object are now implement of provider interface so TemperatureFinder no longer depend directly on the Com package which allow for extensibility. Code are longer but if you want to add another provider to the list you don't need to cascading change into the Temperature Finder
+
+(e) What design principles did you follow in your new design?
+
+OCP, LCP, DRY. 
+
+(f) What is the value of A, I, and D' for your new design?(show calculation, not just final numbers)
+
+the new system look like this
+
+[ICityTemperatorProvider]<---[TemperatureFinder]
+			^
+			/
+			|
+			|------------------------
+			|			|			|
+			|			|			|
+		[provider1]	[provider2]	[provider3]
+			^			^			^
+			|			|			|
+[com]-------------------------------		
+		
+For Com package, the values for A, I,D' is the same: A = 0, I = 1, D' = 0
+For the new package, the values for A is 0.2 because there is 1 abstract class and 4 concrete classes
+The value for I = 0 cause there is only 1 dependence from outside, no package is depending on this package
+So in total D' is: D' = 0.8
+D' total = 0.4

@@ -1,0 +1,45 @@
+﻿HW1 Due 11:59PM Feb. 3rd.
+
+
+
+Please feel free to edit and check in this file any number of times until the 
+due time. You can ask for reviews at any time (simply drop me an email asking for review, don't email attachments, I can view your work from svn 
+repository). Any file checked in outside of this directory will not be used 
+to grade this homework.
+
+
+
+1. Which of these two concepts is more important to realise extensibility: 
+inheritance or polymorphisms? Explain.
+
+
+Polymorphisms is more important to realize extensibility because it enables software engineers to write methods and functions that can run despite the class type it resides in. The software engineer thus can use the same method in many different ways. 
+
+e.g the code snippet (example1.cpp)
+
+Inheritance is less important when it comes to extensibility because it is not required to achieve extensibility in dynamic type languages such a Ruby.  
+
+code example2 (example2.rb)
+
+
+
+
+
+2. Argue either in favour or against the following statement:
+"Dynamic languages are weakly typed."
+ 
+This is wrong because even though some dynamic languages performs checks on the type at runtime, it does not mean that the language allows an invalid type to continue program execution. 
+
+Weak typed languages will allow invalid types to continue on into program execution which may cause unexpected results. An example of a dynamic typed language that is not weakly typed is Ruby.
+
+
+
+
+3. Argue either in favour or against the following statement:
+"Static typing makes your program safe."
+
+
+This is not really true. Static typing mean the compiler check the object type before actually run the program, but their are always loop holes we can 
+use to get through the checks. Take for examples statically typed languages such as Java. Using Java generics we can get around static typing. In C++, another static typed language, the program will not be safe becuase the language is weakly typed, allowing the program to run with any memory given to the program.
+
+example3

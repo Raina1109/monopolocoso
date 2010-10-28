@@ -1,0 +1,22 @@
+02/19/10 12:04 PM CT
+
+I see pair2_Assignment1 directory. Am I going to see
+pair1_Assignment1 directory. This is a pair effort. Has your
+pair disappeared? I want to see good directory structure.
+
+src for source
+test for test
+
+Please create a good directory name and structure.
+
+CartTest:
+Start with fundamental Cart behavior. Putting letter on it,
+collecting it. Spell checking really is not the business of
+cart, so it should not belong in this test.
+
+Then drive negative tests on these.
+
+Remove comments that are useful from the code.
+Remove IDE vomits.
+
+=======================================================================

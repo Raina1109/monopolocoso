@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<project name="Assignment3" default="clean-build-all" >
+	<property name="current.dir" value="${directory::get-current-directory()}" />
+	<property name="nunit.dll.dir" value="${current.dir}/test/Assignment3Test/lib" />
+	<property name="CCARTIFACTSDIR" value="${current.dir}/CC_BUILD_DIR" />
+	<property name="classes.dir"  value="${current.dir}/build/classes" />
+	<property name="testclasses.dir" value="${current.dir}/build/testClasses" />
+	<if test="${environment::variable-exists('CC_BUILD_ARTIFACTS')}">
+          <property name="CCARTIFACTSDIR" value="${environment::get-variable('CC_BUILD_ARTIFACTS')}" />
+    </if>
+  
+  <target name="clean-build-all" depends="clean, compile, compileTests, runTests"/>
+  
+  <target name="runTests" depends="compileTests">
+  	<copy todir="${testclasses.dir}">
+			<fileset basedir="${classes.dir}">
+				<include name="*.dll" />
+			</fileset>
+		</copy>
+		<copy todir="${testclasses.dir}">
+			<fileset basedir="${nunit.dll.dir}">
+				<include name="nunit.framework.dll" />
+			</fileset>
+		</copy>
+		<nunit2>
+			<formatter type="Plain" usefile="true" extension=".txt" outputdir="${CCARTIFACTSDIR}"/> 
+			<test assemblyname="${testclasses.dir}/Assignment3Test.dll" />
+		</nunit2>	
+  </target>
+  
+  <target name="compile">
+  	<mkdir dir="${classes.dir}"/>
+    <csc target="library" output="${classes.dir}/Assignment3.dll">
+      <sources>
+        <include name="src/Assignment3.Core/*.cs"/>
+      </sources>
+    </csc>
+  </target>
+
+  <target name = "compileTests" depends = "compile">
+  	<mkdir dir="${testclasses.dir}"/>
+    <csc target = "library" output = "${testclasses.dir}/Assignment3Test.dll">
+      <sources>
+		<include name="test/Assignment3Test/*.cs" />
+      </sources>
+       <references>
+        <include name="${nunit.dll.dir}/nunit.framework.dll" />
+		<include name="${classes.dir}/*.dll" />
+      </references>
+    </csc>
+  </target>
+  
+  <target name="clean">
+  	<delete dir="build"/>
+	</target>
+	
+</project>
+

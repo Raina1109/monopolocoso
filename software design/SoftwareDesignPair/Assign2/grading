@@ -1,0 +1,37 @@
+Assignment 2 Grading.
+
+Answer to (a) [5]:
+Answer to (b) [5]:
+Answer to (c) [5]:
+Answer to (d) [5]:
+Answer to (e) [5]:-3
+LCP? Other principles?
+
+Answer to (f) [5]:
+
+All tests pass [10]:
+
+Test quality [10]:-4
+TestGetTemperature:
+Does not tell me which provider returned result.
+Assert.AreNotEqual(temperatureFinder.GetTemperture(1234), -999 );
+How does this help?
+
+Using mocks [20]:
+Code quality [10]:
+
+Design quality and structure [20]:-10
+Reliability: YAGNI
+ICityTemperatureProvider:
+Equals: Odd to see this method in an interface
+
+Provider1:
+Equals: Unnecessary complexity
+
+Suppressing exceptions!!!
+
+TemperatureFinder: Overly complex for the give problem.
+You wasted effort writing a lot more code (80% more) than
+you really need.
+
+Total [100]: 83

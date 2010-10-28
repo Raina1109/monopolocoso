@@ -1,0 +1,34 @@
+#################################
+THIS PROJECT VERSION IS ABANDONED
+#################################
+
+List classes you think you will need. - done
+	-Cart, Shelve, Game, UI-
+Create canary  - done
+Create cart - done
+Add letter to cart - done
+Add letter to not empty slot in cart. - done
+Add letter to out of bound from slot array. - done
+Discard cart - done
+get string from cart  - done
+collect word from cart increase point
+collect letter from cart with space in between.
+collect from cart which don't form a word. 
+collect empty cart. 
+get letter out of range. - done
+get empty letter. - done
+Create shelf - done
+Random a letter in shelf - done
+Take a letter from the shelf - done
+game create .
+add score .
+print score .
+deduct score .
+end game .
+check palindrome
+assert string empty after collect success
+replace the point count array
+score keepter create - done
+score keeper get score - done
+score keeper change score - done
+score keeper deduct score bigger than having

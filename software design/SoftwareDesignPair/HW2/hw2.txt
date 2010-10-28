@@ -1,0 +1,91 @@
+HW2 Due 11:59PM Monday April 5, 2010
+
+
+
+Assume a class named Mediator is in a package named mediator. This 
+class depends on several components that are in a package named 
+components. Each of these classes depend on the Mediator.
+
+
+(a) Draw a picture of the above design. 
+
+Mention file name to view here (jpg, tiff, word, scanned hand drawn sketches are acceptable).
+
+Please see file: Hw2_diagram.jpg
+
+(b) What is the value of A, I, and D' for each package and also overall D'.
+
+
+A = (# of Abstract classes) / (# of Classes)
+I = Ce / (Ca + Ce)
+D'= | (A + 1 - I) |
+
+
+Assume there are n number of component inside of component package
+Package mediator:
+
+A = 0 / 1 = 0
+Because package mediator contain mediator class which depend on n classes in package components and each package in component also depend on mediator so Ca = n and Ce also = n.
+I = n / (n + n) = .5
+D'= | 0 + 1 - .5 | = .5
+
+Package components:
+
+A = 0 / n = 0
+because there is only the mediator class that depend on every class inside of component and every components depend on mediator so Ce = # of lasses outside that depend upon this class = 1
+and Ca = # classes outside that this class depends upon = 1.
+I = 1 / (1 + 1) = .5
+D'= | 0 + 1 - .50 | = .5
+
+Overall D' = .5
+
+
+(c) What is wrong with the above design? Explain the consequence.
+
+
+The two packages are highly coupled because of class dependencies. Consequence of this design is when a change is needed in one class in either package, more than likely a change will be needed in the dependent class causing a cascade of changes back through the depedency chain.
+
+
+
+(d) Redesign (show diagram).
+
+redesign.png
+
+Mention file name to view here (jpg, tiff, word, scanned hand drawn sketches are acceptable).
+
+(e) Recalculate A, I, and D' for each package and also overall D'.
+
+Component Package:
+A = 0/n = 0
+I = 1 / (1 + 1) = 0.5
+D' = |0.5+0-1| = 0.5
+
+Packge mediator:
+A = 0 / 1 = 0
+I = 1 / (n + 1)
+D' = |0 + (1 / (n + 1)) - 1| = n/(n + 1)
+
+Component Facade Package:
+A = 0/1 = 1
+I = n / 1 + n 
+D' = |0 + (n / 1 + n) - 1 | = 1/(n + 1)
+
+D' Overall = (0.5 + n/(n + 1) + 1/(n + 1)) / 3 = 1.5/3 =0.5
+
+
+(f) What design principles did you use in your design. Explain.
+
+We used the Facade Pattern to decoupling the two way relationship between component package component classes and mediator class in Mediator package. Now all components depend only on the mediator which is implemented by mediator class. Mediator in turn depend on a components facade/wrapper class in its own package. We have deleted the two way relationship between Mediator and Components
+
+[Total 10pts:] 2 pts
+(a 1 pt):
+(b 1 pts): -1 Calculation of I for components should use n also.
+(c 2 pt): -1 Hampers reuse
+(d 3 pts)Different design options: 
+-3 Must present different design options. Presented option is
+not a good one, facade is not useful here.
+(e 2 pts) For different design options:
+-2 No improvement at the best. Worst in terms of coupling and
+design qualities.
+(f 1 pts) -1 The question is about principle, not pattern.
+

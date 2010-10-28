@@ -1,0 +1,6 @@
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\bin\Debug\StringUtility.dll
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\bin\Debug\StringUtility.pdb
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\bin\Debug\NHunspell.dll
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\obj\Debug\StringUtility.dll
+C:\Users\Tri Chu\Documents\My Dropbox\UH\spring2010\design\SoftwareDesignPair\Assign1\Wade_Assignment1\src\StringUtility\obj\Debug\StringUtility.pdb

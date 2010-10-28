@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRunConfiguration name="Local Test Run" id="1259364d-5428-4b75-90e9-ef2d739591df" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Description>This is a default test run configuration for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="Assignment1\Lib\Hunspellx86.dll" />
+    <DeploymentItem filename="Assignment1\Lib\NHunspell.dll" />
+    <DeploymentItem filename="Assignment1\Lib\Hunspellx64.dll" />
+    <DeploymentItem filename="Assignment1\Lib\en_US.aff" />
+    <DeploymentItem filename="Assignment1\Lib\en_US.dic" />
+  </Deployment>
+  <TestTypeSpecific />
+</TestRunConfiguration>

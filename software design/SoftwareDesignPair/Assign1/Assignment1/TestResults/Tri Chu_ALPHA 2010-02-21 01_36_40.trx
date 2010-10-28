@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="486be671-90fe-4543-b9d5-565a0183ab92" name="Tri Chu@ALPHA 2010-02-21 01:36:40" runUser="Alpha\Tri Chu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="1259364d-5428-4b75-90e9-ef2d739591df">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestResults\Tri Chu_ALPHA 2010-02-21 01_36_40">
+      <DeploymentItem filename="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\NHunspell.dll" />
+      <DeploymentItem filename="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\bin\Debug\Assignment1.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" passed="8" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-02-21T01:36:40.6164787-06:00" queuing="2010-02-21T01:36:41.0275022-06:00" start="2010-02-21T01:36:41.1135071-06:00" finish="2010-02-21T01:36:41.3965233-06:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCollectCartSuccess" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="91b373af-50d6-f6ee-f8c3-1a73ba93fd39">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="933e1047-9bb2-4459-8bb7-018a9acc298a" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCollectCartSuccess" />
+    </UnitTest>
+    <UnitTest name="getEmptyLetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="8768a048-b925-d15c-1b3c-b4fe389a7bb1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="75532ff2-8d50-488d-b6b1-0fb7f7d25bd5" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="getEmptyLetter" />
+    </UnitTest>
+    <UnitTest name="TestAddLetterOutsideRange" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="c92e2a78-79fe-4396-dc0a-553352197cb0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="60ae1eed-16af-4418-93de-34e389b19443" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestAddLetterOutsideRange" />
+    </UnitTest>
+    <UnitTest name="getLetterOutOfRange" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="9dfe4827-58b7-c9b3-7de3-bd9c29bb5ef2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4020823c-1645-458b-849b-df8b21955eab" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="getLetterOutOfRange" />
+    </UnitTest>
+    <UnitTest name="TestCollectWrongSpelling" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="d7ca866d-b774-56db-3670-b255e28d3b4d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3427f683-a94c-4524-b79e-e5b58a4c2f05" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCollectWrongSpelling" />
+    </UnitTest>
+    <UnitTest name="TestDiscardCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="f394b664-2547-3480-7f3d-9053bfdda347">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e91b0224-37c0-491a-b935-1472a0a92a40" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestDiscardCart" />
+    </UnitTest>
+    <UnitTest name="TestCreateCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="e1dc6a64-ad5b-c013-c091-8e364331cdca">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bd1b5da6-dedb-42dd-9e7c-c46795e8ec42" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCreateCart" />
+    </UnitTest>
+    <UnitTest name="TestCollectDoubleWords" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="f585d6e1-5515-0e93-b969-2a9a2a20744f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7ca038c3-c217-4570-bde5-f45fcf1e9d37" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCollectDoubleWords" />
+    </UnitTest>
+    <UnitTest name="TestCanary" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="5aa8850a-7e3e-03fa-3b81-a74a7182445c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="417aeecb-ea5e-4d48-ac68-fad0b815c6cf" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCanary" />
+    </UnitTest>
+    <UnitTest name="TestCollectEmptyCart" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="afbf0f15-28ce-643c-2a65-5dc4e1f0254b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0d78b481-55b7-48ea-971b-4e954b2aef89" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestCollectEmptyCart" />
+    </UnitTest>
+    <UnitTest name="TestAddLetterInOccupiedCell" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="660a6fb3-ff60-61f6-e785-17dac886aa87">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="75dbea80-572b-4822-8cc3-9725a5abcb5d" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestAddLetterInOccupiedCell" />
+    </UnitTest>
+    <UnitTest name="TestAddLetter" storage="c:\users\tri chu\documents\my dropbox\uh\spring10\design\softwaredesignpair\assign1\assignment1\testassignment1\bin\debug\testassignment1.dll" id="a8539034-9ea9-4294-85eb-e5bff228d5dd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="177d914b-78e9-483a-80fc-2cb395542f79" />
+      <TestMethod codeBase="C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\bin\Debug\TestAssignment1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestAssignment1.TestCart, TestAssignment1" name="TestAddLetter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5aa8850a-7e3e-03fa-3b81-a74a7182445c" executionId="417aeecb-ea5e-4d48-ac68-fad0b815c6cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="660a6fb3-ff60-61f6-e785-17dac886aa87" executionId="75dbea80-572b-4822-8cc3-9725a5abcb5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8768a048-b925-d15c-1b3c-b4fe389a7bb1" executionId="75532ff2-8d50-488d-b6b1-0fb7f7d25bd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91b373af-50d6-f6ee-f8c3-1a73ba93fd39" executionId="933e1047-9bb2-4459-8bb7-018a9acc298a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dfe4827-58b7-c9b3-7de3-bd9c29bb5ef2" executionId="4020823c-1645-458b-849b-df8b21955eab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8539034-9ea9-4294-85eb-e5bff228d5dd" executionId="177d914b-78e9-483a-80fc-2cb395542f79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afbf0f15-28ce-643c-2a65-5dc4e1f0254b" executionId="0d78b481-55b7-48ea-971b-4e954b2aef89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c92e2a78-79fe-4396-dc0a-553352197cb0" executionId="60ae1eed-16af-4418-93de-34e389b19443" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7ca866d-b774-56db-3670-b255e28d3b4d" executionId="3427f683-a94c-4524-b79e-e5b58a4c2f05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1dc6a64-ad5b-c013-c091-8e364331cdca" executionId="bd1b5da6-dedb-42dd-9e7c-c46795e8ec42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f394b664-2547-3480-7f3d-9053bfdda347" executionId="e91b0224-37c0-491a-b935-1472a0a92a40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f585d6e1-5515-0e93-b969-2a9a2a20744f" executionId="7ca038c3-c217-4570-bde5-f45fcf1e9d37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="417aeecb-ea5e-4d48-ac68-fad0b815c6cf" testId="5aa8850a-7e3e-03fa-3b81-a74a7182445c" testName="TestCanary" computerName="ALPHA" duration="00:00:00.1005960" startTime="2010-02-21T01:36:41.1155073-06:00" endTime="2010-02-21T01:36:41.3175188-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75dbea80-572b-4822-8cc3-9725a5abcb5d" testId="660a6fb3-ff60-61f6-e785-17dac886aa87" testName="TestAddLetterInOccupiedCell" computerName="ALPHA" duration="00:00:00.0007856" startTime="2010-02-21T01:36:41.3185189-06:00" endTime="2010-02-21T01:36:41.3225191-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75532ff2-8d50-488d-b6b1-0fb7f7d25bd5" testId="8768a048-b925-d15c-1b3c-b4fe389a7bb1" testName="getEmptyLetter" computerName="ALPHA" duration="00:00:00.0004554" startTime="2010-02-21T01:36:41.3225191-06:00" endTime="2010-02-21T01:36:41.3285194-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="933e1047-9bb2-4459-8bb7-018a9acc298a" testId="91b373af-50d6-f6ee-f8c3-1a73ba93fd39" testName="TestCollectCartSuccess" computerName="ALPHA" duration="00:00:00.0382674" startTime="2010-02-21T01:36:41.3285194-06:00" endTime="2010-02-21T01:36:41.3695218-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestAssignment1.TestCart.TestCollectCartSuccess threw exception:  System.IO.FileNotFoundException: Affix File not found: C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestResults\Tri Chu_ALPHA 2010-02-21 01_36_40\Out\en_us.aff.</Message>
+          <StackTrace>    at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Assignment1.Cart.check() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 19
+   at Assignment1.Cart.collect() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 58
+   at TestAssignment1.TestCart.TestCollectCartSuccess() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\TestCart.cs:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4020823c-1645-458b-849b-df8b21955eab" testId="9dfe4827-58b7-c9b3-7de3-bd9c29bb5ef2" testName="getLetterOutOfRange" computerName="ALPHA" duration="00:00:00.0002987" startTime="2010-02-21T01:36:41.3695218-06:00" endTime="2010-02-21T01:36:41.3715219-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="177d914b-78e9-483a-80fc-2cb395542f79" testId="a8539034-9ea9-4294-85eb-e5bff228d5dd" testName="TestAddLetter" computerName="ALPHA" duration="00:00:00.0001912" startTime="2010-02-21T01:36:41.3725220-06:00" endTime="2010-02-21T01:36:41.3745221-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d78b481-55b7-48ea-971b-4e954b2aef89" testId="afbf0f15-28ce-643c-2a65-5dc4e1f0254b" testName="TestCollectEmptyCart" computerName="ALPHA" duration="00:00:00.0011961" startTime="2010-02-21T01:36:41.3745221-06:00" endTime="2010-02-21T01:36:41.3775222-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestAssignment1.TestCart.TestCollectEmptyCart threw exception:  System.IO.FileNotFoundException: Affix File not found: C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestResults\Tri Chu_ALPHA 2010-02-21 01_36_40\Out\en_us.aff.</Message>
+          <StackTrace>    at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Assignment1.Cart.check() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 19
+   at Assignment1.Cart.collect() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 58
+   at TestAssignment1.TestCart.TestCollectEmptyCart() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\TestCart.cs:line 120
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60ae1eed-16af-4418-93de-34e389b19443" testId="c92e2a78-79fe-4396-dc0a-553352197cb0" testName="TestAddLetterOutsideRange" computerName="ALPHA" duration="00:00:00.0002975" startTime="2010-02-21T01:36:41.3785223-06:00" endTime="2010-02-21T01:36:41.3805224-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3427f683-a94c-4524-b79e-e5b58a4c2f05" testId="d7ca866d-b774-56db-3670-b255e28d3b4d" testName="TestCollectWrongSpelling" computerName="ALPHA" duration="00:00:00.0009354" startTime="2010-02-21T01:36:41.3805224-06:00" endTime="2010-02-21T01:36:41.3835226-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestAssignment1.TestCart.TestCollectWrongSpelling threw exception:  System.IO.FileNotFoundException: Affix File not found: C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestResults\Tri Chu_ALPHA 2010-02-21 01_36_40\Out\en_us.aff.</Message>
+          <StackTrace>    at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Assignment1.Cart.check() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 19
+   at Assignment1.Cart.collect() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 58
+   at TestAssignment1.TestCart.TestCollectWrongSpelling() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\TestCart.cs:line 128
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd1b5da6-dedb-42dd-9e7c-c46795e8ec42" testId="e1dc6a64-ad5b-c013-c091-8e364331cdca" testName="TestCreateCart" computerName="ALPHA" duration="00:00:00.0002972" startTime="2010-02-21T01:36:41.3835226-06:00" endTime="2010-02-21T01:36:41.3865228-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e91b0224-37c0-491a-b935-1472a0a92a40" testId="f394b664-2547-3480-7f3d-9053bfdda347" testName="TestDiscardCart" computerName="ALPHA" duration="00:00:00.0003233" startTime="2010-02-21T01:36:41.3865228-06:00" endTime="2010-02-21T01:36:41.3885229-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ca038c3-c217-4570-bde5-f45fcf1e9d37" testId="f585d6e1-5515-0e93-b969-2a9a2a20744f" testName="TestCollectDoubleWords" computerName="ALPHA" duration="00:00:00.0010425" startTime="2010-02-21T01:36:41.3895229-06:00" endTime="2010-02-21T01:36:41.3925231-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestAssignment1.TestCart.TestCollectDoubleWords threw exception:  System.IO.FileNotFoundException: Affix File not found: C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestResults\Tri Chu_ALPHA 2010-02-21 01_36_40\Out\en_us.aff.</Message>
+          <StackTrace>    at NHunspell.Hunspell..ctor(String affFile, String dictFile)
+   at Assignment1.Cart.check() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 19
+   at Assignment1.Cart.collect() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\Assignment1\Cart.cs:line 58
+   at TestAssignment1.TestCart.TestCollectDoubleWords() in C:\Users\Tri Chu\Documents\My Dropbox\UH\Spring10\design\SoftwareDesignPair\Assign1\Assignment1\TestAssignment1\TestCart.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

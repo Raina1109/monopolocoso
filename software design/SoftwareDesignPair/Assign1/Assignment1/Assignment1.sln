@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Src", "Assignment1\Src.csproj", "{32BDEC8E-1539-45AE-8844-C90DEA6E9853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "TestAssignment1\Test.csproj", "{8A43D838-C58B-4821-8422-8BBCA534075A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00B5E3B2-F3E3-471D-88A1-0BC8CFDBBAC3}"
+	ProjectSection(SolutionItems) = preProject
+		Assignment1.vsmdi = Assignment1.vsmdi
+		Assignment11.vsmdi = Assignment11.vsmdi
+		Assignment12.vsmdi = Assignment12.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{357CDF21-E47F-43EB-8EFC-1A172F193DDE}"
+	ProjectSection(SolutionItems) = preProject
+		Assignment1\Lib\en_US.aff = Assignment1\Lib\en_US.aff
+		Assignment1\Lib\en_US.dic = Assignment1\Lib\en_US.dic
+		Assignment1\Lib\Hunspellx64.dll = Assignment1\Lib\Hunspellx64.dll
+		Assignment1\Lib\Hunspellx86.dll = Assignment1\Lib\Hunspellx86.dll
+		Assignment1\Lib\NHunspell.dll = Assignment1\Lib\NHunspell.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Assignment12.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BDEC8E-1539-45AE-8844-C90DEA6E9853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BDEC8E-1539-45AE-8844-C90DEA6E9853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BDEC8E-1539-45AE-8844-C90DEA6E9853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BDEC8E-1539-45AE-8844-C90DEA6E9853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A43D838-C58B-4821-8422-8BBCA534075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A43D838-C58B-4821-8422-8BBCA534075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A43D838-C58B-4821-8422-8BBCA534075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A43D838-C58B-4821-8422-8BBCA534075A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

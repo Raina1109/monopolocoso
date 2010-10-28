@@ -1,0 +1,64 @@
+04/10/10 01:18 AM CT
+
+You may want to check the directory you are pointing to for
+nunit.dll and may be even place nunit.dll in the lib directory
+under the same directory where default.build is located.
+
+Running nant fails as shown below:
+
+NAnt 0.86 (Build 0.86.2898.0; beta1; 12/8/2007)
+Copyright (C) 2001-2007 Gerry Shaw
+http://nant.sourceforge.net
+
+Buildfile: file:///C:/temp/s10_softwaredesign/chu_wade/Assign3/default.build
+Target framework: Microsoft .NET Framework 3.5
+Target(s) specified: clean-build-all 
+
+
+clean:
+
+   [delete] Deleting directory 'C:\temp\s10_softwaredesign\chu_wade\Assign3\build'.
+
+compile:
+
+    [mkdir] Creating directory 'C:\temp\s10_softwaredesign\chu_wade\Assign3\build\classes'.
+      [csc] Compiling 4 files to 'C:\temp\s10_softwaredesign\chu_wade\Assign3\build\classes\Assignment3.dll'.
+
+compileTests:
+
+    [mkdir] Creating directory 'C:\temp\s10_softwaredesign\chu_wade\Assign3\build\testClasses'.
+      [csc] Compiling 3 files to 'C:\temp\s10_softwaredesign\chu_wade\Assign3\build\testClasses\Assignment3Test.dll'.
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\CanaryTest.cs(5,7): error CS0246: The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(6,7): error CS0246: The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(6,7): error CS0246: The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\CanaryTest.cs(12,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\CanaryTest.cs(12,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\CanaryTest.cs(9,6): error CS0246: The type or namespace name 'TestFixture' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\CanaryTest.cs(9,6): error CS0246: The type or namespace name 'TestFixtureAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(18,4): error CS0246: The type or namespace name 'TestFixtureSetUp' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(18,4): error CS0246: The type or namespace name 'TestFixtureSetUpAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(24,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(24,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(30,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(30,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(12,6): error CS0246: The type or namespace name 'TestFixture' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\FileWriterTest.cs(12,6): error CS0246: The type or namespace name 'TestFixtureAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(22,10): error CS0246: The type or namespace name 'TestFixtureSetUp' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(22,10): error CS0246: The type or namespace name 'TestFixtureSetUpAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(28,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(28,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(34,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(34,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(13,6): error CS0246: The type or namespace name 'TestFixture' could not be found (are you missing a using directive or an assembly reference?)
+      [csc] c:\temp\s10_softwaredesign\chu_wade\Assign3\test\Assignment3Test\StringWriterTest.cs(13,6): error CS0246: The type or namespace name 'TestFixtureAttribute' could not be found (are you missing a using directive or an assembly reference?)
+
+BUILD FAILED
+
+C:\temp\s10_softwaredesign\chu_wade\Assign3\default.build(43,6):
+External Program Failed: c:\WINDOWS\Microsoft.NET\Framework\v3.5\csc.exe (return code was 1)
+
+Total time: 1 seconds.
+
+
+
+-----------------------------------------------------------------------

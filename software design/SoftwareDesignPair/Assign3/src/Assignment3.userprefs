@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../test/Assignment3Test/CanaryTest.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../test/Assignment3Test/CanaryTest.cs" Line="15" Column="26" />
+      <File FileName="../test/Assignment3Test/FileWriterTest.cs" Line="15" Column="34" />
+      <File FileName="../test/Assignment3Test/StringWriterTest.cs" Line="4" Column="19" />
+      <File FileName="Assignment3.Core/IWriter.cs" Line="10" Column="6" />
+      <File FileName="Assignment3.Core/FileWriter.cs" Line="1" Column="1" />
+      <File FileName="Assignment3.Core/StringWriter.cs" Line="27" Column="16" />
+      <File FileName="../test/Assignment3Test/TestOperators.cs" Line="13" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assignment3.Core" expanded="True" />
+          <Node name="Assignment3Test" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="CanaryTest.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

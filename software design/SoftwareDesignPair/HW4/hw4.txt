@@ -1,0 +1,23 @@
+HW4 Due 11:59PM May 10th.
+
+***There will be no reviews for this Homework***
+
+Write your answer in this file. No extra files will be graded.
+
+1. What did you essentially learn in this course about design?
+
+We essentially learned what approach to take in designing software, and what principles to use when doing so. We learned that to be a better developer it will take time to learn from better devlopers and being humbled enough to let someone look at our code so that it can be critiqued so that we can make it better.
+
+2. When asked to design a software application, how would you approach it?
+
+We would look at the requirements of the application and find a piece of functionality to start testing for the application. We would not want to bite off too much at first so we probably would not go for the main driver of the application because it would have too many moving parts.
+
+We would then start thinking about different Tests to write for this functionality and add that to a task list, with a canary test being the first task on our list. We would start writing tests at this point driving the design.
+
+3. What are some of the general guidelines you would follow when designing?
+
+In designing we would be mindful of design principles such as YAGNI, DRY, LSP, SRP, DIP etc. If we wrote functionality that violated a certain principle we would not fix it right away but add a task to the task list to refractor it later on. We would also use triangulation when it came to code that was repeated. 
+
+We would continue to design the code this way and if we were violating design principle for invalid reasons, we would research solutions to see if it would help with the design. We would be knowledgeable about design patterns to see if they were applicable. We would not use any patterns unless it was applicable to the design of the application.
+
+We would get peer reviews of our code to get a better idea from a fresh set of eyes about how the design is going.

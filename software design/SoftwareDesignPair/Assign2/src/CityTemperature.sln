@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34FDCAED-1D46-4781-8480-C745C87C6ECC}"
+	ProjectSection(SolutionItems) = preProject
+		CityTemperature.vsmdi = CityTemperature.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityTemperature.Core", "CityTemperature.Core\CityTemperature.Core.csproj", "{1C4B711E-733A-41B6-BC45-77DB43EE6D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityTemperature.Test", "..\test\CityTemperature.Test\CityTemperature.Test.csproj", "{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityTemperature.Providers", "CityTemperature.Providers\CityTemperature.Providers.csproj", "{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CityTemperature.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1C4B711E-733A-41B6-BC45-77DB43EE6D14}.Release|x86.ActiveCfg = Release|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BDB711C6-7D05-44EE-8A8F-F7E039E278A9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0FB1B5CC-2C71-463B-BE5D-112E0980D2CF}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

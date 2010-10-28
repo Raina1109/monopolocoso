@@ -1,0 +1,39 @@
+1. List classes you think you will need. - done
+	-Cart, Shelve, Random Letter Generator, ScoreKeeper
+2. Create canary test - done
+3. Create cart - done
+4. Add letter to cart - done
+5. Refactor cart instance so to not repeat code - done
+6. Add two letters to cart - done
+7. Discard cart with letters - done
+8. Discard empty cart - done
+9. Add to a previously discarded cart - done
+10. Add to a full cart - done
+11. Refactor AddLetter Method to throw exception when trying to add more than 7 letters full cart - done
+10. Collect cart - 
+11. Collect Empty cart - 
+12. Collect Cart with misspelled word - 
+13. Create Shelf - done
+14. Select letter from shelf - done
+15. Refcator cart to use array instead of List<char> - done
+16. Create Random Letter Generator - done
+17. Discard letter from shelf - 
+18. Creater ScoreKeeper - done
+19. Add 50 points to score - done
+20. Add 50 points then subtract 30 points- done
+21. Subtract points from a 0 score - done
+22. Add negative points to score - done
+23. Subtract negative number from points - done
+24. Create Game Controller - done
+25. Create Reverse Method - done
+26. Check for word for palindrome - done
+27. Check for palindrom of a non-palidrom word - done
+28. Check for spelling of a correctly spelled word -  done
+29. Check for spelling of a misspelled word - done
+30. Refactor to encapsulate Spellcheck and Palidrome methods into one class utility - done
+31. Find value for a letter - done
+32. Find value for an invalid character - done
+33. Get word from cart - done
+34. Discard cart - done
+35. Refactor collect cart - done
+36. Print out contain of Shelf

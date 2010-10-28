@@ -1,0 +1,23 @@
+Test coverage [20pts]: -6
+
+Test quality [20pts]: - 5pts
+Duplication of code between tests, StringWriterTest and FileWriterTest.
+Test after Close is called is wrong.
+
+Operations can be attached to basic writers (String or File) [10pts]:
+
+No code change needed if you add another operation [20pts]:
+
+All Tests Pass [10pts]:
+
+Code Quality [10pts]:
+
+Design and structure [10pts]: -5pts
+ConcreteOperator YAGNI
+StringWriter : ChainOperator
+Incorrect, the StringWriter should not lead to further chaining, it is
+a leaf operation.
+Same problem with FileWriter.
+FileWriter incorrectly closing File each time Write is called.
+
+Total [100pts]: 84 pts

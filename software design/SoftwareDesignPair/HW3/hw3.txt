@@ -1,0 +1,36 @@
+Homework #3 Due 11:59PM May 7th
+
+A class StringWriter writes to a String. A class FileWriter writes to a file. There are two tests TestStringWriter and TestFileWriter that were used to drive the design of the classes StringWriter and FileWriter, respectively. The two tests pretty much test the same thing, but on two different classes.
+
+1. What principle is being violated in the design above?
+
+-The DRY principle is being violated. The file writer and string writer are totally difference entities where they could be relate to each other. We know they do the same type of work( writing a string into a target ) and thus must share some methods name and structure. It better for them to relate with each other so we can reuse the codes. Also because they are separate, if the program expand and we have a new type of writer for example disk writer than we will have to repeat the same code and same testing methods we defined in string writer and file writer.
+-Dry principle are also lacking on both test classes. Because they are testing objects that share the same behavior they should be modified such that we don't need to repeat outselves.
+
+2. How would you fix it?
+	
+-We would make both StringWriter and FileWriter classes inherited from an abstract class Writer that contains the common methods (write, read, open, close) that were being repeated. that way if another Writer are to be added, it can be easily done with minimal changes.
+-Writer method open and close enable and disable the Writer to be write to. If any writer try writing out of open and close scope than it is not permitted. Read method can access the resource ( string, file ) and print it out to screen.
+-The two tests will be modified to depend only on the abstract class that the two Writers class depend on thus eliminate the repeated code that do the same thing. Test case will cover open, close for StringWriter, FileWriter, and read, write test for StringWriter and FileWriter.
+
+3. What design principles are you using in the above fix?
+
+-We are using OCP because we want to seperate the concern of instantiation of the object from its behavior. This way we do not need to know the concrete object thus leaving us closed to modification and open to extensibility.
+-Another principle we use is SRP. Instead of both classes having to have the same repeated code, the abstract class or interface will have the single responsibility of having the code. In this way the two tests can call the common code.
+-We also use LSP as in the derived classes ( StringWrtier and FileWriter ) are totally substitutable for their base class. And Although the derived classes extending the base class they don't have any change it behavior.
+-Of course we are also using DRY principle to fix the lack of DRYness in the code. 
+
+4. What design patterns are you using in the above fix?
+-We are using a Factory Method to let the Writer Abstract class defer instantiation to its subclasses which include the FileWriter and the StringWriter.
+
+
+Total: 6pts
+
+2. Need more information on who the two derived test classes are
+organized.
+
+3. Main principle is DIP.
+
+4. Right pattern, but mentioned in the wrong place. The test uses
+this pattern, not the Writer.
+

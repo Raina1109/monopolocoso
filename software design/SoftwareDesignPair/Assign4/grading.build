@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<project name="essign4" default="clean-build-all" basedir=".">
+        <property name="current.dir" value="${directory::get-current-directory()}" />
+	<property name="classes.dir"  value="build/classes" />
+	<property name="testclasses.dir" value="build/testClasses" />
+	<property name="nunit.dll.dir" value="C:\programs\dotnet\nunit2.5.2\bin\net-2.0\framework" />
+        <property name="CCARTIFACTSDIR" value="${current.dir}\CC_BUILD_DIR" />
+	<if test="${environment::variable-exists('CC_BUILD_ARTIFACTS')}">
+          <property name="CCARTIFACTSDIR" value="${environment::get-variable('CC_BUILD_ARTIFACTS')}" />
+    </if>
+	<property name="partcover.report.dir" value="${CCARTIFACTSDIR}" />
+	<property name="partcover.report.file" value="${partcover.report.dir}/TestCoverage.xml" />
+	<property name="nunitExePath" value="C:\programs\dotnet\nunit2.5.2\bin\net-2.0\nunit-console-x86.exe" />
+	<property name="partcover.dir" value="C:\programs\dotnet\partcover2.2" />
+	<property name="simian.dir" value="C:\programs\dotnet\simian\bin" />
+	<mkdir dir="${CCARTIFACTSDIR}"/>
+	
+	<target name="clean-build-all" depends="clean, compile, compileTests, runTests, testCoverage, CoverageReport, simian"/>
+
+	<target name="simian">
+	<exec program="${simian.dir}\simian-2.2.24.exe">
+		<arg value="-threshold=2" />
+		<arg value="-failOnDuplication-" />
+		<arg value="-includes=src/**/*.cs"/>
+		<arg value="-formatter=plain:${CCARTIFACTSDIR}\simian.txt"/>
+	</exec>
+	</target>
+	
+	<target name="CoverageReport" depends="testCoverage">
+		<style style="${partcover.dir}/xslt/partcoverccnetxsl/PartCover.class.report.xsl" in="${partcover.report.file}" out="${partcover.report.dir}/coverageClassReport.html" />
+		<style style="${partcover.dir}/xslt/partcoverccnetxsl/PartCover.assembly.report.xsl" in="${partcover.report.file}" out="${partcover.report.dir}/coverageAssemblyReport.html" />
+	</target>
+	
+	<target name="testCoverage" depends="runTests">
+                <mkdir dir="${partcover.report.dir}" />
+		<exec program="${partcover.dir}/PartCover.exe" failonerror="false">
+			<arg line="--target ${nunitExePath}" />
+			<arg line="--target-work-dir ${testclasses.dir}" />
+			<arg line="--target-args Assign4Test.dll" />
+			<arg line="--include [*]*" />
+			<arg line="--exclude [nunit*]*" />
+			<arg line="--exclude [*Test*]*" />	
+			<arg line="--output ${partcover.report.file}" />
+		</exec>
+	</target>
+
+	<target name="runTests" depends="compileTests">
+		<copy todir="${testclasses.dir}">
+			<fileset basedir="${classes.dir}">
+				<include name="*.dll" />
+			</fileset>
+		</copy>tests
+		<copy todir="${testclasses.dir}">
+			<fileset basedir="${nunit.dll.dir}">
+				<include name="nunit.framework.dll" />
+			</fileset>
+		</copy>
+		<nunit2>
+			<formatter type="Plain" usefile="true" extension=".txt" outputdir="${CCARTIFACTSDIR}"/> 
+			<test assemblyname="${testclasses.dir}/Assign4Test.dll" />
+		</nunit2>	
+	</target>
+	
+	<target name="compileTests" depends="compile">
+		<mkdir dir="${testclasses.dir}"/>
+		<csc target="library" output="${testclasses.dir}/Assign4Test.dll">
+			<sources>
+				<include name="test/**/*.cs" />
+			</sources>
+			<references>
+				<include name="${nunit.dll.dir}/nunit.framework.dll" />
+				<include name="${classes.dir}/*.dll" />
+			</references>
+		</csc>
+	</target>
+	
+    <target name="compile">
+		<mkdir dir="${classes.dir}"/>
+        <csc target="library" output="${classes.dir}/Assign4.dll">
+            <sources>
+                <include name="src/**/*.cs" />
+            </sources>
+        </csc>
+    </target>
+	
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+	
+</project>

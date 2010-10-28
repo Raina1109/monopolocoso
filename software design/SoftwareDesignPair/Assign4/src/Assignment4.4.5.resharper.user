@@ -1,0 +1,75 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:PalindromeDetector.cs" caret="0" fromTop="0" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="274" fromTop="11" />
+      <File id="83757A8D-4282-4EFF-991D-E2399663FF14/f:TestAlphabetDetector.cs" caret="834" fromTop="30" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="83757A8D-4282-4EFF-991D-E2399663FF14/f:TestAlphabetDetector.cs" caret="246" fromTop="12" />
+      <File id="83757A8D-4282-4EFF-991D-E2399663FF14/f:TestAlphabetDetector.cs" caret="418" fromTop="18" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="1008" fromTop="29" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="127" fromTop="4" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="700" fromTop="24" />
+      <File id="83757A8D-4282-4EFF-991D-E2399663FF14/f:TestAlphabetDetector.cs" caret="603" fromTop="23" />
+      <File id="83757A8D-4282-4EFF-991D-E2399663FF14/f:TestAlphabetDetector.cs" caret="834" fromTop="30" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="835" fromTop="30" />
+      <File id="1403EFBB-48C2-43E7-AA04-2785C2EED040/f:AlphabetDetector.cs" caret="274" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IDetector" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="string" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="s" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="word" priority="5" />
+      <Item value="i" priority="1" />
+      <Item value="return" priority="2" />
+      <Item value="false" priority="1" />
+      <Item value="true" priority="1" />
+      <Item value="alphabetDetector" priority="2" />
+      <Item value="new" priority="0" />
+      <Item value="AlphabetDetector" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Text.RegularExpressions" priority="0" />
+      <Item value="IsAlpha" priority="0" />
+      <Item value="public" priority="1" />
+      <Item value="Test" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="Assert" priority="0" />
+      <Item value="private" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+      <Item value="ToLower" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="CompareTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsFalse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Assignment4.Core.AlphabetDetector">
+      <Item value="IsSpecial" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

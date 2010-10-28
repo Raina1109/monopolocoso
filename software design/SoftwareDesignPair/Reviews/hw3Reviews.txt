@@ -1,0 +1,34 @@
+05/06/10 07:59 PM CT
+
+1. Good.
+
+2. Need more details. Be specific about class names, method names,
+where they will appear, what they will do.
+
+3. Missing prominent principle.
+
+4. Not sure what you mean here, explain in detail how this pattern
+is actually being used.
+
+-----------------------------------------------------------------------
+
+05/05/10 04:59 AM CT
+
+1. What about lack of DRYness in tests?
+
+2. Rest of the answers will change based on above.
+
+-----------------------------------------------------------------------
+
+05/04/10 08:40 AM CT
+
+1. Explain.
+
+2. interface or abstract? What both classes? Be specific. Expand more
+on these details.
+
+3. Another main principle is missing here.
+
+4. Explain how these are being used (not right).
+
+-----------------------------------------------------------------------
