@@ -16,4 +16,8 @@ TEMPLATE = app
 
 
 SOURCES += \
-    src/main.cpp
+    src/main.cpp \
+    src/vec3f.cpp
+
+HEADERS += \
+    src/vec3f.h
