@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{8e932ca3-2761-41c7-88cf-34b23b5f329c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -21,12 +24,30 @@
     <ClCompile Include="src\vec3f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\glut.h">
+    <ClInclude Include="src\vec3f.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\vec3f.h">
+    <ClInclude Include="src\params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\glew.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glut.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -34,9 +55,18 @@
     <None Include="lib\glut32.dll">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="lib\glew32.dll">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\glut32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="lib\glew32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="lib\glew32s.lib">
       <Filter>Resource Files</Filter>
     </Library>
   </ItemGroup>

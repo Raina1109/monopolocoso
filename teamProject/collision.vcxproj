@@ -68,17 +68,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="Particle.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\vec3f.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lib\glew.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="Particle.h" />
     <ClInclude Include="src\glut.h" />
+    <ClInclude Include="src\params.h" />
     <ClInclude Include="src\vec3f.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lib\glew32.dll" />
     <None Include="lib\glut32.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Library Include="lib\glew32.lib" />
+    <Library Include="lib\glew32s.lib" />
     <Library Include="lib\glut32.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

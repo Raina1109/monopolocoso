@@ -1,5 +1,3 @@
-<<<<<<< .mine
-
 
 #include <cstdlib>
 #include <ctime>
@@ -18,6 +16,30 @@
 
 using namespace std;
 
+//View params
+int ox, oy;
+int buttonState = 0;
+float camera_trans[] = {0, 0, 3};
+float camera_rot[] = {0, 0 , 0};
+float camera_trans_lag[] = { 0, 0, 0 };
+float camera_rot_lag[] = { 0, 0 ,0 };
+
+int mode = 0;
+bool Pause = false;
+bool wireframe = false;
+bool HUDshow = true;
+
+//Simulation params
+float timestep = 0.5f;
+float damping = 1.0f;
+float gravity = 0.0003f;
+float iterations = 1;
+int ballr = 10;
+
+float collideSpring = 0.5f;;
+float collideDamping = 0.02f;;
+float collideShear = 0.1f;
+float collideAttraction = 0.0f;
 
 void handleKeypress(unsigned char key, int x, int y)
 {
@@ -78,25 +100,3 @@ int main(int argc, char** argv)
 
     return 0;
 }
-=======
-#include <QtCore/QCoreApplication>
-
-#include <cstdlib>
-#include <ctime>
-#include <iostream>
-#include <set>
-#include <stdlib.h>
-#include <vector>
-
-#include <GL/glut.h>
-#include <GL.h>
-
-using namespace std;
-
-int main(int argc, char *argv[])
-{
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
-}
->>>>>>> .r45
