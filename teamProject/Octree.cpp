@@ -1,176 +1,143 @@
 #include "Octree.h"
 
-
-Octree::Octree(int d, Vec3f c1, Vec3f c2)
+Node *BuildOctree(Vec3f center, float halfWidth, int stopDepth)
 {
-	corner1 = c1;
-	corner2 = c2;
-	center = (c1 + c2)/2;
-	halfWidth = (c2 - c1)/2;
-	depth = d;
-	hasChildren = false;
-}
-
-
-Octree::~Octree(void)
-{
-	if(hasChildren)
-	{
-		clearNode();
-	}
-}
-
-void Octree::clearNode()
-{
-	collectParticles(pParticle);
-	if(hasChildren)
-	{
-		for(int i = 0; i < 8; i++)
+	if (stopDepth < 0)
+		return NULL;
+	else {
+		// Construct and fill in ’root’ of this subtree
+		Node *pNode = new Node;
+		pNode->center = center;
+		pNode->halfWidth = halfWidth;
+		pNode->pObjList = NULL;
+		// Recursively construct the eight children of the subtree
+		Vec3f offset;
+		float step = halfWidth * 0.5f;
+		for (int i = 0; i < 8; i++)
 		{
-			pChild[i]->clearNode();
+			offset[0] = ((i & 1) ? step : -step);
+			offset[1] = ((i & 2) ? step : -step);
+			offset[2] = ((i & 4) ? step : -step);
+			pNode->pChild[i] = BuildOctree(center + offset, step, stopDepth - 1);
 		}
+	return pNode;
 	}
 }
 
-void Octree::collectParticles(vector<Particle*> &pv)
+void InsertObject(Node *pTree, Object *pObject)
 {
-	if(hasChildren)
-	{
-		for(int i = 0; i < 8; i++)
-			pChild[i]->collectParticles(pv);
-	}
-	else
-	{
-		pv.insert(pv.end(),pParticle.begin(),pParticle.end());
-	}
-	
-}
-
-void Octree::remove(Particle* p)
-{
-	(pCount > 0) ? pCount-- : pCount;
-
-	if (hasChildren && pCount < minNumberOfParticle)
-	{
-		clearNode();
-	}
-
-	if(hasChildren)
-	{
-		int index = 0;
-		bool straddle = false;
-		branch(p, index, straddle);
-		if(straddle)
-		{
-			for (vector<Particle*>::iterator it = pParticle.begin(); it != pParticle.end(); it++)
-			if (*it == p)
-			{
-				pParticle.erase(it);
-				break;
-			}
-		}
-		else
-		{
-			pChild[index]->remove(p);
-		}
-	}
-	else
-	{
-		for (vector<Particle*>::iterator it = pParticle.begin(); it != pParticle.end(); it++)
-			if (*it == p)
-			{
-				pParticle.erase(it);
-				break;
-			}
-	}
-}
-void Octree::branch(Particle* p, int &index, bool& straddle)
-{
-	straddle = false;
-	Vec3f pos = p->position();
-
+	int index = 0, straddle = 0;
+	// Compute the octant number [0..7] the object sphere center is in
+	// If straddling any of the dividing x, y, or z planes, exit directly
 	for (int i = 0; i < 3; i++) {
-		float delta = pos[i] - center[i];
-
-		if(abs(delta) < halfWidth[i] + p->radius())
-		{
-			straddle = true;
+		float delta = pObject->particle->center[i] - pTree->center[i];
+		if (abs(delta) < pTree->halfWidth + pObject->particle->radius) {
+			straddle = 1;
 			break;
 		}
-		if (delta > 0.0f) index |= (1 << i); //ZYX
+		if (delta > 0.0f) index |= (1 << i); // ZYX
+	}
+	if (!straddle && pTree->pChild[index]) {
+	// Fully contained in existing child node; insert in that subtree
+	InsertObject(pTree->pChild[index], pObject);
+	} else {
+		// Straddling, or no child node to descend into, so
+		// link object into linked list at this node
+		pObject->pNextObject = pTree->pObjList;
+		pTree->pObjList = pObject;
 	}
 }
 
-void Octree::add(Particle* p)
+void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack)
 {
-	//index of the sub-tree that the ball belong to
-	int index = 0;
-	//is the ball hanging at the boundary of the grid
-	bool straddle = false;
-		
-	branch(p, index, straddle);
-
-	if(!straddle)
-	{
-		if (pChild[index] == NULL && depth < maxDepth)
-		{
-			Vec3f c1 = corner1;
-			Vec3f c2 = corner2;
-			if (index & 1){
-				c1[0] = c1[0] + halfWidth[0];
-				c2[0] = c2[0] - halfWidth[0];
-			}
-			if (index & 2) {
-				c1[1] = c1[1] + halfWidth[1];
-				c2[1] = c2[1] - halfWidth[1];
-			}
-			if (index & 4) {
-				c1[2] = c1[2] + halfWidth[2];
-				c2[2] = c2[2] - halfWidth[2];
-			}
-			pChild[index] = new Octree(depth+1,c1,c2);
-		}
-		else if ( depth >= maxDepth )
-			pParticle.push_back(p);
-		else
-			pChild[index]->add(p);
-	}
-	else
-		pParticle.push_back(p);
-}
-
-//void Octree::move(Particle* p, Vec3f oldPos)
-//{
-//
-//}
-void Octree::testParticlesCollision(vector<particleCollision> &cs)
-{
-	Octree* pTree = &this;
-	testParticlesCollision(pTree,cs);
-}
-
-void Octree::testParticlesCollision(Octree *pTree, vector<particleCollision> &cs)
-{
-	//keep track of all ancestor object lists in a stack
-	static Octree *ancestorStack[maxDepth];
-	static int d = 0;
+	// Keep track of all ancestor object lists in a stack
+	const int MAX_DEPTH = 40;
+	static Node *ancestorStack[MAX_DEPTH];
+	static int depth = 0; // ’Depth == 0’ is invariant over calls
 
 	// Check collision between all objects on this level and all
 	// ancestor objects. The current level is included as its own
 	// ancestor so all necessary pairwise tests are done
-	ancestorStack[d++] = pTree;
-	for(int n = 0; n < d; n++)
-	{
+	ancestorStack[depth++] = pTree;
+	for (int n = 0; n < depth; n++) {
+		Object *pA, *pB;
+		for (pA = ancestorStack[n]->pObjList; pA; pA = pA->pNextObject) {
+			for (pB = pTree->pObjList; pB; pB = pB->pNextObject) {
+				// Avoid testing both A->B and B->A
+				if (pA == pB) break;
+				// Now perform the collision test between pA and pB
+				if(TestCollision(pA, pB))
+				{
+					ParticleCollision pc;
+					pc.p1 = pA->particle;
+					pc.p2 = pB->particle;
+					pStack.push(pc);
+				}
+			}
+		}
+// Recursively visit all existing children
+for (int i = 0; i < 8; i++)
+if (pTree->pChild[i])
+TestParticleCollision(pTree->pChild[i],pStack);
+// Remove current node from ancestor stack before returning
+depth--;
+}
 
-	}
+bool TestCollision(Object *pA, Object *pB)
+{
+	return TestCollision(pA->particle, pB->particle);
+}
+
+void TestWallCollision(Node *pTree, stack<WallCollision> &collisions)
+{
+	potentialWallCollisions(pTree,collisions,LEFT,'x',0);
+	potentialWallCollisions(pTree,collisions,Right,'x',1);
+	potentialWallCollisions(pTree,collisions,DOWN,'y',0);
+	potentialWallCollisions(pTree,collisions,UP,'y',1);
+	potentialWallCollisions(pTree,collisions,FAR,'z',0);
+	potentialWallCollisions(pTree,collisions,NEAR,'z',1);
 
 }
 
-void Octree::rebuild()
+void potentialWallCollisions(Node *pTree,stack<WallCollision> &collisions,
+	Wall w, char coord, int dir)
 {
-	this->clearNode();
-	vector<Particle*> pTemp = pParticle;
-	pParticle.clear();
-	for(vector<Particle*>::iterator it = pTemp.begin(); it != pTemp.end(); it++)
-		this->add(*it);
+	Object *p;
+
+	for (p = pTree->pObjList; p; p = p->pNextObject)
+	{
+		if(checkWallCollision(p->particle,w))
+		{
+			WallCollision wp;
+			wp.wall = wall;
+			wp.p = p->particle;
+			collisions.push(wp);
+		}
+	}
+
+	for(int dir2 = 0; dir2 < 2; dir2++)
+	{
+		for(int dir3 = 0; dir3 < 2; dir3++)
+		{
+			int index = 0;
+			switch(coord)
+			{
+				case 'x': 
+					index = dir + dir2 << 1 + dir3 << 2;
+					break;
+				case 'y':
+					index = dir2 + dir1 << 1 + dir3 << 2;
+					break;
+				case 'z':
+					index = dir2 + dir3 << 1 + dir << 2;
+					break;
+			}
+			if(pTree->pChild[index])
+				pTree->pChild[index]->potentialWallCollisions(pTree->pChild[index],collisions, w, coord, dir)
+
+	
+		
+		
+	}
+
 }

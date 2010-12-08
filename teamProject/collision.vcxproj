@@ -69,7 +69,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Octree.cpp" />
-    <ClCompile Include="Particle.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\vec3f.cpp" />
   </ItemGroup>
@@ -78,7 +77,6 @@
     <ClInclude Include="Octree.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="src\glut.h" />
-    <ClInclude Include="src\params.h" />
     <ClInclude Include="src\vec3f.h" />
   </ItemGroup>
   <ItemGroup>
