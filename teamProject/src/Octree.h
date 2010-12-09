@@ -1,13 +1,13 @@
 #ifndef OCTREE_H
 #define OCTREE_H
 
-#include <cstdlib.h>
+#include <cstdlib>
 #include <cmath>
 #include <vector>
 #include <stack>
 
 #include "Particle.h"
-#include "src\vec3f.h"
+#include "vec3f.h"
 
 using namespace std;
 
@@ -38,15 +38,15 @@ void InsertObject(Node *pTree, Object *pObject);
 void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack);
 
 //Test collision between two object
-bool TestCollision(Object *pA, Object *pB);
+bool TestObjCollision(Object *pA, Object *pB);
 
 //Test all particle box wall collisions
 void TestWallCollision(Node *pTree, stack<WallCollision> &collisions);
 
-void potentialWallCollisions(Node *pTree,stack<WallCollision> &collisions,
-										 Wall w,char coord, int dir);
+void potentialWallCollisions(Node *pTree,stack<WallCollision> &collisions, Wall w,char coord, int dir);
 
-
+//add all particles in the list to the Octree
+void InsertObject (Node *pTree, vector<Particle*> &particles);
 
 
 
