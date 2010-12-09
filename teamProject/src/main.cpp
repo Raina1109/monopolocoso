@@ -101,7 +101,7 @@ Vec3f collideSpheres(Vec3f posA, Vec3f posB,
 void handleParticleCollisions(vector<Particle*> &particles, Node* pTree)
 {
     stack<ParticleCollision> pCollide;
-    TestParticleCollision(pTree,pCollide);
+    TestParticleCollision(pTree,pCollide,MAX_DEPTH);
 
     while(!pCollide.empty())
     {
@@ -169,8 +169,8 @@ void advance(vector<Particle*> &particles, Node* pTree,
         {
             moveParticles(particles, timeUntilUpdate);
 
-            delete pTree;
-            pTree = BuildOctree(CENTER, HALF_WIDTH, MAX_DEPTH);
+            clearObj(pTree,MAX_DEPTH);
+
             InsertObject(pTree, particles);
 
             performUpdate(particles,pTree);

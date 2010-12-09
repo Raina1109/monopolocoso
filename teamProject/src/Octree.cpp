@@ -58,11 +58,10 @@ void InsertObject (Node *pTree, vector<Particle*> &particles)
     }
 }
 
-void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack)
+void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack,const int maxDepth)
 {
     // Keep track of all ancestor object lists in a stack
-    const int MAX_DEPTH = 5;
-    static Node *ancestorStack[MAX_DEPTH];
+    static Node **ancestorStack = (Node**)calloc(maxDepth,sizeof(Node*));
     static int depth = 0; // Depth == 0 is invariant over calls
 
     // Check collision between all objects on this level and all
@@ -88,7 +87,7 @@ void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack)
         // Recursively visit all existing children
         for (int i = 0; i < 8; i++)
             if (pTree->pChild[i])
-                TestParticleCollision(pTree->pChild[i],pStack);
+                TestParticleCollision(pTree->pChild[i],pStack,maxDepth);
         // Remove current node from ancestor stack before returning
         depth--;
     }
@@ -143,6 +142,24 @@ void potentialWallCollisions(Node *pTree,stack<WallCollision> &collisions, Wall 
             }
             if(pTree->pChild[index])
                 potentialWallCollisions(pTree->pChild[index],collisions, w, coord, dir);
+        }
+    }
+}
+
+//clear out the Objs inside of the tree
+//We actually just cut the link between the tree and the object list
+void clearObj(Node* pTree, int stopDepth)
+{
+    if(stopDepth < 0)
+        return;
+    else
+    {
+        //point the link list to NULL thus cut the pointer from
+        //the tree to the old particles
+        pTree->pObjList = NULL;
+        for(int i = 0; i < 8; i++)
+        {
+            clearObj(pTree->pChild[i],stopDepth - 1);
         }
     }
 }

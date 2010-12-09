@@ -35,7 +35,7 @@ void InsertObject(Node *pTree, Object *pObject);
 
 // Tests all objects that could possibly overlap due to cell ancestry and coexistence
 // in the same cell. Assumes objects exist in a single cell only, and fully inside it
-void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack);
+void TestParticleCollision(Node *pTree, stack<ParticleCollision> &pStack,const int maxDepth);
 
 //Test collision between two object
 bool TestObjCollision(Object *pA, Object *pB);
@@ -48,6 +48,7 @@ void potentialWallCollisions(Node *pTree,stack<WallCollision> &collisions, Wall 
 //add all particles in the list to the Octree
 void InsertObject (Node *pTree, vector<Particle*> &particles);
 
-
+//Clear all objs stored in the tree
+void clearObj(Node* pTree, int stopDepth);
 
 #endif
