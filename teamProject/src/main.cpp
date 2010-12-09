@@ -53,7 +53,7 @@ float collideDamping = 0.02f;;
 float collideShear = 0.1f;
 float boundaryDamping = -0.5f;
 
-
+bool bruteForce = false;
 
 //Tree params
 const int MAX_DEPTH = 5;
@@ -134,6 +134,43 @@ void handleWallCollisions(vector<Particle*> &particles, Node* pTree)
         bwps.pop();
     }
 }
+//burte force calculating
+void handleParticleCollisions(vector<Particle*> &particles)
+{
+    for(vector<Particle*>::iterator a = particles.begin();a != particles.end();a++)
+    {
+        for(vector<Particle*>::iterator b = particles.begin();b != particles.end();b++)
+        {
+            if(a != b)
+            {
+                Particle* p1 = *a;
+                Particle* p2 = *b;
+
+                Vec3f displacement = (p1->center - p2->center).normalize();
+                p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
+                p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
+            }
+        }
+    }
+}
+
+void handleWallCollisions(vector<Particle*> &particles)
+{
+    Wall walls[] = {UP, DOWN, LEFT, RIGHT, NEAR, FAR};
+    for(vector<Particle*>::iterator a = particles.begin();a != particles.end();a++) {
+        for(int i = 0; i < 6; i++)
+        {
+            if(checkWallCollision(*a, walls[i]))
+            {
+                Particle *p = *a;
+                Vec3f dir = (wallDirection(walls[i])).normalize();
+                p->v = boundaryDamping*dir*p->v.dot(dir);
+            }
+        }
+    }
+
+
+}
 
 void applyGravity(vector<Particle*> &particles)
 {
@@ -148,8 +185,15 @@ void applyGravity(vector<Particle*> &particles)
 void performUpdate(vector<Particle*> &particles, Node* pTree)
 {
 //    applyGravity(particles);
+    if(!bruteForce){
     handleParticleCollisions(particles, pTree);
     handleWallCollisions(particles, pTree);
+}
+    else
+    {
+        handleParticleCollisions(particles);
+        handleWallCollisions(particles);
+    }
 }
 
 void moveParticles(vector<Particle*> &particles, float dt)
