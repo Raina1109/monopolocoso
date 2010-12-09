@@ -30,7 +30,6 @@ float randomFloat()
 int ox, oy;
 int buttonState = 0;
 float camera_trans[] = {0, 0, -25};
-float camera_rot[] = {0, 0 , 0};
 float angle = 0.0f;
 
 int mode = 0;
@@ -108,9 +107,13 @@ void handleParticleCollisions(vector<Particle*> &particles, Node* pTree)
         Particle* p1 = pCollide.top().p1;
         Particle* p2 = pCollide.top().p2;
 
-        Vec3f force = collideSpheres(p1->center, p2->center,p1->v,p2->v,p1->radius,p2->radius);
-        p1->v = p1->v + force*10;
-        p2->v = p2->v - force*10;
+        //        Vec3f force = collideSpheres(p1->center, p2->center,p1->v,p2->v,p1->radius,p2->radius);
+        //        p1->v = p1->v + force*TIME_BETWEEN_UPDATES/p1->radius;
+        //        p2->v = p2->v - force*TIME_BETWEEN_UPDATES/p2->radius;
+        Vec3f displacement = (p1->center - p2->center).normalize();
+        p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
+        p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
+
 
         pCollide.pop();
     }
@@ -144,7 +147,7 @@ void applyGravity(vector<Particle*> &particles)
 //Apply gravity and handles collisions
 void performUpdate(vector<Particle*> &particles, Node* pTree)
 {
-   // applyGravity(particles);
+//    applyGravity(particles);
     handleParticleCollisions(particles, pTree);
     handleWallCollisions(particles, pTree);
 }
