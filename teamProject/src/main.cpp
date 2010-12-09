@@ -54,9 +54,9 @@ float collideShear = 0.1f;
 float boundaryDamping = -0.5f;
 
 bool bruteForce = false;
-
+bool gravity = true;
 //Tree params
-const int MAX_DEPTH = 5;
+const int MAX_DEPTH = 3;
 const Vec3f CENTER = Vec3f(0,0,0);
 const float HALF_WIDTH = BOX_SIZE/2;
 
@@ -91,7 +91,7 @@ Vec3f collideSpheres(Vec3f posA, Vec3f posB,
         force += collideDamping*relVel;
         // tangential shear force
         force += collideShear*tanVel;
-        printf("force: %f %f %f\n",force[0],force[1],force[2]);
+//        printf("force: %f %f %f\n",force[0],force[1],force[2]);
     }
 
     return force;
@@ -107,12 +107,12 @@ void handleParticleCollisions(vector<Particle*> &particles, Node* pTree)
         Particle* p1 = pCollide.top().p1;
         Particle* p2 = pCollide.top().p2;
 
-        //        Vec3f force = collideSpheres(p1->center, p2->center,p1->v,p2->v,p1->radius,p2->radius);
-        //        p1->v = p1->v + force*TIME_BETWEEN_UPDATES/p1->radius;
-        //        p2->v = p2->v - force*TIME_BETWEEN_UPDATES/p2->radius;
-        Vec3f displacement = (p1->center - p2->center).normalize();
-        p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
-        p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
+                Vec3f force = collideSpheres(p1->center, p2->center,p1->v,p2->v,p1->radius,p2->radius);
+                p1->v = p1->v + 100*force*TIME_BETWEEN_UPDATES/p1->radius;
+                p2->v = p2->v - 100*force*TIME_BETWEEN_UPDATES/p2->radius;
+//        Vec3f displacement = (p1->center - p2->center).normalize();
+//        p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
+//        p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
 
 
         pCollide.pop();
@@ -141,14 +141,19 @@ void handleParticleCollisions(vector<Particle*> &particles)
     {
         for(vector<Particle*>::iterator b = particles.begin();b != particles.end();b++)
         {
-            if(a != b)
-            {
-                Particle* p1 = *a;
-                Particle* p2 = *b;
+            Particle* p1 = *a;
+            Particle* p2 = *b;
+            float dist = (p2->center-p1->center).magnitude();
+            float rSum = p2->radius + p1->radius;
 
-                Vec3f displacement = (p1->center - p2->center).normalize();
-                p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
-                p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
+            if(rSum < dist)
+            {
+                if(a != b)
+                {
+                    Vec3f displacement = (p1->center - p2->center).normalize();
+                    p1->v -= 2 * displacement * p1->v.dot(displacement)*(1-collideDamping);
+                    p2->v -= 2 * displacement * p2->v.dot(displacement)*(1-collideDamping);
+                }
             }
         }
     }
@@ -184,7 +189,8 @@ void applyGravity(vector<Particle*> &particles)
 //Apply gravity and handles collisions
 void performUpdate(vector<Particle*> &particles, Node* pTree)
 {
-//    applyGravity(particles);
+    if(gravity)
+    applyGravity(particles);
     if(!bruteForce){
     handleParticleCollisions(particles, pTree);
     handleWallCollisions(particles, pTree);
@@ -257,8 +263,8 @@ void handleKeypress(unsigned char key, int x, int y)
                              8 * randomFloat() - 4,
                              8 * randomFloat() - 4);
 
-                p->radius = 0.1f * randomFloat() + 0.1f;
-
+//                p->radius = 1.0f * randomFloat() + 0.1f;
+                p->radius = 0.5f;
                 p->color = Vec3f(0.6f * randomFloat() + 0.2f,
                                  0.6f * randomFloat() + 0.2f,
                                  0.6f * randomFloat() + 0.2f);
