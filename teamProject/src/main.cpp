@@ -274,6 +274,13 @@ void handleKeypress(unsigned char key, int x, int y)
                 obj->particle = p;
                 InsertObject(Octree,obj);
             }
+            break;
+        case 'g':
+            gravity = !gravity;
+            break;
+        case 'w':
+            wireframe = !wireframe;
+            break;
 
 	}
 }
