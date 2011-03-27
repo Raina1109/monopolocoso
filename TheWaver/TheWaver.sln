@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWaver", "TheWaver\TheWaver.csproj", "{298CC042-57D0-468E-9355-7B4DFD52EC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{298CC042-57D0-468E-9355-7B4DFD52EC28}.Debug|x86.ActiveCfg = Debug|x86
+		{298CC042-57D0-468E-9355-7B4DFD52EC28}.Debug|x86.Build.0 = Debug|x86
+		{298CC042-57D0-468E-9355-7B4DFD52EC28}.Release|x86.ActiveCfg = Release|x86
+		{298CC042-57D0-468E-9355-7B4DFD52EC28}.Release|x86.Build.0 = Release|x86
+		{15DEB09A-57E2-46E7-8E5A-21F56463A237}.Debug|x86.ActiveCfg = Debug|x86
+		{15DEB09A-57E2-46E7-8E5A-21F56463A237}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

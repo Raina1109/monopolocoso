@@ -1,0 +1,29 @@
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
+using TheWaver.Core;
+
+namespace TheWaver.StoryLevel01
+{
+    public class BossStory01 : GameScene
+    {
+        private AudioLibrary audio;
+        /********************************************************************/
+        public BossStory01(Game game, Texture2D backgroundImage)
+            : base(game)
+        {
+            audio = (AudioLibrary)Game.Services.GetService(typeof(AudioLibrary));
+            //The intro image background will be process to the ImageProcess class and display the image
+            Components.Add(new ImageProcess(game, backgroundImage, ImageProcess.DrawMode.Stretch));
+        }
+        /********************************************************************/
+        public override void Show()
+        {
+            MediaPlayer.Play(audio.BossStoryLine01Music);
+            base.Show();//Display the scene
+        }
+        /********************************************************************/
+    }
+}
